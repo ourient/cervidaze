@@ -1,0 +1,14 @@
+{% extends "layouts/base.njk" %}
+
+{% block content %}
+<noscript>hey uh you kinda need javascript for this</noscript>
+    <div id="container">
+        <header id="header">
+            {% include "partials/header.njk" %}
+        </header>
+        {{ content | safe}}
+    </div>
+<footer id="footer">
+    {% include "partials/footer.njk" %}
+</footer>
+{% endblock %}

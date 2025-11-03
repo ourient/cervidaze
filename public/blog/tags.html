@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head>
+    <title>tags | cervidaze ☘</title>
+
+    <meta name="description" content="stay deer">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+
+    <link rel="icon" href="/assets/images/style/gingko.png" type="image/x-icon">
+    <link href="/assets/css/main.css" rel="stylesheet" title="lightmode" type="text/css" media="all">
+    <link href="/assets/css/darkmode.css" rel="alternate stylesheet" title="darkmode" type="text/css" media="all">
+
+    <script type="text/javascript" src="/assets/js/styleswitcher.js"></script>
+
+    <script data-goatcounter="https://cervidaze.goatcounter.com/count" async src="//gc.zgo.at/count.js">
+    </script>
+</head>
+
+<body id="body" style="display:none">
+    
+<noscript>hey uh you kinda need javascript for this</noscript>
+    <div id="container">
+            <header>
+		<div id="header-image">
+                <a href="https://cervidaze.me">
+                    <img id="gingko" src="/assets/images/style/cervidaze_lightbanner.png">
+                </a>
+				<a href="https://cervidaze.me">
+				<img id="antlers" alt="a pair of antlers linking to the home page" src="/assets/images/style/cervidaze_darkbanner.png">
+			</a>
+        </div>
+		<nav class="border nav-link">
+			<ul>
+				<li><a href="/">return home</a></li>
+				<li><a href="/blog">blog</a></li>
+				<li><a href="/blog/tags">tags</a></li>
+				<li><a href="/blog/archive">archive</a></li>
+				<li>
+					<div aria-label="styleswitcher">
+					<select class="rounded" name="styleswitcher" onchange="changeStyle(this.value)">
+						<option value="1" selected="true" disabled="disabled">theme</option>
+						<option value="/assets/css/main">light</option>
+						<option value="/assets/css/darkmode">dark</option>
+					</select>
+					</div>
+				</li>
+			</ul>
+		</nav>
+</header>
+        <main class="border">
+	<h2>tags</h2>
+	<ul class="no-bullets" id="tag-index"></ul>
+</main>
+    </div>
+    <footer class="border nav-link">
+            <ul>
+                <li><a href="/sitemap">sitemap</a></li>
+                <li>|</li>
+                <li><a href="/about#connect">contact</a></li>
+                <li>|</li>
+                <li><a href="/guestbook">guestbook</a></li>
+                <li>|</li>
+                <li><a href="/credits">credits</a></li>
+            </ul>
+</footer>
+
+<div class="display-none return">
+<a href="#top" rel="return">return to top</a>
+</div>
+<script src="/assets/js/blog.js"></script>
+
+</body>
+<script type="text/javascript">
+    window.onload = function () {
+        setTimeout(function () {
+            document.getElementById("body").style.display = "";
+        }, 40);
+    }
+</script>
+</html>

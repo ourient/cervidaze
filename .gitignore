@@ -1,0 +1,11 @@
+.eleventyignore
+.prettierignore
+todo.txt
+.vscode
+src/wip/
+
+#npm dependencies
+node_modules/
+
+#build artifacts
+.cache

@@ -1,0 +1,46 @@
+<h1>books</h1>
+<br>
+
+<div class="flex-wrap space-evenly">
+<div class="media media-top">
+        <img class="media-top-img rounded" src="/assets/images/photos/books/captivegenders.png" loading="lazy" title="captive genders: trans embodiment and the prison industrial complex" alt="captive genders: trans embodiment and the prison industrial complex">
+        <div class="media-body media-body-bottom">
+        <small><b>captive genders:<br>trans embodiment and the prison industrial complex</b></small><br>
+        </div>
+</div>
+
+<div class="media media-top">
+        <img class="media-top-img rounded" src="/assets/images/photos/books/menwithoutwomen.png" loading="lazy" title="men without women" alt="men without women">
+        <div class="media-body media-body-bottom">
+        <small><b>men without women</b></small><br>
+        </div>
+</div>
+
+<div class="media media-top">
+        <img class="media-top-img rounded" src="/assets/images/photos/books/persepolis.png" loading="lazy" title="persepolis" alt="persepolis">
+        <div class="media-body media-body-bottom">
+        <small><b>persepolis</b></small><br>
+        </div>
+</div>
+
+<div class="media media-top">
+        <img class="media-top-img rounded" src="/assets/images/photos/books/sputniksweetheart.png" loading="lazy" title="sputnik sweetheart" alt="sputnik sweetheart">
+        <div class="media-body media-body-bottom">
+        <small><b>sputnik sweetheart</b></small><br>
+        </div>
+</div>
+
+<div class="media media-top">
+        <img class="media-top-img rounded" src="/assets/images/photos/books/watchmen.png" loading="lazy" title="watchmen" alt="watchmen">
+        <div class="media-body media-body-bottom">
+        <small><b>watchmen</b></small><br>
+        </div>
+</div>
+
+<div class="media media-top">
+        <img class="media-top-img rounded" src="/assets/images/photos/books/whitenoise.png" loading="lazy" title="white noise" alt="white noise">
+        <div class="media-body media-body-bottom">
+        <small><b>white noise</b></small><br>
+        </div>
+</div>
+</div>

@@ -1,0 +1,40 @@
+---
+layout: /layouts/blogpost.njk
+title: i know when fall is here
+description: this month has been kind to me. my girlfriend and i went to san diego for a much needed respite from our usual obligations. everything was great up until the point where i caught COVID despite taking as many precautions as i could. it's the first time i caught it in three years, so i guess it wasn't for nothing. the COVID itself (likely the status variant) was not terribly agonizing, but past experiences with ME/CFS that debilitated me for months has made me terribly afraid of developing long COVID and having ME/CFS flare ups again.
+permalink: blog/posts/2025-09-28-iknowwhenfallishere.html
+date: 2025-09-28
+---
+this month has been kind to me. my girlfriend and i went to san diego for a much needed respite from our usual obligations. everything was great up until the point where i caught COVID despite taking as many precautions as i could. it's the first time i've caught it in three years, so i guess it wasn't for nothing. the COVID itself (likely the stratus variant) was not terribly agonizing, but past experiences with ME/CFS that debilitated me for months has made me terribly afraid of developing long COVID and having ME/CFS flare ups again.
+
+but i digress. i bought a pre-owned point-and-shoot film camera specifically to take with me on the trip, and for $80, the canon af35m has performed very well. take it up with smalhaj if you disagree.
+
+<ul class="gallery">
+    <li><img src="/blog/images/092525-10.jpg" loading="lazy" alt="smalhaj in front of the birch aquarium"></li>
+    <li><img src="/blog/images/092525-48.jpg" loading="lazy" alt="smalhaj in front of the water fountain in balboa park"></li>
+    <li><img src="/blog/images/092525-2.jpg" loading="lazy" alt="smalhaj eating onigiri inside the japanese cafe hatsuzakura"></li>
+    <li><img src="/blog/images/092525-50.jpg" loading="lazy" alt="smalhaj in front of the japanese cafe hatsuzakura"></li>
+</ul>
+
+<br>
+the canon af35m's a nifty little thing with decent auto-focus and a flash that also acts as a fill light. i wouldn't use it for creative shoots, but its lightweight form factor and mechanical simplicity has made it much more inviting to use during trips such as this one.
+
+san diego has strangely become somewhat of a safe haven for my girlfriend and i. we can recall an unpleasant experience we've had with nearly every major city in socal, but nothing bad has ever happened to us in san diego. it's an awfully suburban area to designate as a place to retreat to, but it works when we want a break. far away enough to not have to deal with LA bullshit, but not so far away that we are completely alienated as visitors.
+
+perhaps this won't last forever. california tends to find a way to suffocate me.
+
+<br><hr><br>
+
+september had planned many connections and reconnections for me. i went to an acquaintance's birthday dinner and saw a friend i hadn't seen in two years. he was the very first friend i had ever made when i started film school—the kind of unguarded friend who only reminded you of his wit and insight when you needed it. nothing malicious spurred our drifting apart; i simply changed majors halfway through and was no longer in the kind of constant proximity that college friendships necessitate.
+
+it was like nothing had changed. i was relieved i could still make him laugh so much like before, especially since he was the one who had chosen to continue honing his screenwriting and humor. during one of my jokes, he stopped mid-laugh, directly looked me in the eye, and said, "i've missed you." it took a lot to not start crying in the middle of the cheesecake factory hosting the person we were supposed to celebrate.
+
+i eventually moved my way to said acquaintance. we quickly bonded over writing songs and music streaming platforms; i managed to show him the band i'm in, so hopefully we get at least one listener when our EP comes out. i don't really stay in touch with anyone i met in college anymore ever since i left social media— this was a topic that drew quite a bit of interest from others attending the dinner. it was strange in a way; they were praising me with the same kind of well meaning platitudes people receive when they mention that they're sober. which i also am, so maybe i asked for this.
+
+my mom's birthday was last week; she seemed more gaunt than usually lately. my dad told me in private that her ca125 levels spiked to more than double its original amount a few weeks ago. 
+
+<img class="wide center" src="/blog/images/screenshot_092825.png" loading="lazy" alt="a screenshot of text messages that read &quot;We now face the decision to switch to a new experiment drug or another regular chemo drug. Not sure if either one can contain it. At this rate, I'm not very optimistic. But mom is quite optimistic. I never told her the 5 yr survival rate is about 30%. Idk what to expect next yet.&quot;">
+
+i'm wondering if it's time to reach back into the depths of my grief and dust off the lingering prospect of telling her about my girlfriend and i. it'd be nice to have her see me get married before she passes away. she's not an easy woman to predict.
+
+my heart has been made very full this month. i hope it continues this way.

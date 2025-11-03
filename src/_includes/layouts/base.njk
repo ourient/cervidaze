@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head>
+    <title>{{ title }} | cervidaze ☘</title>
+
+    <meta name="description" content="stay deer">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+
+    <link rel="icon" href="/assets/images/style/gingko.png" type="image/x-icon">
+    <link href="/assets/css/main.css" rel="stylesheet" title="lightmode" type="text/css" media="all">
+    <link href="/assets/css/darkmode.css" rel="alternate stylesheet" title="darkmode" type="text/css" media="all">
+
+    <script type="text/javascript" src="/assets/js/styleswitcher.js"></script>
+
+    <script data-goatcounter="https://cervidaze.goatcounter.com/count" async src="//gc.zgo.at/count.js">
+    </script>
+</head>
+
+<body id="body" style="display:none">
+    {% block content %}{% endblock %}
+</body>
+<script type="text/javascript">
+    window.onload = function () {
+        setTimeout(function () {
+            document.getElementById("body").style.display = "";
+        }, 40);
+    }
+</script>
+</html>

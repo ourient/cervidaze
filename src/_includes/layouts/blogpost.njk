@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head>
+	<title>{{title}} | cervidaze ☘</title>
+	<meta name="description" content="stay deer">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+
+	<link rel="icon" href="/assets/images/style/gingko.png" type="image/x-icon">
+	<link href="/assets/css/main.css" rel="stylesheet" title="lightmode" type="text/css" media="all">
+	<link href="/assets/css/darkmode.css" rel="alternate stylesheet" title="darkmode" type="text/css" media="all">
+
+	<script type="text/javascript" src="/assets/js/styleswitcher.js"></script>
+</head>
+<body>
+	<noscript>hey uh you kinda need javascript for this</noscript>
+	<div id="container">
+		{% include "../partials/blogheader.njk" %}
+		<main class="border">
+				<h2>{{title}}</h2>
+				<time id="post-date">{{ date | topDate }}</time>
+				<ul id="post-tags" class="flex-list"></ul>
+
+			{{content | safe}}
+		</main>
+		<div id="c_widget"></div>
+		<script src="/assets/js/comment-widget.js"></script>
+		<div id="post-nav"></div>
+	</div>
+		{% include "../partials/footer.njk" %}
+	<script src="/assets/js/blog.js"></script>
+</body>
+</html>

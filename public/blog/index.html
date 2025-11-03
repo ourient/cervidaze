@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head>
+    <title>blog | cervidaze ☘</title>
+
+    <meta name="description" content="stay deer">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+
+    <link rel="icon" href="/assets/images/style/gingko.png" type="image/x-icon">
+    <link href="/assets/css/main.css" rel="stylesheet" title="lightmode" type="text/css" media="all">
+    <link href="/assets/css/darkmode.css" rel="alternate stylesheet" title="darkmode" type="text/css" media="all">
+
+    <script type="text/javascript" src="/assets/js/styleswitcher.js"></script>
+
+    <script data-goatcounter="https://cervidaze.goatcounter.com/count" async src="//gc.zgo.at/count.js">
+    </script>
+</head>
+
+<body id="body" style="display:none">
+    
+<noscript>hey uh you kinda need javascript for this</noscript>
+    <div id="container">
+            <header>
+		<div id="header-image">
+                <a href="https://cervidaze.me">
+                    <img id="gingko" src="/assets/images/style/cervidaze_lightbanner.png">
+                </a>
+				<a href="https://cervidaze.me">
+				<img id="antlers" alt="a pair of antlers linking to the home page" src="/assets/images/style/cervidaze_darkbanner.png">
+			</a>
+        </div>
+		<nav class="border nav-link">
+			<ul>
+				<li><a href="/">return home</a></li>
+				<li><a href="/blog">blog</a></li>
+				<li><a href="/blog/tags">tags</a></li>
+				<li><a href="/blog/archive">archive</a></li>
+				<li>
+					<div aria-label="styleswitcher">
+					<select class="rounded" name="styleswitcher" onchange="changeStyle(this.value)">
+						<option value="1" selected="true" disabled="disabled">theme</option>
+						<option value="/assets/css/main">light</option>
+						<option value="/assets/css/darkmode">dark</option>
+					</select>
+					</div>
+				</li>
+			</ul>
+		</nav>
+</header>
+        <div class="flex">
+<main class="border">
+<h2>blog</h2>
+<p>here you will find my various thoughts, updates, and retrospectives. if you go a bit further, you'll
+	see
+	archived posts from my previous blog, <b>our stillness</b>.</p>
+<p>if you want updates on when i make a new post, i have an <a title="RSS feed"
+		href="https://cervidaze.me/rss.xml" target="_blank">RSS feed</a>. alternatively, i have a <a
+		href="https://tally.so/r/mZZgqA" target="_blank">newsletter form</a>, where you can both
+	subscribe
+	and unsubscribe to emails from me.</p>
+<br>
+<hr><br>
+<h3>recent posts</h3>
+<ol id="latest-posts" class="post-list" reversed></ol><!--#latest-posts end-->
+</main>
+<aside class="border right-side narrow fit-content">
+<h3>currently</h3>
+<details>
+	<summary>listening to</summary>
+	<p>"if and when i die" by <b>the world is a beautiful place & i am no longer afraid to die</b>. one of my favorite lyrics from it goes as such:</p>
+	<p><em>so when my body chooses to become something more, burn it<br>let the liquid in me dry
+	up<br>let it crack like the leaves coming through the driveway of the house i grew up
+	in<br>divide me among the people i've loved and ask them this:</em></p>
+	<p><em>on the day they find a place where the stars are safe from everything but the brightness of the moon, scatter my ashes there<br>so that from which i came<br>can witness that which i've
+	become</em></p>
+</details>
+<details>
+	<summary>working on</summary>
+	<p>finding a new job. something that doesn't make me feel like i'm furthering the collapse of
+		society</p>
+</details>
+<h3>hopefully</h3>
+<details>
+<summary>setting up</summary>
+<p>site descriptions for neighbors<br>
+buttons for neighbors who don't have one<br>
+a /media page<br>
+<del>iframe for atabook</del></p>
+</details>
+<details>
+	<summary>working on</summary>
+<p>migrating from windows to linux<br>
+migrating from notion to obsidian</p>
+</details>
+</aside>
+</div>
+    </div>
+    <footer class="border nav-link">
+            <ul>
+                <li><a href="/sitemap">sitemap</a></li>
+                <li>|</li>
+                <li><a href="/about#connect">contact</a></li>
+                <li>|</li>
+                <li><a href="/guestbook">guestbook</a></li>
+                <li>|</li>
+                <li><a href="/credits">credits</a></li>
+            </ul>
+</footer>
+
+<div class="display-none return">
+<a href="#top" rel="return">return to top</a>
+</div>
+<script src="/assets/js/blog.js"></script>
+
+</body>
+<script type="text/javascript">
+    window.onload = function () {
+        setTimeout(function () {
+            document.getElementById("body").style.display = "";
+        }, 40);
+    }
+</script>
+</html>

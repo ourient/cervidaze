@@ -1,0 +1,88 @@
+---json
+{
+"permalink": "rss.xml",
+"eleventyExcludeFromCollections": true,
+"metadata": {
+"title": "cervidaze",
+"subtitle": "a personal repository lovingly created by a writer of many varieties.",
+"url": "https://cervidaze.me/",
+"feedUrl": "https://cervidaze.me/rss.xml",
+"author": {
+"name": "reyn"
+}
+}
+}
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:base="{{ metadata.url }}">
+  <title>{{ metadata.title }}</title>
+  <subtitle>{{ metadata.subtitle }}</subtitle>
+  <link href="{{ permalink | absoluteUrl(metadata.url) }}" rel="self" />
+  <updated>{{ collections.posts | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
+  <id>{{ metadata.url }}</id>
+  <author>
+    <name>{{ metadata.author.name }}</name>
+  </author>
+  {%- for post in collections.posts | reverse %}
+  {%- set absolutePostUrl = post.url | absoluteUrl(metadata.url) %}
+  <entry>
+    <title>{{ post.data.title }}</title>
+    <content type="html">{{ post.data.description }}</content>
+    <link href="{{ absolutePostUrl }}" />
+    <updated>{{ post.date | dateToRfc3339 }}</updated>
+    <id>{{ absolutePostUrl }}</id>
+  </entry>
+  {%- endfor %}
+  <item>
+    <guid>https://cervidaze.me/blog/posts/2025-04-30-nothing-ever-happens</guid>
+    <title>nothing ever happens</title>
+    <description>
+      i haven't been online lately—mostly because my cats get extremely upset when i keep myself in the office
+      for too long. it's been about half a year since i've basically left all social media, and it's been quiet. i also
+      ran out of online distractions to occupy myself with, which led to me finally jailbreaking both my kindle and my
+      3DS for fun. i just completed pokemon black 2 at the 72-hour mark, and i have yet to look back.
+    </description>
+    <link>https://cervidaze.me/blog/posts/2025-04-30-nothing-ever-happens</link>
+    <pubDate>
+      Wed, 30 Apr 2025 14:15:00 +0800
+    </pubDate>
+  </item>
+  <item>
+    <guid>https://cervidaze.me/blog/posts/2025-03-21-boycotts-and-degoogling.html</guid>
+    <title>boycotts and degoogling</title>
+    <description>
+      lately, i've been making an effort to remove myself from as many google products as possible. i made the browser
+      switch from chrome to firefox about two years ago, but it wasn't until i saw a post by ykreborn that i decided to
+      start migrating the rest of my dependencies.
+    </description>
+    <link>https://cervidaze.me/blog/posts/2025-03-21-boycotts-and-degoogling.html</link>
+    <pubDate>
+      Fri, 21 Mar 2025 14:15:00 +0800
+    </pubDate>
+  </item>
+  <item>
+    <guid>https://cervidaze.me/blog/posts/2025-02-25-mid-twenties</guid>
+    <title>mid-twenties</title>
+    <description>
+      i had my friend sign my will and advance directive a few weeks ago. it wasn&apos;t for any particular
+      reason. i just wanted to have them ready in case anything were to suddenly happen and make me unable to
+      speak for myself.
+    </description>
+    <link>https://cervidaze.me/blog/posts/2025-02-25-mid-twenties</link>
+    <pubDate>
+      Tue, 25 Feb 2025 14:15:00 +0800
+    </pubDate>
+  </item>
+  <item>
+    <guid>https://cervidaze.me/blog/posts/2024-12-26-hello-again</guid>
+    <title>hello again</title>
+    <description>
+      it has been a while since i&#x27;ve updated about anything in regards to my life. it would be insane to try to
+      list it all out here since a good six months have elapsed since my last post, but i guess i can still try.
+    </description>
+    <link>https://cervidaze.me/blog/posts/2024-12-26-hello-again</link>
+    <pubDate>
+      Thu, 26 Dec 2024 14:15:00 +0800
+    </pubDate>
+  </item>
+</feed>

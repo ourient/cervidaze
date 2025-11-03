@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+<head>
+<title>cervidaze ☘</title>
+    <meta name="description" content="stay deer">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="icon" href="/assets/images/style/gingko.png" type="image/x-icon">
+    <link href="/assets/css/main.css" rel="stylesheet" title="lightmode" type="text/css" media="all">
+    <link href="/assets/css/darkmode.css" rel="alternate stylesheet" title="darkmode" type="text/css" media="all">
+    <script type="text/javascript" src="/assets/js/styleswitcher.js"></script>
+    <script data-goatcounter="https://cervidaze.goatcounter.com/count" async src="//gc.zgo.at/count.js">
+    </script>
+</head>
+<body id="body" style="display:none">
+    <noscript>hey uh you kinda need javascript for this</noscript>
+    <div class="container">
+			<header>
+<div id="header-image">
+                <a href="https://cervidaze.me">
+                    <img id="gingko" alt="a gingko leaf linking to the home page" src="/assets/images/style/cervidaze_lightbanner.png">
+                </a>
+                <a href="https://cervidaze.me">
+                    <img id="antlers" alt="a pair of antlers linking to the home page" src="/assets/images/style/cervidaze_darkbanner.png">
+                </a>
+            </div>
+            <nav class="border nav-link">
+                <ul>
+                    <li><a href="/">home</a></li>
+                    <li><a href="/about">about</a></li>
+                    <li><a href="/blog">blog</a></li>
+                    <li><a href="/interests">interests</a></li>
+                    <li><a href="/media">media</a></li>
+                    <li><a href="/links">links</a></li>
+                    <li>
+                        <form aria-label="styleswitcher">
+                        <select class="rounded" name="styleswitcher" onchange="changeStyle(this.value)">
+                            <option value="1" selected="true" disabled="disabled">theme</option>
+                            <option value="/assets/css/main">light</option>
+                            <option value="/assets/css/darkmode">dark</option>
+                        </select>
+                        </form>
+                    </li>
+                </ul>
+            </nav>
+</header>
+        <div class="flex">
+            <main class="border">
+                <h3>welcome!</h3>
+                <p>this DIY site is my new iteration of <b>our stillness</b>, a
+                    blogging project i started several years ago.</p>
+                <p>my early teenage years were spent exploring what the web had to offer, before it started to only
+                    offer
+                    monetization. joining the indie web revival is my attempt at rekindling the mortifying creativity
+                    and curiosity i once
+                    had as a kid with unrestricted access to the internet.</p>
+                <p>if you are a returning user, thank you so much for your continued support. if you are new, thank you
+                    for giving my work your time. regardless of who you are, please enjoy your stay ♡</p>
+                <p>- reyn</p>
+                <br>
+                <hr>
+                <p><small><b>please note:</b> this site is responsive and mobile-friendly, but is best viewed on a
+                        browser that supports javascript</small></p>
+            </main>
+            <aside class="border right-side narrow fixed-height scrollbar order-last">
+                <h3>status</h3>
+                <div class="border" id="statuscafe">
+                    <div id="statuscafe-username"></div>
+                    <div id="statuscafe-content"></div>
+                </div>
+                <script src="https://status.cafe/current-status.js?name=ourient" defer></script>
+                <br>
+                <h3>site buttons</h3>
+                <div class="site-button">
+                    <img src="assets/images/graphics/buttons/sites/cervidaze_v2.png" title="cervidaze light"
+                        alt="cervidaze light">
+                    <img src="assets/images/graphics/buttons/sites/cervidaze_v2_dark.png" title="cervidaze dark"
+                        alt="cervidaze dark">
+                </div>
+                <textarea><a href="https://cervidaze.me/" target="_blank"><img src="your local link here" alt="cervidaze"></a></textarea>
+                <br>
+                <h3>playlist</h3>
+                                <div class="border" id="musicplayer">
+                    <div class="now-playing"></div>
+                    <div class="track-info">
+                        <div class="track-name"></div>
+                        <div class="track-artist"></div>
+                    </div>
+                    <div class="controls">
+                        <div class="seeking">
+                            <div class="current-time">00:00</div>
+                            <input type="range" min="1" max="100" value="0" class="seek_slider" onchange="seekTo()">
+                            <div class="total-duration">0:00</div>
+                        </div>
+                        <div class="buttons">
+                            <div class="prev-track" onclick="prevTrack()">‹</div>
+                            <div class="playpause-track" onclick="playpauseTrack()">&#9654;</div>
+                            <div class="next-track" onclick="nextTrack()">›</div>
+                        </div>
+                        <div class="volume">
+                            <div class="volume-icon">&#128362;</div>
+                            <input type="range" min="1" max="100" value="25" class="volume_slider"
+                                onchange="setVolume()">
+                            <!-- the default volume value is 25, change this if you want it to be higher or lower (i wouldn't recommend it bc it gets really loud) -->
+                        </div>
+                    </div>
+                    <audio id="music" src=""></audio>
+                </div>
+                <script defer>
+                    // initiate variables
+                    let now_playing = document.querySelector(".now-playing");
+                    let track_name = document.querySelector(".track-name");
+                    let track_artist = document.querySelector(".track-artist");
+                    let playpause_btn = document.querySelector(".playpause-track");
+                    let next_btn = document.querySelector(".next-track");
+                    let prev_btn = document.querySelector(".prev-track");
+                    let seek_slider = document.querySelector(".seek_slider");
+                    let volume_slider = document.querySelector(".volume_slider");
+                    let curr_time = document.querySelector(".current-time");
+                    let total_duration = document.querySelector(".total-duration");
+                    let track_index = 0;
+                    let isPlaying = false;
+                    let updateTimer;
+                    // create new audio element
+                    let curr_track = document.getElementById("music");
+                    //
+                    // DEFINE YOUR SONGS HERE!!!!!
+                    // MORE THAN FOUR SONGS CAN BE ADDED!!
+                    // JUST ADD ANOTHER BRACKET WITH NAME ARTIST AND PATH
+                    // CATBOX.MOE IS RECOMMENDED FOR UPLOADING MP3 FILES IF YOU DON'T HAVE NEOCITIES SUPPORTER
+                    let track_list = [
+                        {
+                            name: "夢中人 (dreams)",
+                            artist: "faye wong",
+                            path: "/assets/audio/fayewong_dreams.mp3"
+                        },
+                        {
+                            name: "everytime",
+                            artist: "ethel cain",
+                            path: "/assets/audio/ethelcain_everytime.mp3"
+                        },
+                        {
+                            name: "creep",
+                            artist: "ichiko aoba",
+                            path: "/assets/audio/ichikoaoba_creep.mp3"
+                        },
+                        {
+                            name: "the dove",
+                            artist: "after",
+                            path: "/assets/audio/after_thedove.mp3",
+                        },
+                        {
+                            name: "starburned and unkissed",
+                            artist: "caroline polachek",
+                            path: "/assets/audio/carolinepolachek_starburnedandunkissed.mp3",
+                        },
+                        {
+                            name: "if and when i die",
+                            artist: "the world is a beautiful place & i am no longer afraid to die",
+                            path: "/assets/audio/TWIABPAIANLATD_ifandwhenidie.mp3"
+                        },
+                    ];
+                    //
+                    //
+                    //
+                    //
+                    //
+                    function loadTrack(track_index) {
+                        clearInterval(updateTimer);
+                        resetValues();
+                        // load a new track
+                        curr_track.src = track_list[track_index].path;
+                        curr_track.load();
+                        // update details of the track
+                        track_name.textContent = track_list[track_index].name;
+                        track_artist.textContent = track_list[track_index].artist;
+                        now_playing.textContent = "playing " + (track_index + 1) + " of " + track_list.length;
+                        // set an interval of 1000 milliseconds for updating the seek slider
+                        updateTimer = setInterval(seekUpdate, 1000);
+                        // move to the next track if the current one finishes playing 
+                        curr_track.addEventListener("ended", nextTrack);
+                    }
+                    // reset values
+                    function resetValues() {
+                        curr_time.textContent = "0:00";
+                        total_duration.textContent = "0:00";
+                        seek_slider.value = 0;
+                    }
+                    // load the first track in the tracklist
+                    loadTrack(track_index);
+                    // checks if song is playing
+                    function playpauseTrack() {
+                        if (!isPlaying) playTrack();
+                        else pauseTrack();
+                    }
+                    // plays track when play button is pressed
+                    function playTrack() {
+                        curr_track.play();
+                        isPlaying = true;
+                        // replace icon with the pause icon
+                        playpause_btn.innerHTML = '&#x23f8;';
+                    }
+                    // pauses track when pause button is pressed
+                    function pauseTrack() {
+                        curr_track.pause();
+                        isPlaying = false;
+                        playpause_btn.innerHTML = '&#9654;';
+                    }
+                    // moves to the next track
+                    function nextTrack() {
+                        if (track_index < track_list.length - 1)
+                            track_index += 1;
+                        else track_index = 0;
+                        loadTrack(track_index);
+                        playTrack();
+                    }
+                    // moves to the previous track
+                    function prevTrack() {
+                        if (track_index > 0)
+                            track_index -= 1;
+                        else track_index = track_list.length;
+                        loadTrack(track_index);
+                        playTrack();
+                    }
+                    // seeker slider
+                    function seekTo() {
+                        seekto = curr_track.duration * (seek_slider.value / 100);
+                        curr_track.currentTime = seekto;
+                    }
+                    // volume slider
+                    function setVolume() {
+                        curr_track.volume = volume_slider.value / 100;
+                    }
+                    setVolume();
+                    function seekUpdate() {
+                        let seekPosition = 0;
+                        // check if the current track duration is a legible number
+                        if (!isNaN(curr_track.duration)) {
+                            seekPosition = curr_track.currentTime * (100 / curr_track.duration);
+                            seek_slider.value = seekPosition;
+                            // calculate the time left and the total duration
+                            let currentMinutes = Math.floor(curr_track.currentTime / 60);
+                            let currentSeconds = Math.floor(curr_track.currentTime - currentMinutes * 60);
+                            let durationMinutes = Math.floor(curr_track.duration / 60);
+                            let durationSeconds = Math.floor(curr_track.duration - durationMinutes * 60);
+                            // adding a zero to the single digit time values
+                            if (currentSeconds < 10) { currentSeconds = "0" + currentSeconds; }
+                            if (durationSeconds < 10) { durationSeconds = "0" + durationSeconds; }
+                            if (currentMinutes < 10) { currentMinutes = currentMinutes; }
+                            if (durationMinutes < 10) { durationMinutes = durationMinutes; }
+                            curr_time.textContent = currentMinutes + ":" + currentSeconds;
+                            total_duration.textContent = durationMinutes + ":" + durationSeconds;
+                        }
+                    }
+                </script>
+                <br>
+                <h3>changelog</h3>
+                <div class="border scrollbar" id="changelog">
+                    <ul class="no-bullets">
+                        <li>10/20/25<br>updated media page;<br>updated music playlist
+                        <li>9/28/25<br>new blog post;<br>implemented OOCSS;<br>added neighbors
+                        <li>9/17/25<br>new media page;<br>updated nav and footer;<br>added neighbors</li>
+                        <li>8/29/25<br>new blog post</li>
+                        <li>8/11/25<br>added internal guestbook page</li>
+                        <li>8/9/25<br>updated interests page;<br>added lightbox features</li>
+                        <li>8/5/25<br>new essay;<br>updated about page</li>
+                        <li>8/3/25<br>new site buttons!
+                        <li>8/1/25<br>updated<br>interests page;<br>added mutuals buttons;<br>added 11ty code optimization</li>
+                        <li>7/25/25<br>new blog post;<br>light layout reformatting</li>
+                        <li>4/30/25<br>new blog post</li>
+                        <li>3/30/25<br>new fonts;<br>updated dark theme;<br>new interests layout;<br>new site banners
+                        </li>
+                        <li>3/21/25<br>new blog post</li>
+                        <li>3/2/25<br>uploaded all posts from previous blog;<br>updated links page;<br>code housekeeping
+                        </li>
+                        <li>2/25/25<br>new blog post;<br>added newsletter form;<br>moved contact info to about page</li>
+                        <li>2/24/25<br>attempted to reduce FOUC</li>
+                        <li>2/22/25<br>code optimization</li>
+                        <li>2/21/25<br>actually made a dark mode toggle. incredible.<br>i can fight god</li>
+                        <li>2/19/25<br>added status.cafe widget;<br>added credits page;<br>added footer</li>
+                        <li>2/17/25<br>moved neighborhood</li>
+                        <li>2/15/25<br>added essays page;<br>improved accessibility;<br>more housekeeping</li>
+                        <li>2/13/25<br>created temporary gallery;<br>general housekeeping</li>
+                        <li>2/12/25<br>created site buttons;<br>added basic accessibility</li>
+                        <li>2/10/25<br>added neighborhood;<br>added rss feed. we'll see if it works</li>
+                        <li>2/4/25<br>made site responsive;<br>added music player</li>
+                        <li>2/2/25<br>completed about and sitemap pages</li>
+                        <li>1/20/25<br>added comments section to blog posts</li>
+                        <li>1/12/25<br>updated links page</li>
+                        <li>12/26/24<br>first blog post!</li>
+                        <li>12/25/24<br>installed zonelots merry fucking christmas</li>
+                        <li>12/24/24<br>made the fucking thing</li>
+                    </ul>
+                </div>
+            </aside>
+        </div>
+    </div>
+	<footer class="border nav-link">
+            <ul>
+                <li><a href="/sitemap">sitemap</a></li>
+                <li>|</li>
+                <li><a href="/about#connect">contact</a></li>
+                <li>|</li>
+                <li><a href="/guestbook">guestbook</a></li>
+                <li>|</li>
+                <li><a href="/credits">credits</a></li>
+            </ul>
+</footer>
+<div class="display-none return">
+<a href="#top" rel="return">return to top</a>
+</div>
+</body>
+<script type="text/javascript">
+    window.onload = function () {
+        setTimeout(function () {
+            document.getElementById("body").style.display = "";
+        }, 60);
+    }
+</script>
+</html>
