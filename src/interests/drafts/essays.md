@@ -15,5 +15,6 @@ it's my hope that they will still resonate with a select few now. enjoy.</p>
 <br><hr><br>
 <ul>
 <li><a href="/interests/theorypaper">an unending process of linguistic becoming: a poststructural analysis of queer liberation</a></li>
+<br>
 <li><a href="/interests/queerness">what i was taught about queerness growing up</a></li>
 </ul>

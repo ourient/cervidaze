@@ -5,6 +5,9 @@ const { DateTime } = require('luxon');
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 
 module.exports = function (eleventyConfig) {
+  // This will stop the default behaviour of foo.html being turned into foo/index.html
+  eleventyConfig.addGlobalData("permalink", "{{ page.filePathStem }}.html");
+
   // This makes the eleventy command quieter (with less detail)
   eleventyConfig.setQuietMode(true);
 

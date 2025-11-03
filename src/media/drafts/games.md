@@ -1,7 +1,7 @@
 <h1>games</h1>
 <br>
 
-## video games
+### video games
 <br>
 <div class="media">
         <img class="media-left-img rounded" src="/assets/images/photos/games/balatro.png" loading="lazy" title="balatro" alt="balatro">
@@ -37,7 +37,7 @@
 
 <br>
 
-## board games
+### board games
 <br>
 <div class="media">
         <img class="media-left-img rounded" src="/assets/images/photos/games/azul.png" loading="lazy" title="azul" alt="azul">
@@ -62,7 +62,7 @@
         <div class="media-body">
         <h4 class="no-margin">quacks</h4>
         <br>
-        a friend of mine introduced us to quacks, and my girlfriend was instantly hooked—which makes sense since she loves push-your-luck games. learning the rules was fairly easy despite quack's mild complexity, and we've had much success when playing with both new players and board game novices. quacks and its expansions nicely accomodate a variety of experience levels, and the game design creates the perfect balance of skill and RNG chance. i'm part of the crowd that loves its recent claymation-style redesign, and since we got the deluxe version, the board game pieces are nice to hold and temptingly edible.
+        a friend of mine introduced us to quacks, and my girlfriend was instantly hooked—which makes sense since she loves push-your-luck games. learning the rules was fairly easy despite quacks' mild complexity, and we've had much success when playing with both new players and board game novices. quacks and its expansions nicely accommodate a variety of experience levels, and the game design creates the perfect balance of skill and RNG chance. i'm part of the crowd that loves its recent claymation-style redesign, and since we got the deluxe version, the board game pieces are nice to hold and temptingly edible.
         </div>
 </div>
 

@@ -1,27 +1,29 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto">
+
 <head>
-	<title>not found!</title>
-	<meta name="description" content="stay deer">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta charset="UTF-8">
-	<meta lang="en">
-	<link rel="icon" href="/assets/images/style/gingko.png" type="image/x-icon" />
-	<link href="/assets/css/main.css" rel="stylesheet" title="lightmode" type="text/css" media="all">
-	<link href="/assets/css/darkmode.css" rel="alternate stylesheet" title="darkmode" type="text/css" media="all">
-	<script>
-	  const tabTitle = document.title;
-	  if (tabTitle !== "cervidaze ☘") {
-		document.title = tabTitle + " | cervidaze ☘";
-	  }
-	</script>
-	<script type="text/javascript" src="/assets/js/styleswitcher.js"></script>
+    <title>not found! | cervidaze ☘</title>
+
+    <meta name="description" content="stay deer">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+
+    <link rel="icon" href="/assets/images/style/gingko.png" type="image/x-icon">
+    <link href="/assets/css/main.css" rel="stylesheet" title="lightmode" type="text/css" media="all">
+    <link href="/assets/css/darkmode.css" rel="alternate stylesheet" title="darkmode" type="text/css" media="all">
+
+    <script type="text/javascript" src="/assets/js/styleswitcher.js"></script>
+
+    <script data-goatcounter="https://cervidaze.goatcounter.com/count" async src="//gc.zgo.at/count.js">
+    </script>
 </head>
-<body>
-	<noscript>hey uh you kinda need javascript for this</noscript>
-	<div id="container">
-		<header id="header">
-			<header>
+
+<body id="body" style="display:none">
+    
+<noscript>hey uh you kinda need javascript for this</noscript>
+    <div id="container">
+        <header id="header">
+            <header>
 <div id="header-image">
                 <a href="https://cervidaze.me">
                     <img id="gingko" alt="a gingko leaf linking to the home page" src="/assets/images/style/cervidaze_lightbanner.png">
@@ -50,17 +52,17 @@
                 </ul>
             </nav>
 </header>
-		</header>
-		<div class="flex" style="align-content: center; justify-content: center;">
-			<main class="border">
-				<h2>ah fuck</h2>
-				<img src="assets/images/photos/emdash.jpg" style="max-width: 40%;">
-				<p>i don't think this page exists. sorry :/</p>
-			</main>
-		</div>
-	</div>
-    <footer>
-        <footer class="border nav-link">
+        </header>
+        <div class="flex center">
+	<main class="border">
+		<h1>ah fuck</h1>
+		<img class="rounded wide" src="assets/images/photos/emdash.jpg">
+		<p>i don't think this page exists. sorry :/</p>
+	</main>
+</div>
+    </div>
+<footer id="footer">
+    <footer class="border nav-link">
             <ul>
                 <li><a href="/sitemap">sitemap</a></li>
                 <li>|</li>
@@ -71,9 +73,18 @@
                 <li><a href="/credits">credits</a></li>
             </ul>
 </footer>
+
 <div class="display-none return">
 <a href="#top" rel="return">return to top</a>
 </div>
-    </footer>
+</footer>
+
 </body>
+<script type="text/javascript">
+    window.onload = function () {
+        setTimeout(function () {
+            document.getElementById("body").style.display = "";
+        }, 40);
+    }
+</script>
 </html>

@@ -18,7 +18,7 @@ title: media log
 </script>
 <div class="flex">
     <aside class="border thin left-side fit-content">
-        <h3>media log</h3>
+        <h4>media log</h4>
         <div class="side-nav">
         <ul class="no-bullets"><a onclick="openTab(event, `music`)">music</a></ul>
         <ul class="no-bullets"><a onclick="openTab(event, `filmtv`)"><del>film/tv</del></a></ul>

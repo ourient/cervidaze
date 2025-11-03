@@ -1,7 +1,7 @@
 <h1>music</h1>
 <br>
 
-## favorite albums
+### favorite albums
 <br>
 <div class="media">
         <img class="media-left-img rounded" src="/assets/images/photos/music/tinified/acrowlookedatme.png" loading="lazy" title="a crow looked at me by mount eerie" alt="a crow looked at me by mount eerie">
@@ -57,7 +57,7 @@
         <img class="media-right-img rounded" src="/assets/images/photos/music/tinified/transatlanticism.png" loading="lazy" title="transatlanticism by death cab for cutie" alt="transatlanticism by death cab for cutie">
 </div>
 
-#### favorite tracks
+### favorite tracks
 <ul class="no-bullets">
 <li>death cab for cutie - a lack of color</li>
 <li>JPEGMAFIA - baby i'm bleeding</li>
@@ -70,5 +70,5 @@
 </ul>
 <br>
 
-#### physical collection
+### physical collection
 TBA

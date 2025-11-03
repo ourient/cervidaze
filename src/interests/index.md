@@ -18,7 +18,7 @@ title: interests
 </script>
 <div class="flex">
     <aside class="border thin left-side fit-content">
-        <h3>interests</h3>
+        <h4>interests</h4>
         <div class="side-nav">
         <ul class="no-bullets">
         <p>writing</p>
