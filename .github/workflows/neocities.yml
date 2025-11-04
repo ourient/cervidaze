@@ -32,7 +32,7 @@ jobs:
     # When the dist_dir is ready, deploy it to neocities
     # Here we deploy the folder named `public`
     - name: Deploy to neocities
-      uses: bcomnes/deploy-to-neocities@v3
+      uses: bcomnes/deploy-to-neocities@v3.0.4
       with:
         api_key: ${{ secrets.NEOCITIES_API_TOKEN }}
         cleanup: true
