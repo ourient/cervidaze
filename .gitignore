@@ -2,7 +2,6 @@
 notes.txt
 .vscode
 src/wip/
-.git/
 
 #npm dependencies
 node_modules/
