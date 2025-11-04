@@ -1,6 +1,6 @@
 ---
 layout: layouts/home.njk
-title: credits
+title: credits |
 permalink: /credits.html
 ---
 <div class="flex">

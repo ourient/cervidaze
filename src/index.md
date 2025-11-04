@@ -1,12 +1,11 @@
 ---
 layout: layouts/home.njk
-title: home
 permalink: /index.html
 ---
 
 <div class="flex">
     <main class="border">
-        <h3>welcome!</h3>
+        <h1>welcome!</h1>
         <p>this DIY site is my new iteration of <b>our stillness</b>, a
             blogging project i started several years ago.</p>
         <p>my early teenage years were spent exploring what the web had to offer, before it started to only
@@ -22,29 +21,30 @@ permalink: /index.html
         <p><small><b>please note:</b> this site is responsive and mobile-friendly, but is best viewed on a
                 browser that supports javascript</small></p>
     </main>
-    <aside class="border right-side narrow fixed-height scrollbar order-last">
-        <h3>status</h3>
-        <div class="border" id="statuscafe">
+    <aside class="fixed-height border right-side narrow scrollbar order-last">
+        <h4>status</h4>
+        <div class="border card-background" id="statuscafe">
             <div id="statuscafe-username"></div>
             <div id="statuscafe-content"></div>
         </div>
         <script src="https://status.cafe/current-status.js?name=ourient" defer></script>
         <br>
-        <h3>site buttons</h3>
+        <h4>site buttons</h4>
         <div class="site-button">
             <img src="assets/images/graphics/buttons/sites/cervidaze_v2.png" title="cervidaze light"
                 alt="cervidaze light">
             <img src="assets/images/graphics/buttons/sites/cervidaze_v2_dark.png" title="cervidaze dark"
                 alt="cervidaze dark">
         </div>
-        <textarea><a href="https://cervidaze.me/" target="_blank"><img src="your local link here" alt="cervidaze"></a></textarea>
+        <textarea class="border card-background"><a href="https://cervidaze.me/" target="_blank"><img src="your local link here" alt="cervidaze"></a></textarea>
         <br>
-        <h3>playlist</h3>
+        <h4>playlist</h4>
         {% include "./_includes/partials/musicplayer.njk" %}
         <br>
-        <h3>changelog</h3>
-        <div class="border scrollbar" id="changelog">
+        <h4>changelog</h4>
+        <div class="changelog border scrollbar card-background">
             <ul class="no-bullets">
+                <li>11/3/25<br>added git integration
                 <li>10/20/25<br>updated media page;<br>updated music playlist
                 <li>9/28/25<br>new blog post;<br>implemented OOCSS;<br>added neighbors
                 <li>9/17/25<br>new media page;<br>updated nav and footer;<br>added neighbors</li>
@@ -53,7 +53,7 @@ permalink: /index.html
                 <li>8/9/25<br>updated interests page;<br>added lightbox features</li>
                 <li>8/5/25<br>new essay;<br>updated about page</li>
                 <li>8/3/25<br>new site buttons!
-                <li>8/1/25<br>updated<br>interests page;<br>added mutuals buttons;<br>added 11ty code optimization</li>
+                <li>8/1/25<br>updated<br>interests page;<br>added mutuals buttons;<br>added 11ty integration</li>
                 <li>7/25/25<br>new blog post;<br>light layout reformatting</li>
                 <li>4/30/25<br>new blog post</li>
                 <li>3/30/25<br>new fonts;<br>updated dark theme;<br>new interests layout;<br>new site banners

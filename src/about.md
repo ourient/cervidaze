@@ -1,6 +1,6 @@
 ---
 layout: layouts/home.njk
-title: about
+title: about |
 permalink: /about.html
 ---
 
@@ -16,7 +16,7 @@ permalink: /about.html
       to capital. it's probably the best decision i've ever made for my creative life.</p>
     <p>thanks for visiting.</p>
   </main>
-  <aside class="border right-side order-one" id="connect">
+  <aside class="border card-background right-side order-one" id="connect">
     <img class="rounded" src="assets/images/photos/self_portrait.png" alt="a blurry self portrait of reyn sitting on a chair and smiling">
     <br><br>
     <h3>connect</h3>

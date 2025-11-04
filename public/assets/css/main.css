@@ -152,6 +152,10 @@ a:hover {
     }
 }
 
+.card-background {
+        background-color: #FDFBFB;
+}
+
 /* LAYOUT SHIT */
 
 main {
@@ -450,14 +454,11 @@ textarea {
     border: none;
 }
 
-#changelog {
+.changelog {
     height: 12.2rem;
     margin-top: 1rem;
     margin-bottom: 0.8rem;
     padding: 0.2em;
-    border-radius: 0.2rem;
-    overflow-y: scroll;
-    background-color: #FDFBFB;
     
     ul {
         margin-top: 0.8rem;
@@ -480,17 +481,8 @@ textarea {
     }
 }
 
-#stamps img {
-    max-width: 88px;
-}
-
 #statuscafe {
     padding: 0.8em;
-    background-color: #FDFBFB;
-}
-
-#statuscafe a {
-    font-weight: bold;
 }
 
 #statuscafe-username {
@@ -498,15 +490,7 @@ textarea {
 }
 
 #statuscafe-content {
-    margin: 0 1em .5em 1em;
-}
-
-#sidecar {
-    font-weight: 500;
-}
-
-#sidecar .webring-links {
-    font-size: small;
+    margin: 0 1rem .5rem 1rem;
 }
 
 /* MUSIC PLAYER SHIT */
@@ -1021,7 +1005,7 @@ article>header {
         }
     }
 
-    #changelog {
+    .changelog {
         width: 80%;
         margin: .6rem auto 0;
         padding: .5rem;

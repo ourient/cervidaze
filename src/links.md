@@ -1,6 +1,6 @@
 ---
 layout: layouts/home.njk
-title: links
+title: links |
 permalink: /links.html
 ---
 
@@ -88,7 +88,7 @@ permalink: /links.html
         <img src="assets/images/graphics/buttons/sites/cervidaze_v2_dark.png" title="cervidaze dark"
           alt="cervidaze dark">
     </div>
-    <textarea><a href="https://cervidaze.me/" target="_blank"><img src="your local link here" alt="cervidaze"></a></textarea>
+    <textarea class="border card-background"><a href="https://cervidaze.me/" target="_blank"><img src="your local link here" alt="cervidaze"></a></textarea>
     <br>
     <h4>neighborhood</h4>
     <p>hover for site descriptions! feel free to reach out if we're mutuals and your button's not here</p>
