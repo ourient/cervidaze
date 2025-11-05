@@ -1,7 +1,7 @@
 ---
 permalink: /media.html
 layout: layouts/home.njk
-title: media log
+title: media log |
 ---
 <script>
     function openTab(evt, interestName) {

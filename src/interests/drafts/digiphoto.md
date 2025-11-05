@@ -4,6 +4,8 @@
 <br><hr><br>
 
 ### sept 2023 - san diego
+lumix gh5
+
 <ul class="gallery">
         <li><img src="/assets/images/photos/digi/P1022354.jpg" loading="lazy" alt="my girlfriend alina in a green dress sitting by a koi pond"></li>
         <li><img src="/assets/images/photos/digi/P1022363.jpg" loading="lazy" alt="a koi fish swimming in a pond"></li>
@@ -11,6 +13,8 @@
 <br>
 
 ### nov 2018 - sequoia
+canon t5i
+
 <ul class="gallery">
         <li><img src="/assets/images/photos/digi/sequoia-1.jpg" loading="lazy" alt="bright orange leaves glow in the shade of a grassy field."></li>
         <li><img src="/assets/images/photos/digi/sequoia-3.jpg" loading="lazy" alt="two tall sequoia tree trunks overlook the rest of the redwood forest."></li>
@@ -20,6 +24,8 @@
 <br>
 
 ### jul 2018 - guangzhou/hong kong
+canon t5i
+
 <ul class="gallery">
         <li><img src="/assets/images/photos/digi/china-4431.jpg" loading="lazy" alt="a lone tree stands in the middle of a vast tea field."></li>
         <li><img src="/assets/images/photos/digi/china-4448.jpg" loading="lazy" alt="a grove of bamboo trees create a small pathway leading to a wheat field."></li>
@@ -29,6 +35,8 @@
 <br>
 
 ### jun 2018 - lake tahoe
+canon t5i
+
 <ul class="gallery">
         <li><img src="/assets/images/photos/digi/6059.JPG" loading="lazy" alt="a cliffside view of lake tahoe. a small grassy landform rests in the middle of the lake."></li>
         <li><img src="/assets/images/photos/digi/6032.JPG" loading="lazy" alt="a cliffside view of lake tahoe at sunset."></li>

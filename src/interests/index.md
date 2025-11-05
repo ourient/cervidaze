@@ -1,7 +1,7 @@
 ---
 permalink: /interests.html
 layout: layouts/home.njk
-title: interests
+title: interests |
 ---
 <script>
     function openTab(evt, interestName) {

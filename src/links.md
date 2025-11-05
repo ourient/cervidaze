@@ -6,80 +6,96 @@ permalink: /links.html
 
 <div class="flex">
   <main class="border">
-    <h1>links</h1>
-    <p>here are some resources i use to improve my quality of life. i have used all of these so please trust me on
-      their legitimacy</p>
-    <h4>web browsing</h4>
-    <ul class="no-bullets">
-      <li><a href="https://ublockorigin.com/" target="_blank">ublock origin</a>: if you don't have a content blocker
-        by now, get this one. open-source, anti-google, anti-ads, anti-tracking, reliable, solid, everything you can
-        ask for. works best on non-chromium browsers, which you shouldn't be using anyway.</li>
-      <li><a href="https://12ft.io" target="_blank">12 ft ladder</a>: a web tool used to remove paywalls and ads
-        when accessing websites</li>
-      <li><a href="https://getindie.wiki/" target="_blank">indie wiki buddy</a>: a browser extension that redirects
-        you to independently run wikis instead of corporate run wikis such as fandom (supports <a
-          href="https://breezewiki.com/" target="_blank">breezewiki</a>, an extension that removes ads and bloat
-        from fandom wikis when indie wikis aren't available)</li>
-      <li><a href="https://shinigami-eyes.github.io/" target="_blank">shinigami eyes</a>: a browser extension that
-        marks transphobic and queerphobic accounts for more trans-friendly online experiences</li>
-    </ul>
-    <h4>media</h4>
-    <ul class="no-bullets">
-      <li><a href="https://cobalt.tools/" target="_blank">cobalt</a>: a free open-source web app that downloads
-        videos, audio, images, and gifs without ads, paywalls, viruses, etc. it just works</li>
-      <li><a href="https://www.reddit.com/r/revancedextended/wiki/faq/" target="_blank">revanced extended</a>:
-        open-source patched version of the youtube mobile app that includes highly customizable features (most
-        notably turning off ads)</li>
-      <li><a href="https://sponsor.ajay.app/" target="_blank">sponsorblock</a>: open-source, crowdsourced browser
-        extension that identifies and skips paid sponsor sections of youtube videos</li>
-      <li><a href="https://go-to-library.sk/" target="_blank">z-library</a>: one of the most reliable free ebook/pdf
-        libraries right now. i use this to download all of my reading materials. make sure to use the official
-        website browser extension or app to access</li>
-      <li><a href="https://www.thestorygraph.com/" target="_blank">storygraph</a>: Black-owned reading platform
-        alternative to goodreads. far more granular reading statistics, filters, and recommendations</li>
-      <li><a href="https://everynoise.com/" target="_blank">every noise at once</a>: interactive scatterplot of all
-        recorded genres on spotify. created by former data alchemist grant macdonald, who spotify laid off in 2024.
-        i use it to identify my most frequently listened-to genres and find new artists within similar genre-spaces
-      </li>
-    </ul>
-    <h4>health/personal care</h4>
-    <ul class="no-bullets">
-      <li><a href="https://philome.la/jace_harr/you-feel-like-shit-an-interactive-self-care-guide/play/index.html"
-          target="_blank">you feel like shit</a>: interactive flow chart to help with self care/executive
-        dysfunction</li>
-      <li><a href="https://www.patreon.com/posts/huge-free-covid-86871700" target="_blank">COVID safety resource
-          list</a>: massive aggregated list of various COVID-conscious resources, from recommendations for PPE and
-        air filters to step-by-step plans for when someone gets infected</li>
-      <li><a href="https://rthm.com/articles/youve-got-covid/" target="_blank">you've got COVID!</a>: extremely
-        concise and detailed acute COVID recovery plan to reduce long COVID risk</li>
-      <li><a href="https://wellbefore.com/products/kn95-mask-3d-style?variant=39257716949121"
-          target="_blank">wellbefore kn95 mask</a>: my particular choice of mask. of all the ones on the market,
-        this one has the best balance of cost, fit, and efficacy in my opinion. it takes inspiration from the korean
-        k94 &quot;boat style&quot; masks that are optimized for daily use. comes in three tiers of comfort.</li>
-    </ul>
-    <h4>politics</h4>
-    <ul class="no-bullets">
-      <li><a href="https://gazafunds.com/" target="_blank">gazafunds</a>: collective project that vets and
-        recommends a different palestinian crowdfunding campaign upon every site refresh. recommendations prioritize
-        campaigns close to their goals or ones raising funds for the sink and injured. helps take the guesswork and
-        decision fatigue out from contributing to campaigns.</li>
-      <li><a href="https://github.com/dessalines/essays/blob/main/socialism_faq.md" target="_blank">socialism
-          faq</a>: directory of primary/secondary sources that debunk common anti-socialist and anti-communist
-        talking points.</li>
-      <li><a href="https://github.com/dessalines/essays/blob/main/us_atrocities.md" target="_blank">list of US
-          atrocities</a>: what it says on the tin</li>
-    </ul>
-    <h4>queerness/transness</h4>
-    <ul class="no-bullets">
-      <li><a
-          href="https://www.cambridgesu.co.uk/pageassets/resources/guides/spottingterfideology/How-to-Spot-TERF-Ideology-2.0-2.pdf"
-          target="_blank">how to spot TERF ideology</a>: a PDF primer on developing a critical eye for TERF ideology
-        and navigating interactions with TERFs online and in real life</li>
-      <li><a href="https://www.writeinclusion.org/lgbtqia-factsheet" target="_blank">#writeinclusion LGBTQIA+
-          factsheets</a>: a collection of factsheets covering tips for more authentic representations of various
-        queer identities in narrative writing</li>
-    </ul>
+  <h1>links</h1>
+  <p>here are some resources i use to improve my quality of life. i have used all of these so please trust me on
+    their legitimacy</p>
+  <br><hr><br>
+  <details>
+  <summary class="h4">web browsing</summary>
+  <ul class="no-bullets">
+    <li><a href="https://ublockorigin.com/" target="_blank">ublock origin</a>: if you don't have a content blocker
+      by now, get this one. open-source, anti-google, anti-ads, anti-tracking, reliable, solid, everything you can
+      ask for. works best on non-chromium browsers, which you shouldn't be using anyway.</li>
+    <li><a href="https://12ft.io" target="_blank">12 ft ladder</a>: a web tool used to remove paywalls and ads
+      when accessing websites</li>
+    <li><a href="https://getindie.wiki/" target="_blank">indie wiki buddy</a>: a browser extension that redirects
+      you to independently run wikis instead of corporate run wikis such as fandom (supports <a
+        href="https://breezewiki.com/" target="_blank">breezewiki</a>, an extension that removes ads and bloat
+      from fandom wikis when indie wikis aren't available)</li>
+    <li><a href="https://shinigami-eyes.github.io/" target="_blank">shinigami eyes</a>: a browser extension that
+      marks transphobic and queerphobic accounts for more trans-friendly online experiences</li>
+  </ul>
+  </details>
+  <br>
+  <details>
+  <summary class="h4">media</summary>
+  <ul class="no-bullets">
+    <li><a href="https://cobalt.tools/" target="_blank">cobalt</a>: a free open-source web app that downloads
+      videos, audio, images, and gifs without ads, paywalls, viruses, etc. it just works</li>
+    <li><a href="https://www.reddit.com/r/revancedextended/wiki/faq/" target="_blank">revanced extended</a>:
+      open-source patched version of the youtube mobile app that includes highly customizable features (most
+      notably turning off ads)</li>
+    <li><a href="https://sponsor.ajay.app/" target="_blank">sponsorblock</a>: open-source, crowdsourced browser
+      extension that identifies and skips paid sponsor sections of youtube videos</li>
+    <li><a href="https://go-to-library.sk/" target="_blank">z-library</a>: one of the most reliable free ebook/pdf
+      libraries right now. i use this to download all of my reading materials. make sure to use the official
+      website browser extension or app to access</li>
+    <li><a href="https://www.thestorygraph.com/" target="_blank">storygraph</a>: Black-owned reading platform
+      alternative to goodreads. far more granular reading statistics, filters, and recommendations</li>
+    <li><a href="https://everynoise.com/" target="_blank">every noise at once</a>: interactive scatterplot of all
+      recorded genres on spotify. created by former data alchemist grant macdonald, who spotify laid off in 2024.
+      i use it to identify my most frequently listened-to genres and find new artists within similar genre-spaces
+    </li>
+  </ul>
+  </details>
+  <br>
+  <details>
+  <summary class="h4">health/personal care</summary>
+  <ul class="no-bullets">
+    <li><a href="https://philome.la/jace_harr/you-feel-like-shit-an-interactive-self-care-guide/play/index.html"
+        target="_blank">you feel like shit</a>: interactive flow chart to help with self care/executive
+      dysfunction</li>
+    <li><a href="https://www.patreon.com/posts/huge-free-covid-86871700" target="_blank">COVID safety resource
+        list</a>: massive aggregated list of various COVID-conscious resources, from recommendations for PPE and
+      air filters to step-by-step plans for when someone gets infected</li>
+    <li><a href="https://rthm.com/articles/youve-got-covid/" target="_blank">you've got COVID!</a>: extremely
+      concise and detailed acute COVID recovery plan to reduce long COVID risk</li>
+    <li><a href="https://wellbefore.com/products/kn95-mask-3d-style?variant=39257716949121"
+        target="_blank">wellbefore kn95 mask</a>: my particular choice of mask. of all the ones on the market,
+      this one has the best balance of cost, fit, and efficacy in my opinion. it takes inspiration from the korean
+      k94 &quot;boat style&quot; masks that are optimized for daily use. comes in three tiers of comfort.</li>
+  </ul>
+  </details>
+  <br>
+  <details>
+  <summary class="h4">politics</summary>
+  <ul class="no-bullets">
+    <li><a href="https://gazafunds.com/" target="_blank">gazafunds</a>: collective project that vets and
+      recommends a different palestinian crowdfunding campaign upon every site refresh. recommendations prioritize
+      campaigns close to their goals or ones raising funds for the sink and injured. helps take the guesswork and
+      decision fatigue out from contributing to campaigns.</li>
+    <li><a href="https://github.com/dessalines/essays/blob/main/socialism_faq.md" target="_blank">socialism
+        faq</a>: directory of primary/secondary sources that debunk common anti-socialist and anti-communist
+      talking points.</li>
+    <li><a href="https://github.com/dessalines/essays/blob/main/us_atrocities.md" target="_blank">list of US
+        atrocities</a>: what it says on the tin</li>
+  </ul>
+  </details>
+  <br>
+  <details>
+  <summary class="h4">queerness/transness</summary>
+  <ul class="no-bullets">
+    <li><a
+        href="https://www.cambridgesu.co.uk/pageassets/resources/guides/spottingterfideology/How-to-Spot-TERF-Ideology-2.0-2.pdf"
+        target="_blank">how to spot TERF ideology</a>: a PDF primer on developing a critical eye for TERF ideology
+      and navigating interactions with TERFs online and in real life</li>
+    <li><a href="https://www.writeinclusion.org/lgbtqia-factsheet" target="_blank">#writeinclusion LGBTQIA+
+        factsheets</a>: a collection of factsheets covering tips for more authentic representations of various
+      queer identities in narrative writing</li>
+  </ul>
+  </details>
   </main>
+
   <aside class="border right-side order-one fixed-height scrollbar">
     <h4>site buttons</h4>
     <div class="site-button">
@@ -89,103 +105,106 @@ permalink: /links.html
           alt="cervidaze dark">
     </div>
     <textarea class="border card-background"><a href="https://cervidaze.me/" target="_blank"><img src="your local link here" alt="cervidaze"></a></textarea>
-    <br>
-    <h4>neighborhood</h4>
-    <p>hover for site descriptions! feel free to reach out if we're mutuals and your button's not here</p>
-    <div class="site-button">
-      <a href="https://elerosv.pet" target="_blank">
-        <img src="assets/images/graphics/buttons/sites/elerosv88x31_simple.gif" alt="elerosv" title="one of my irl friends who does game dev and cybersec">
-      </a>
-      <a href="https://leeloo.neocities.org/" target="_blank">
-        <img src="assets/images/graphics/buttons/sites/loositebutton.gif" alt="leeloo" title="my irl goth skeleton friend who does graphic design">
-      </a>
-      <a href="https://exceptthemagician.neocities.org/" target="_blank">
-        <img src="assets/images/graphics/buttons/sites/ETM-button.png" alt="excepthemagician" title="whimsical creative writing and wizardry">
-      </a>
-      <a href="https://littlemossymoth.neocities.org/" target="_blank">
-        <img src="assets/images/graphics/buttons/sites/littlemossymoth.png" alt="littlemossymoth" title="lovely lived-in greenery and textile art">
-      </a>
-      <a href="https://girlfreak.neocities.org/" target="_blank">
-        <img src="assets/images/graphics/buttons/sites/girlfreak.png" alt="girlfreak" title="cutesy and full of joy. if a fairy had a neocities">
-      </a>
-      <a href="https://rhzartist.neocities.org/index.html" target="_blank">
-        <img src="assets/images/graphics/buttons/sites/rhza-button_88-31.gif" alt="rhzartist">
-      </a>
-      <a href="https://vulpecula.neocities.org/" target="_blank">
-        <img src="assets/images/graphics/buttons/sites/vulpbutton2.gif" alt="vulpecula" title="a natural history museum curated by the coolest digital hobbyist you'll ever know">
-      </a>
-      <a href="https://dogblog.neocities.org/" target="_blank">
-        <img src="assets/images/graphics/buttons/sites/dogblog.gif" alt="dogblog">
-      </a>
-      <a href="https://swiftred.neocities.org/" target="_blank">
-        <img src="assets/images/graphics/buttons/sites/SwiftRedButton.png" alt="swiftred">
-      </a>
-      <a href="https://cheruehai.neocities.org" target="_blank"> <img
-          src="assets/images/graphics/buttons/sites/cheruehai_button.gif" alt="cheruehai"></a>
-      <a href="https://elu-isa.neocities.org/" target="_blank"> <img
-          src="assets/images/graphics/buttons/sites/elu-isa.png" alt="elu-isa"></a>
-      <a href="https://mekongred.neocities.org/" target="_blank"> <img
-          src="assets/images/graphics/buttons/sites/mekredbutton.png" alt="mekongred"></a>
-      <a href="https://altalenae.neocities.org" target="_blank"><img
-          src="assets/images/graphics/buttons/sites/altalenae.png" alt="altalenae" title="stunning pages and lovely taste in media"></a>
-      <a href="https://bulltown.neocities.org/" target="_blank"> <img
-          src="assets/images/graphics/buttons/sites/b-n-button.png" alt="bulltown" title="the myth, the man, the legend: joe jenett"></a>
-      <a href="https://scenemime.neocities.org" target="_blank"><img
-          src="assets/images/graphics/buttons/sites/scenemimebutton.gif" alt="scenemime"></a>
-      <a href="https://drinkmoretea.neocities.org" target="_blank"><img
-          src="assets/images/graphics/buttons/sites/drinkmoreteasitebutt.png" alt="drinkmoretea"></a>
-      <a href="https://projectc190.neocities.org/" target="_blank"><img src="/assets/images/graphics/buttons/sites/projectc190.png"
-          alt="project c190" title="art, coding projects, and mahjong advice from scratch's number one fan"></a>
-      <a href="https://flowerinbinary.neocities.org" target="_blank"><img
-          src="assets/images/graphics/buttons/sites/flowerinbinaryblue.png" alt="flower in binary" title="electronic ambience and soft circuitry"></a>
-      <a href="https://debtdeath.neocities.org" target="_blank"><img
-          src="assets/images/graphics/buttons/sites/debtdeath-2-button.png" alt="debtdeath" title="incredibly chill and incredibly based graphic designer and game dev"></a>
-      <a href="https://cedrus.nekoweb.org/" target="_blank"><img
-          src="assets/images/graphics/buttons/sites/cedrus.png" alt="cedrus"></a>
-      <a href="https://unfortunateaccident.neocities.org" target="_blank"><img
-      src="assets/images/graphics/buttons/sites/uaslow.png" alt="unfortunateaccident" title="fellow 11ty hater and striking bolts of pure light"></a>
-      <a href="https://irony-machine.neocities.org/" target="_blank"><img
-          src="assets/images/graphics/buttons/sites/irony-machine.png" alt="irony machine"></a>
-      <a href="https://seenarin.neocities.org/" target="_blank"><img
-          src="assets/images/graphics/buttons/sites/seenarin_button_v1.gif" alt="seenarin"></a>
-      <a href="https://salixx.neocities.org/" target="_blank"><img
-          src="assets/images/graphics/buttons/sites/salixx_88x31.gif" alt="salixx"></a>
-      <a href="https://juglone.neocities.org/" target="_blank"><img
-          src="assets/images/graphics/buttons/sites/juglone.gif" alt="juglone"></a>
-      <a href="https://zhongvie.neocities.org/" target="_blank"><img src="assets/images/graphics/buttons/sites/zhongvie3.gif" alt="zhongvie"></a>
-      <a href="https://limovars.neocities.org/" target="_blank"><img src="assets/images/graphics/buttons/sites/limovars.gif" alt="limovars" title="poignant and resonant political musings drifting through space"></a>
-      <a href="https://katbots.neocities.org/" target="_blank"><img src="https://katbots.neocities.org/button.png" alt="katbots" title="lovely little scrapbook of keepsakes and ripe fruit"></a>
-      <a href="https://fearoffun.neocities.org/" target="_blank"><img src="assets/images/graphics/buttons/sites/fearoffun-1.gif"  alt="fearoffun" title="the nostalgia of sitting in the shade on a humid day"></a>
-      <a href="https://daliwali.neocities.org/" target="_blank"><img
-          src="assets/images/graphics/buttons/sites/daliwali-1.png" alt="daliwali"></a>
-      <a href="https://antgraveyard.neocities.org/" target="_blank"> <img src="assets/images/graphics/buttons/sites/antgraveyard.gif" alt="antgraveyard"></a>
-      <a href="https://kirb.pet/" target="_blank"><img src="assets/images/graphics/buttons/sites/kirb.gif" alt="kirb.pet" title="a muji notebook come to life! lovely sketches and illustrations"></a>
-      <a href="https://sea-of-colors.neocities.org//index.html" target="_blank"><img src="assets/images/graphics/buttons/sites/seaofcolors.png" alt="sea of colors"></a>
-      <a href="https://crotovane.neocities.org" target="_blank"><img src="assets/images/graphics/buttons/sites/crotovane.png" alt="crotovane"></a>
-      <a href="https://lostletters.neocities.org/" target="_blank"><img src="assets/images/graphics/buttons/sites/LostLetters88x31.gif" alt="lostletters"></a>
-      <a href="https://coffeeplant.neocities.org/" target="_blank"><img src="assets/images/graphics/buttons/sites/coffeeplant.png" alt="coffeeplant" title="warm golden radiance set in a well-loved coffeehouse"></a>
-      <a href="https://nathanntan.neocities.org/" target="_blank"><img src="assets/images/graphics/buttons/sites/nathansspace.png" alt="nathan's space" title="kindness and trans joy tucked away safely in a pastel space"></a>
-      <a href="https://honeyedcharlatan.neocities.org/" target="_blank"><img src="assets/images/graphics/buttons/sites/hcbutton.gif" alt="honeyed charlatan" title="a rambunctious and full of life site co-hosted by an equally rambunctious and full of life system"></a>
-      <a href="https://eurasian-jay.neocities.org/" target="_blank"><img src="assets/images/graphics/buttons/sites/eurasian-jay.png" alt="eurasian-jay" title="a bright and warm artist's room"></a>
-      <a href="https://philia995.neocities.org/" target="_blank"><img src="assets/images/graphics/buttons/sites/philia995button.gif" alt="philia995" title="a gentle ocean's breeze"></a>
-      <a href="https://plumeslegumes.neocities.org/" target="_blank"><img src="assets/images/graphics/buttons/sites/plumeslegumes.png" alt="plumeslegumes" title="a lovely ephemera collection"></a>
-      <a href="https://rippledstone.com/" target="_blank"><img src="assets/images/graphics/buttons/sites/rippledstone.gif" alt="rippledstone" title="a stone leaving ripples in the water around it"></a>
-      <a href="https://animeman.us/" target="_blank"><img src="assets/images/graphics/buttons/sites/_gojo_button.gif" alt="justanotheranimeman" title="gojo?? in the fucking flesh????"></a>
-      <a href="https://joroki.neocities.org/" target="_blank"><img src="assets/images/graphics/buttons/sites/joroki-candy.gif" alt="joroki" title="the whimsy and joy of 大白兔 come to life"></a>
-      <a href="https://theprophat.neocities.org/" target="_blank"><img src="assets/images/graphics/buttons/sites/theprophatbutton.png" alt="theprophat" title="epicness"></a>
-      <a href="https://xiokka.neocities.org/" target="_blank"><img src="assets/images/graphics/buttons/sites/xiokka.png" alt="xiokka" title="software, electronics, solarpunk"></a>
-      <a href="https://caehdus.neocities.org/" target="_blank"><img src="assets/images/graphics/buttons/sites/caehdus.gif" alt="caehdus" title="warm, comfy art and fish"></a>
-      <a href="https://ancientcrypt.neocities.org/" target="_blank"><img src="assets/images/graphics/buttons/sites/AC5.gif" alt="ancientcrypt" title="a digital tomb. watch your step"></a>
-      </div>
-      <h4>webrings</h4>
-      <a href="https://kalechips.net/responsive/index" target="_blank">
-          <img src="assets/images/graphics/buttons/sites/reswebring.png" alt="responsive web directory">
-        </a>
-      <script src="http://maddycha.com/rhythm-ring/js/rhythmring.js" type="text/javascript"></script>
-      <div id='sidecar'>
-        <script src="https://sidecar.neocities.org/js/onionring-variables.js"></script>
-        <script src="https://sidecar.neocities.org/js/onionring-widget.js"></script>
-        <script data-widget="mini" src="https://sitesforpalestine.neocities.org/ring.js"></script>
-      </div>
-      </aside>
-      </div>
+    
+  <br>
+
+  <h4>neighborhood</h4>
+  <p>hover for site descriptions! feel free to reach out if we're mutuals and your button's not here</p>
+  <div class="site-button">
+    <a href="https://elerosv.pet" target="_blank">
+      <img src="assets/images/graphics/buttons/sites/elerosv88x31_simple.gif" alt="elerosv" title="one of my irl friends who does game dev and cybersec">
+    </a>
+    <a href="https://leeloo.neocities.org/" target="_blank">
+      <img src="assets/images/graphics/buttons/sites/loositebutton.gif" alt="leeloo" title="my irl goth skeleton friend who does graphic design">
+    </a>
+    <a href="https://exceptthemagician.neocities.org/" target="_blank">
+      <img src="assets/images/graphics/buttons/sites/ETM-button.png" alt="excepthemagician" title="whimsical creative writing and wizardry">
+    </a>
+    <a href="https://littlemossymoth.neocities.org/" target="_blank">
+      <img src="assets/images/graphics/buttons/sites/littlemossymoth.png" alt="littlemossymoth" title="lovely lived-in greenery and textile art">
+    </a>
+    <a href="https://girlfreak.neocities.org/" target="_blank">
+      <img src="assets/images/graphics/buttons/sites/girlfreak.png" alt="girlfreak" title="cutesy and full of joy. if a fairy had a neocities">
+    </a>
+    <a href="https://rhzartist.neocities.org/index.html" target="_blank">
+      <img src="assets/images/graphics/buttons/sites/rhza-button_88-31.gif" alt="rhzartist">
+    </a>
+    <a href="https://vulpecula.neocities.org/" target="_blank">
+      <img src="assets/images/graphics/buttons/sites/vulpbutton2.gif" alt="vulpecula" title="a natural history museum curated by the coolest digital hobbyist you'll ever know">
+    </a>
+    <a href="https://dogblog.neocities.org/" target="_blank">
+      <img src="assets/images/graphics/buttons/sites/dogblog.gif" alt="dogblog">
+    </a>
+    <a href="https://swiftred.neocities.org/" target="_blank">
+      <img src="assets/images/graphics/buttons/sites/SwiftRedButton.png" alt="swiftred">
+    </a>
+    <a href="https://cheruehai.neocities.org" target="_blank"> <img
+        src="assets/images/graphics/buttons/sites/cheruehai_button.gif" alt="cheruehai"></a>
+    <a href="https://elu-isa.neocities.org/" target="_blank"> <img
+        src="assets/images/graphics/buttons/sites/elu-isa.png" alt="elu-isa"></a>
+    <a href="https://mekongred.neocities.org/" target="_blank"> <img
+        src="assets/images/graphics/buttons/sites/mekredbutton.png" alt="mekongred"></a>
+    <a href="https://altalenae.neocities.org" target="_blank"><img
+        src="assets/images/graphics/buttons/sites/altalenae.png" alt="altalenae" title="stunning pages and lovely taste in media"></a>
+    <a href="https://bulltown.neocities.org/" target="_blank"> <img
+        src="assets/images/graphics/buttons/sites/b-n-button.png" alt="bulltown" title="the myth, the man, the legend: joe jenett"></a>
+    <a href="https://scenemime.neocities.org" target="_blank"><img
+        src="assets/images/graphics/buttons/sites/scenemimebutton.gif" alt="scenemime"></a>
+    <a href="https://drinkmoretea.neocities.org" target="_blank"><img
+        src="assets/images/graphics/buttons/sites/drinkmoreteasitebutt.png" alt="drinkmoretea"></a>
+    <a href="https://projectc190.neocities.org/" target="_blank"><img src="/assets/images/graphics/buttons/sites/projectc190.png"
+        alt="project c190" title="art, coding projects, and mahjong advice from scratch's number one fan"></a>
+    <a href="https://flowerinbinary.neocities.org" target="_blank"><img
+        src="assets/images/graphics/buttons/sites/flowerinbinaryblue.png" alt="flower in binary" title="electronic ambience and soft circuitry"></a>
+    <a href="https://debtdeath.neocities.org" target="_blank"><img
+        src="assets/images/graphics/buttons/sites/debtdeath-2-button.png" alt="debtdeath" title="incredibly chill and incredibly based graphic designer and game dev"></a>
+    <a href="https://cedrus.nekoweb.org/" target="_blank"><img
+        src="assets/images/graphics/buttons/sites/cedrus.png" alt="cedrus"></a>
+    <a href="https://unfortunateaccident.neocities.org" target="_blank"><img
+    src="assets/images/graphics/buttons/sites/uaslow.png" alt="unfortunateaccident" title="fellow 11ty hater and striking bolts of pure light"></a>
+    <a href="https://irony-machine.neocities.org/" target="_blank"><img
+        src="assets/images/graphics/buttons/sites/irony-machine.png" alt="irony machine"></a>
+    <a href="https://seenarin.neocities.org/" target="_blank"><img
+        src="assets/images/graphics/buttons/sites/seenarin_button_v1.gif" alt="seenarin"></a>
+    <a href="https://salixx.neocities.org/" target="_blank"><img
+        src="assets/images/graphics/buttons/sites/salixx_88x31.gif" alt="salixx"></a>
+    <a href="https://juglone.neocities.org/" target="_blank"><img
+        src="assets/images/graphics/buttons/sites/juglone.gif" alt="juglone"></a>
+    <a href="https://zhongvie.neocities.org/" target="_blank"><img src="assets/images/graphics/buttons/sites/zhongvie3.gif" alt="zhongvie"></a>
+    <a href="https://limovars.neocities.org/" target="_blank"><img src="assets/images/graphics/buttons/sites/limovars.gif" alt="limovars" title="poignant and resonant political musings drifting through space"></a>
+    <a href="https://katbots.neocities.org/" target="_blank"><img src="https://katbots.neocities.org/button.png" alt="katbots" title="lovely little scrapbook of keepsakes and ripe fruit"></a>
+    <a href="https://fearoffun.neocities.org/" target="_blank"><img src="assets/images/graphics/buttons/sites/fearoffun-1.gif"  alt="fearoffun" title="the nostalgia of sitting in the shade on a humid day"></a>
+    <a href="https://daliwali.neocities.org/" target="_blank"><img
+        src="assets/images/graphics/buttons/sites/daliwali-1.png" alt="daliwali"></a>
+    <a href="https://antgraveyard.neocities.org/" target="_blank"> <img src="assets/images/graphics/buttons/sites/antgraveyard.gif" alt="antgraveyard"></a>
+    <a href="https://kirb.pet/" target="_blank"><img src="assets/images/graphics/buttons/sites/kirb.gif" alt="kirb.pet" title="a muji notebook come to life! lovely sketches and illustrations"></a>
+    <a href="https://sea-of-colors.neocities.org//index.html" target="_blank"><img src="assets/images/graphics/buttons/sites/seaofcolors.png" alt="sea of colors"></a>
+    <a href="https://crotovane.neocities.org" target="_blank"><img src="assets/images/graphics/buttons/sites/crotovane.png" alt="crotovane"></a>
+    <a href="https://lostletters.neocities.org/" target="_blank"><img src="assets/images/graphics/buttons/sites/LostLetters88x31.gif" alt="lostletters"></a>
+    <a href="https://coffeeplant.neocities.org/" target="_blank"><img src="assets/images/graphics/buttons/sites/coffeeplant.png" alt="coffeeplant" title="warm golden radiance set in a well-loved coffeehouse"></a>
+    <a href="https://nathanntan.neocities.org/" target="_blank"><img src="assets/images/graphics/buttons/sites/nathansspace.png" alt="nathan's space" title="kindness and trans joy tucked away safely in a pastel space"></a>
+    <a href="https://honeyedcharlatan.neocities.org/" target="_blank"><img src="assets/images/graphics/buttons/sites/hcbutton.gif" alt="honeyed charlatan" title="a rambunctious and full of life site co-hosted by an equally rambunctious and full of life system"></a>
+    <a href="https://eurasian-jay.neocities.org/" target="_blank"><img src="assets/images/graphics/buttons/sites/eurasian-jay.png" alt="eurasian-jay" title="a bright and warm artist's room"></a>
+    <a href="https://philia995.neocities.org/" target="_blank"><img src="assets/images/graphics/buttons/sites/philia995button.gif" alt="philia995" title="a gentle ocean's breeze"></a>
+    <a href="https://plumeslegumes.neocities.org/" target="_blank"><img src="assets/images/graphics/buttons/sites/plumeslegumes.png" alt="plumeslegumes" title="a lovely ephemera collection"></a>
+    <a href="https://rippledstone.com/" target="_blank"><img src="assets/images/graphics/buttons/sites/rippledstone.gif" alt="rippledstone" title="a stone leaving ripples in the water around it"></a>
+    <a href="https://animeman.us/" target="_blank"><img src="assets/images/graphics/buttons/sites/_gojo_button.gif" alt="justanotheranimeman" title="gojo?? in the fucking flesh????"></a>
+    <a href="https://joroki.neocities.org/" target="_blank"><img src="assets/images/graphics/buttons/sites/joroki-candy.gif" alt="joroki" title="the whimsy and joy of 大白兔 come to life"></a>
+    <a href="https://theprophat.neocities.org/" target="_blank"><img src="assets/images/graphics/buttons/sites/theprophatbutton.png" alt="theprophat" title="epicness"></a>
+    <a href="https://xiokka.neocities.org/" target="_blank"><img src="assets/images/graphics/buttons/sites/xiokka.png" alt="xiokka" title="software, electronics, solarpunk"></a>
+    <a href="https://caehdus.neocities.org/" target="_blank"><img src="assets/images/graphics/buttons/sites/caehdus.gif" alt="caehdus" title="warm, comfy art and fish"></a>
+    <a href="https://ancientcrypt.neocities.org/" target="_blank"><img src="assets/images/graphics/buttons/sites/AC5.gif" alt="ancientcrypt" title="a digital tomb. watch your step"></a>
+    </div>
+
+  <h4>webrings</h4>
+  <a href="https://kalechips.net/responsive/index" target="_blank">
+      <img src="assets/images/graphics/buttons/sites/reswebring.png" alt="responsive web directory">
+  </a>
+  <script src="http://maddycha.com/rhythm-ring/js/rhythmring.js" type="text/javascript"></script>
+  <div id='sidecar'>
+    <script src="https://sidecar.neocities.org/js/onionring-variables.js"></script>
+    <script src="https://sidecar.neocities.org/js/onionring-widget.js"></script>
+  </div>
+    <script data-widget="mini" src="https://sitesforpalestine.neocities.org/ring.js"></script>
+  </aside>
+  </div>

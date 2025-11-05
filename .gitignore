@@ -1,6 +1,4 @@
-.prettierignore
 notes.txt
-.vscode
 src/wip/
 
 #npm dependencies

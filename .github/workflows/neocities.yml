@@ -36,6 +36,6 @@ jobs:
       with:
         api_key: ${{ secrets.NEOCITIES_API_TOKEN }}
         cleanup: true
-        neocities_supporter: false # set this to true if you have a supporter account and want to bypass unsupported files filter.
+        neocities_supporter: true # set this to true if you have a supporter account and want to bypass unsupported files filter.
         preview_before_deploy: true # print a deployment plan prior to waiting for files to upload.
         dist_dir: public

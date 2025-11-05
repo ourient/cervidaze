@@ -11,6 +11,8 @@ permalink: /guestbook.html
 
 if the iframe is not working, please visit my <a href="https://cervidaze.atabook.org" target="_blank" alt="cervidaze's guestbook">atabook</a>!
 
-<iframe src="https://cervidaze.atabook.org/"></iframe>
+<div class="overflow-hidden border card-background">
+<iframe class="guestbook rounded" src="https://cervidaze.atabook.org/"></iframe>
+</div>
 </main>
 </div>

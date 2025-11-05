@@ -44,6 +44,7 @@ permalink: /index.html
         <h4>changelog</h4>
         <div class="changelog border scrollbar card-background">
             <ul class="no-bullets">
+                <li>11/4/25<br>style tweaks
                 <li>11/3/25<br>added git integration
                 <li>10/20/25<br>updated media page;<br>updated music playlist
                 <li>9/28/25<br>new blog post;<br>implemented OOCSS;<br>added neighbors
