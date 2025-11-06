@@ -66,20 +66,6 @@ a:hover {
 
 /* UTILITY SHIT */
 
-.align-center {
-    display: flex;
-    align-items: center;
-}
-
-.center {
-    display: block;
-    text-align: center;
-}
-
-.space-evenly {
-    justify-content: space-evenly;
-}
-
 .flex {
     display: flex;
 }
@@ -94,30 +80,36 @@ a:hover {
     flex-wrap: wrap;
 }
 
-.no-margin {
-    margin: 0rem;
+.flex-wrap--gap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
 }
 
-.padding-inline {
-    a {
-        padding-inline: 0.2rem;
-    }
+.align-center {
+    display: flex;
+    align-items: center;
 }
 
-.border {
-    border-radius: 0.4rem;
-    border-width: 0.05rem;
-    border-style: dashed;
-    border-color: #DED9CE;
+.center {
+    display: block;
+    text-align: center;
 }
 
-.rounded {
-    border-radius: 0.4rem;
-    border-color: transparent;
+.space-evenly {
+    justify-content: space-evenly;
 }
 
 .display-none {
     display: none;
+}
+
+.fit-content {
+    height: fit-content;
+}
+
+.fixed-height {
+    height: 30rem;
 }
 
 .wide {
@@ -140,12 +132,26 @@ a:hover {
     margin-left: 1rem;
 }
 
-.fit-content {
-    height: fit-content;
+.no-margin {
+    margin: 0rem;
 }
 
-.fixed-height {
-    height: 30rem;
+.padding-inline {
+    a {
+        padding-inline: 0.2rem;
+    }
+}
+
+.border {
+    border-radius: 0.4rem;
+    border-width: 0.05rem;
+    border-style: dashed;
+    border-color: #DED9CE;
+}
+
+.rounded {
+    border-radius: 0.4rem;
+    border-color: transparent;
 }
 
 .overflow-hidden {

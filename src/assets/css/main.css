@@ -64,18 +64,20 @@ a:hover {
     display: flex;
 }
 
+.flex-start {
+    display: flex;
+    align-items: flex-start;
+}
+
 .flex-wrap {
     display: flex;
     flex-wrap: wrap;
 }
 
-.space-evenly {
-    justify-content: space-evenly;
-}
-
-.center {
-    display: block;
-    text-align: center;
+.flex-wrap--gap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
 }
 
 .align-center {
@@ -83,48 +85,25 @@ a:hover {
     align-items: center;
 }
 
-.flex-start {
-    display: flex;
-    align-items: flex-start;
+.center {
+    display: block;
+    text-align: center;
 }
 
-.no-margin {
-    margin: 0rem;
-}
-
-.border, .rounded {
-    border-radius: 0.4rem;
-    border-color: transparent;
-}
-
-.no-bullets {
-    list-style-type: none;
-
-    li {
-        margin-bottom: 0.8rem;
-    }
-}
-
-.circle-bullets {
-    list-style-type: circle;
-
-    li {
-        margin-bottom: 0.8rem;
-    }
+.space-evenly {
+    justify-content: space-evenly;
 }
 
 .display-none {
     display: none;
 }
 
-.overflow-hidden {
-    overflow: hidden;
+.fit-content {
+    height: fit-content;
 }
 
-.scrollbar {
-    overflow-y: scroll;
-    scrollbar-color: transparent;
-    scrollbar-width: thin;
+.fixed-height {
+    height: 30rem;
 }
 
 .wide {
@@ -147,17 +126,44 @@ a:hover {
     margin-left: 1rem;
 }
 
-.fit-content {
-    height: fit-content;
-}
-
-.fixed-height {
-    height: 30rem;
+.no-margin {
+    margin: 0rem;
 }
 
 .padding-inline {
     a {
         padding-inline: 0.2rem;
+    }
+}
+
+.border, .rounded {
+    border-radius: 0.4rem;
+    border-color: transparent;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.scrollbar {
+    overflow-y: scroll;
+    scrollbar-color: transparent;
+    scrollbar-width: thin;
+}
+
+.no-bullets {
+    list-style-type: none;
+
+    li {
+        margin-bottom: 0.8rem;
+    }
+}
+
+.circle-bullets {
+    list-style-type: circle;
+
+    li {
+        margin-bottom: 0.8rem;
     }
 }
 
