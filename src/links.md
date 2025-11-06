@@ -12,88 +12,89 @@ permalink: /links.html
   <br><hr><br>
   <details>
   <summary class="h4">web browsing</summary>
-  <ul class="no-bullets">
-    <li><a href="https://ublockorigin.com/" target="_blank">ublock origin</a>: if you don't have a content blocker
-      by now, get this one. open-source, anti-google, anti-ads, anti-tracking, reliable, solid, everything you can
-      ask for. works best on non-chromium browsers, which you shouldn't be using anyway.</li>
-    <li><a href="https://12ft.io" target="_blank">12 ft ladder</a>: a web tool used to remove paywalls and ads
-      when accessing websites</li>
-    <li><a href="https://getindie.wiki/" target="_blank">indie wiki buddy</a>: a browser extension that redirects
-      you to independently run wikis instead of corporate run wikis such as fandom (supports <a
-        href="https://breezewiki.com/" target="_blank">breezewiki</a>, an extension that removes ads and bloat
-      from fandom wikis when indie wikis aren't available)</li>
-    <li><a href="https://shinigami-eyes.github.io/" target="_blank">shinigami eyes</a>: a browser extension that
-      marks transphobic and queerphobic accounts for more trans-friendly online experiences</li>
-  </ul>
+    <ul class="no-bullets">
+      <li><a href="https://ublockorigin.com/" target="_blank">ublock origin</a>: if you don't have a content blocker
+        by now, get this one. open-source, anti-google, anti-ads, anti-tracking, reliable, solid, everything you can
+        ask for. works best on non-chromium browsers, which you should be using anyways.</li>
+      <li><a href="https://12ft.io" target="_blank">12 ft ladder</a>: a web tool used to remove paywalls and ads
+        when accessing websites</li>
+      <li><a href="https://getindie.wiki/" target="_blank">indie wiki buddy</a>: a browser extension that redirects
+        you to independently run wikis instead of corporate run wikis such as fandom (supports <a
+          href="https://breezewiki.com/" target="_blank">breezewiki</a>, an extension that removes ads and bloat
+        from fandom wikis when indie wikis aren't available)</li>
+      <li><a href="https://shinigami-eyes.github.io/" target="_blank">shinigami eyes</a>: a browser extension that
+        marks transphobic and queerphobic accounts for more trans-friendly online experiences</li>
+    </ul>
   </details>
   <br>
   <details>
   <summary class="h4">media</summary>
-  <ul class="no-bullets">
-    <li><a href="https://cobalt.tools/" target="_blank">cobalt</a>: a free open-source web app that downloads
-      videos, audio, images, and gifs without ads, paywalls, viruses, etc. it just works</li>
-    <li><a href="https://www.reddit.com/r/revancedextended/wiki/faq/" target="_blank">revanced extended</a>:
-      open-source patched version of the youtube mobile app that includes highly customizable features (most
-      notably turning off ads)</li>
-    <li><a href="https://sponsor.ajay.app/" target="_blank">sponsorblock</a>: open-source, crowdsourced browser
-      extension that identifies and skips paid sponsor sections of youtube videos</li>
-    <li><a href="https://go-to-library.sk/" target="_blank">z-library</a>: one of the most reliable free ebook/pdf
-      libraries right now. i use this to download all of my reading materials. make sure to use the official
-      website browser extension or app to access</li>
-    <li><a href="https://www.thestorygraph.com/" target="_blank">storygraph</a>: Black-owned reading platform
-      alternative to goodreads. far more granular reading statistics, filters, and recommendations</li>
-    <li><a href="https://nts.live" target="_blank">nts radio</a>: global, community-run radio station/music discovery platform that's free and ad-less. tons of niche shows featuring indie artists
-    <li><a href="https://everynoise.com/" target="_blank">every noise at once</a>: interactive scatterplot of all
-      recorded genres on spotify. created by former data alchemist grant macdonald, who spotify laid off in 2024.
-      i use it to identify my most frequently listened-to genres and find new artists within similar genre-spaces
-    </li>
-  </ul>
+    <ul class="no-bullets">
+      <li><a href="https://cobalt.tools/" target="_blank">cobalt</a>: a free open-source web app that downloads
+        videos, audio, images, and gifs without ads, paywalls, viruses, etc. it just works</li>
+      <li><a href="https://fmhy.net/" target="_blank">free media heck yeah (FMHY)</a>: extensive directory of resources for pirating/torrenting media
+      <li><a href="https://www.reddit.com/r/revancedextended/wiki/faq/" target="_blank">revanced extended</a>:
+        open-source patched version of the youtube mobile app that includes highly customizable features (most
+        notably turning off ads)</li>
+      <li><a href="https://sponsor.ajay.app/" target="_blank">sponsorblock</a>: open-source, crowdsourced browser
+        extension that identifies and skips paid sponsor sections of youtube videos</li>
+      <li><a href="https://go-to-library.sk/" target="_blank">z-library</a>: one of the most reliable free ebook/pdf
+        libraries right now. i use this to download all of my reading materials. make sure to use the official
+        website browser extension or app to access</li>
+      <li><a href="https://www.thestorygraph.com/" target="_blank">storygraph</a>: Black-owned reading platform
+        alternative to goodreads. far more granular reading statistics, filters, and recommendations</li>
+      <li><a href="https://nts.live" target="_blank">nts radio</a>: global, community-run music discovery platform that's free and ad-less. tons of niche shows featuring indie artists of all genres imaginable
+      <li><a href="https://everynoise.com/" target="_blank">every noise at once</a>: interactive scatterplot of all
+        recorded genres on spotify. created by former data alchemist grant macdonald, who spotify laid off in 2024.
+        i use it to identify my most frequently listened-to genres and find new artists within similar genre-spaces
+      </li>
+    </ul>
   </details>
   <br>
   <details>
   <summary class="h4">health/personal care</summary>
-  <ul class="no-bullets">
-    <li><a href="https://philome.la/jace_harr/you-feel-like-shit-an-interactive-self-care-guide/play/index.html"
-        target="_blank">you feel like shit</a>: interactive flow chart to help with self care/executive
-      dysfunction</li>
-    <li><a href="https://www.patreon.com/posts/huge-free-covid-86871700" target="_blank">COVID safety resource
-        list</a>: massive aggregated list of various COVID-conscious resources, from recommendations for PPE and
-      air filters to step-by-step plans for when someone gets infected</li>
-    <li><a href="https://rthm.com/articles/youve-got-covid/" target="_blank">you've got COVID!</a>: extremely
-      concise and detailed acute COVID recovery plan to reduce long COVID risk</li>
-    <li><a href="https://wellbefore.com/products/kn95-mask-3d-style?variant=39257716949121"
-        target="_blank">wellbefore kn95 mask</a>: my particular choice of mask. of all the ones on the market,
-      this one has the best balance of cost, fit, and efficacy in my opinion. it takes inspiration from the korean
-      k94 &quot;boat style&quot; masks that are optimized for daily use. comes in three tiers of comfort.</li>
-  </ul>
-  </details>
-  <br>
-  <details>
-  <summary class="h4">politics</summary>
-  <ul class="no-bullets">
-    <li><a href="https://gazafunds.com/" target="_blank">gazafunds</a>: collective project that vets and
-      recommends a different palestinian crowdfunding campaign upon every site refresh. recommendations prioritize
-      campaigns close to their goals or ones raising funds for the sink and injured. helps take the guesswork and
-      decision fatigue out from contributing to campaigns.</li>
-    <li><a href="https://github.com/dessalines/essays/blob/main/socialism_faq.md" target="_blank">socialism
-        faq</a>: directory of primary/secondary sources that debunk common anti-socialist and anti-communist
-      talking points.</li>
-    <li><a href="https://github.com/dessalines/essays/blob/main/us_atrocities.md" target="_blank">list of US
-        atrocities</a>: what it says on the tin</li>
-  </ul>
+    <ul class="no-bullets">
+      <li><a href="https://philome.la/jace_harr/you-feel-like-shit-an-interactive-self-care-guide/play/index.html"
+          target="_blank">you feel like shit</a>: interactive flow chart to help with self care/executive
+        dysfunction</li>
+      <li><a href="https://www.patreon.com/posts/huge-free-covid-86871700" target="_blank">COVID safety resource
+          list</a>: massive aggregated list of various COVID-conscious resources, from recommendations for PPE and
+        air filters to step-by-step plans for when someone gets infected</li>
+      <li><a href="https://rthm.com/articles/youve-got-covid/" target="_blank">you've got COVID!</a>: extremely
+        concise and detailed acute COVID recovery plan to reduce long COVID risk</li>
+      <li><a href="https://wellbefore.com/products/kn95-mask-3d-style?variant=39257716949121"
+          target="_blank">wellbefore kn95 mask</a>: my particular choice of mask. of all the ones on the market,
+        this one has the best balance of cost, fit, and efficacy in my opinion. it takes inspiration from the korean
+        k94 &quot;boat style&quot; masks that are optimized for daily use. comes in three tiers of comfort.</li>
+    </ul>
   </details>
   <br>
   <details>
   <summary class="h4">queerness/transness</summary>
-  <ul class="no-bullets">
-    <li><a
-        href="https://www.cambridgesu.co.uk/pageassets/resources/guides/spottingterfideology/How-to-Spot-TERF-Ideology-2.0-2.pdf"
-        target="_blank">how to spot TERF ideology</a>: a PDF primer on developing a critical eye for TERF ideology
-      and navigating interactions with TERFs online and in real life</li>
-    <li><a href="https://www.writeinclusion.org/lgbtqia-factsheet" target="_blank">#writeinclusion LGBTQIA+
-        factsheets</a>: a collection of factsheets covering tips for more authentic representations of various
-      queer identities in narrative writing</li>
-  </ul>
+    <ul class="no-bullets">
+      <li><a
+          href="https://www.cambridgesu.co.uk/pageassets/resources/guides/spottingterfideology/How-to-Spot-TERF-Ideology-2.0-2.pdf"
+          target="_blank">how to spot TERF ideology</a>: a PDF primer on developing a critical eye for TERF ideology
+        and navigating interactions with TERFs online and in real life</li>
+      <li><a href="https://www.writeinclusion.org/lgbtqia-factsheet" target="_blank">#writeinclusion LGBTQIA+
+          factsheets</a>: a collection of factsheets covering tips for more authentic representations of various
+        queer identities in narrative writing</li>
+    </ul>
+  </details>
+  <br>
+  <details>
+  <summary class="h4">politics</summary>
+    <ul class="no-bullets">
+      <li><a href="https://gazafunds.com/" target="_blank">gazafunds</a>: collective project that vets and
+        recommends a different palestinian crowdfunding campaign upon every site refresh. recommendations prioritize
+        campaigns close to their goals or ones raising funds for the sink and injured. helps take the guesswork and
+        decision fatigue out from contributing to campaigns.</li>
+      <li><a href="https://github.com/dessalines/essays/blob/main/socialism_faq.md" target="_blank">socialism
+          faq</a>: directory of primary/secondary sources that debunk common anti-socialist and anti-communist
+        talking points.</li>
+      <li><a href="https://github.com/dessalines/essays/blob/main/us_atrocities.md" target="_blank">list of US
+          atrocities</a>: what it says on the tin</li>
+    </ul>
   </details>
   </main>
 
@@ -183,6 +184,7 @@ permalink: /links.html
     <a href="https://crotovane.neocities.org" target="_blank"><img src="assets/images/graphics/buttons/sites/crotovane.png" alt="crotovane"></a>
     <a href="https://lostletters.neocities.org/" target="_blank"><img src="assets/images/graphics/buttons/sites/LostLetters88x31.gif" alt="lostletters"></a>
     <a href="https://coffeeplant.neocities.org/" target="_blank"><img src="assets/images/graphics/buttons/sites/coffeeplant.png" alt="coffeeplant" title="warm golden radiance set in a well-loved coffeehouse"></a>
+    <a href="https://pxxels.neocities.org/" target="_blank"><img src="assets/images/graphics/buttons/sites/pxxels.png" alt="pxxels" title="a pixelated maritime vessel"></a>
     <a href="https://nathanntan.neocities.org/" target="_blank"><img src="assets/images/graphics/buttons/sites/nathansspace.png" alt="nathan's space" title="kindness and trans joy tucked away safely in a pastel space"></a>
     <a href="https://honeyedcharlatan.neocities.org/" target="_blank"><img src="assets/images/graphics/buttons/sites/hcbutton.gif" alt="honeyed charlatan" title="a rambunctious and full of life site co-hosted by an equally rambunctious and full of life system"></a>
     <a href="https://eurasian-jay.neocities.org/" target="_blank"><img src="assets/images/graphics/buttons/sites/eurasian-jay.png" alt="eurasian-jay" title="a bright and warm artist's room"></a>
@@ -190,6 +192,7 @@ permalink: /links.html
     <a href="https://plumeslegumes.neocities.org/" target="_blank"><img src="assets/images/graphics/buttons/sites/plumeslegumes.png" alt="plumeslegumes" title="a lovely ephemera collection"></a>
     <a href="https://rippledstone.com/" target="_blank"><img src="assets/images/graphics/buttons/sites/rippledstone.gif" alt="rippledstone" title="a stone leaving ripples in the water around it"></a>
     <a href="https://animeman.us/" target="_blank"><img src="assets/images/graphics/buttons/sites/_gojo_button.gif" alt="justanotheranimeman" title="gojo?? in the fucking flesh????"></a>
+    <a href="https://inthemeantimewecry.neocities.org/" target="_blank"><img src="assets/images/graphics/buttons/sites/inthemeantimewecry.gif" alt="inthemeantimewecry" title="a florescent digital garden"></a>
     <a href="https://joroki.neocities.org/" target="_blank"><img src="assets/images/graphics/buttons/sites/joroki-candy.gif" alt="joroki" title="the whimsy and joy of 大白兔 come to life"></a>
     <a href="https://theprophat.neocities.org/" target="_blank"><img src="assets/images/graphics/buttons/sites/theprophatbutton.png" alt="theprophat" title="epicness"></a>
     <a href="https://xiokka.neocities.org/" target="_blank"><img src="assets/images/graphics/buttons/sites/xiokka.png" alt="xiokka" title="software, electronics, solarpunk"></a>
