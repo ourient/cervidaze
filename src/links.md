@@ -42,6 +42,7 @@ permalink: /links.html
       website browser extension or app to access</li>
     <li><a href="https://www.thestorygraph.com/" target="_blank">storygraph</a>: Black-owned reading platform
       alternative to goodreads. far more granular reading statistics, filters, and recommendations</li>
+    <li><a href="nts.live" target="_blank">nts radio</a>: globally run radio station
     <li><a href="https://everynoise.com/" target="_blank">every noise at once</a>: interactive scatterplot of all
       recorded genres on spotify. created by former data alchemist grant macdonald, who spotify laid off in 2024.
       i use it to identify my most frequently listened-to genres and find new artists within similar genre-spaces
@@ -196,15 +197,28 @@ permalink: /links.html
     <a href="https://ancientcrypt.neocities.org/" target="_blank"><img src="assets/images/graphics/buttons/sites/AC5.gif" alt="ancientcrypt" title="a digital tomb. watch your step"></a>
     </div>
 
-  <h4>webrings</h4>
+  <h4>webrings/cliques</h4>
+  <div class="flex-wrap space-evenly align-center">
   <a href="https://kalechips.net/responsive/index" target="_blank">
       <img src="assets/images/graphics/buttons/sites/reswebring.png" alt="responsive web directory">
   </a>
+  <br>
   <script src="http://maddycha.com/rhythm-ring/js/rhythmring.js" type="text/javascript"></script>
+  <br>
   <div id='sidecar'>
     <script src="https://sidecar.neocities.org/js/onionring-variables.js"></script>
     <script src="https://sidecar.neocities.org/js/onionring-widget.js"></script>
   </div>
-    <script data-widget="mini" src="https://sitesforpalestine.neocities.org/ring.js"></script>
+  <br>
+  <script data-widget="mini" src="https://sitesforpalestine.neocities.org/ring.js"></script>
+  <br>
+  <div>
+    <a href="http://cliques.joro.nu" target=new>my usual</a> is a hojicha latte with oat milk <img src="assets/images/graphics/misc/icedlatte.png">
+  </div>
+  <br><br>
+  <div>
+    <a href="http://cliques.joro.nu"> this site is <img src="assets/images/graphics/misc/acpc-natural.png"></a>
+  </div>
+  </div>
   </aside>
   </div>
