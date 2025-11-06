@@ -42,7 +42,7 @@ permalink: /links.html
       website browser extension or app to access</li>
     <li><a href="https://www.thestorygraph.com/" target="_blank">storygraph</a>: Black-owned reading platform
       alternative to goodreads. far more granular reading statistics, filters, and recommendations</li>
-    <li><a href="nts.live" target="_blank">nts radio</a>: globally run radio station
+    <li><a href="https://nts.live" target="_blank">nts radio</a>: global, community-run radio station/music discovery platform that's free and ad-less. tons of niche shows featuring indie artists
     <li><a href="https://everynoise.com/" target="_blank">every noise at once</a>: interactive scatterplot of all
       recorded genres on spotify. created by former data alchemist grant macdonald, who spotify laid off in 2024.
       i use it to identify my most frequently listened-to genres and find new artists within similar genre-spaces
@@ -199,7 +199,7 @@ permalink: /links.html
 
   <h4>webrings/cliques</h4>
   <div class="flex-wrap--gap align-center">
-  <a href="https://kalechips.net/responsive/index" target="_blank"> <img class="" src="assets/images/graphics/buttons/sites/reswebring.png" alt="responsive web directory"></a>
+  <a href="https://kalechips.net/responsive/index" target="_blank"><img class="" src="assets/images/graphics/buttons/sites/reswebring.png" alt="responsive web directory"></a>
   <script src="http://maddycha.com/rhythm-ring/js/rhythmring.js" type="text/javascript"></script>
   <br>
   <div id='sidecar'>
