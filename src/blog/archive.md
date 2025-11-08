@@ -1,6 +1,6 @@
 ---
 title: archive
-layout: layouts/blogbase.njk
+layout: layouts/blog.njk
 permalink: blog/archive.html
 ---
 <main class="border">

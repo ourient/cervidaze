@@ -17,7 +17,7 @@ body {
     color: #171612;
 }
 
-#container, .container {
+.container {
     max-width: 1150px;
     margin: 5em auto;
 }

@@ -2,51 +2,58 @@
 <html lang="en" dir="auto">
 
 <head>
-	<title>digital minimalism and death machines | cervidaze ☘</title>
-	<meta name="description" content="stay deer">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta charset="UTF-8">
+    <title>digital minimalism and death machines cervidaze ☘</title>
 
-	<link rel="icon" href="/assets/images/style/gingko.png" type="image/x-icon">
-	<link href="/assets/css/main.css" rel="stylesheet" title="lightmode" type="text/css" media="all">
-	<link href="/assets/css/darkmode.css" rel="alternate stylesheet" title="darkmode" type="text/css" media="all">
+    <meta name="description" content="stay deer">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
 
-	<script type="text/javascript" src="/assets/js/styleswitcher.js"></script>
+    <link rel="icon" href="/assets/images/style/gingko.png" type="image/x-icon">
+    <link href="/assets/css/main.css" rel="stylesheet" title="lightmode" type="text/css" media="all">
+    <link href="/assets/css/darkmode.css" rel="alternate stylesheet" title="darkmode" type="text/css" media="all">
+
+    <script type="text/javascript" src="/assets/js/styleswitcher.js"></script>
+
+    <script data-goatcounter="https://cervidaze.goatcounter.com/count" async src="//gc.zgo.at/count.js">
+    </script>
 </head>
-<body>
+
+<body id="body" style="display:none">
+    
 	<noscript>hey uh you kinda need javascript for this</noscript>
-	<div id="container">
+	<div class="container">
 		<header>
-		<div id="header-image">
-                <a href="https://cervidaze.me">
-                    <img id="gingko" src="/assets/images/style/cervidaze_lightbanner.png">
-                </a>
-				<a href="https://cervidaze.me">
-				<img id="antlers" alt="a pair of antlers linking to the home page" src="/assets/images/style/cervidaze_darkbanner.png">
-			</a>
-        </div>
-		<nav class="border nav-link">
-			<ul>
-				<li><a href="/">return home</a></li>
-				<li><a href="/blog">blog</a></li>
-				<li><a href="/blog/tags">tags</a></li>
-				<li><a href="/blog/archive">archive</a></li>
-				<li>
-					<div aria-label="styleswitcher">
-					<select class="rounded" name="styleswitcher" onchange="changeStyle(this.value)">
-						<option value="1" selected="true" disabled="disabled">theme</option>
-						<option value="/assets/css/main">light</option>
-						<option value="/assets/css/darkmode">dark</option>
-					</select>
-					</div>
-				</li>
-			</ul>
-		</nav>
-</header>
+			<div id="header-image">
+	<a href="https://cervidaze.me">
+		<img id="gingko" src="/assets/images/style/cervidaze_lightbanner.png">
+	</a>
+	<a href="https://cervidaze.me">
+		<img id="antlers" alt="a pair of antlers linking to the home page"
+			src="/assets/images/style/cervidaze_darkbanner.png">
+	</a>
+</div>
+<nav class="border nav-link">
+	<ul>
+		<li><a href="/">return home</a></li>
+		<li><a href="/blog">blog</a></li>
+		<li><a href="/blog/tags">tags</a></li>
+		<li><a href="/blog/archive">archive</a></li>
+		<li>
+			<div aria-label="styleswitcher">
+				<select class="rounded" name="styleswitcher" onchange="changeStyle(this.value)">
+					<option value="1" selected="true" disabled="disabled">theme</option>
+					<option value="/assets/css/main">light</option>
+					<option value="/assets/css/darkmode">dark</option>
+				</select>
+			</div>
+		</li>
+	</ul>
+</nav>
+		</header>
 		<main class="border">
-				<h2>digital minimalism and death machines</h2>
-				<time id="post-date">8/30/25</time>
-				<ul id="post-tags" class="flex-list"></ul>
+			<h2>digital minimalism and death machines</h2>
+			<time id="post-date">8/30/25</time>
+			<ul id="post-tags" class="flex-list"></ul>
 
 			<p>my workplace won't let me die. i've experienced four waves of layoffs in the one year and ten months i've been here now, and i haven't been laid off a single time. my coworkers (or i guess former coworkers now) were so happy to leave and finally be able to focus on their creative side projects without distraction now. i wonder what that's like.</p>
 <p>in an act of &quot;miraculous&quot; timing, the resourcing team found an internal opening for a video editor, and decided that, of all the people on my team (including those who have decades of experience on me), i was the one to be spared to continue employment at this sinking ship of a company. i have given up on job hunting for a way out of this industry and am convinced that i am sadistically destined to witness the slow, agonizing death of this marketing agency to its very end.</p>
@@ -65,7 +72,9 @@
 		<script src="/assets/js/comment-widget.js"></script>
 		<div id="post-nav"></div>
 	</div>
-		<footer class="border nav-link">
+
+	<footer>
+		<nav class="border nav-link">
             <ul>
                 <li><a href="/sitemap">sitemap</a></li>
                 <li>|</li>
@@ -75,11 +84,21 @@
                 <li>|</li>
                 <li><a href="/credits">credits</a></li>
             </ul>
-</footer>
+</nav>
 
 <div class="display-none return card-background">
 <a href="#top" rel="return">return to top</a>
 </div>
+	</footer>
 	<script src="/assets/js/blog.js"></script>
+
 </body>
+<script type="text/javascript">
+    window.onload = function () {
+        setTimeout(function () {
+            document.getElementById("body").style.display = "";
+        }, 40);
+    }
+</script>
+
 </html>

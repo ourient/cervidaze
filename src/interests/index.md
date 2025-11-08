@@ -1,6 +1,6 @@
 ---
 permalink: /interests.html
-layout: layouts/home.njk
+layout: layouts/main.njk
 title: interests |
 ---
 <script>

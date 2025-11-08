@@ -2,51 +2,58 @@
 <html lang="en" dir="auto">
 
 <head>
-	<title>post grad sad | cervidaze ☘</title>
-	<meta name="description" content="stay deer">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta charset="UTF-8">
+    <title>post grad sad cervidaze ☘</title>
 
-	<link rel="icon" href="/assets/images/style/gingko.png" type="image/x-icon">
-	<link href="/assets/css/main.css" rel="stylesheet" title="lightmode" type="text/css" media="all">
-	<link href="/assets/css/darkmode.css" rel="alternate stylesheet" title="darkmode" type="text/css" media="all">
+    <meta name="description" content="stay deer">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
 
-	<script type="text/javascript" src="/assets/js/styleswitcher.js"></script>
+    <link rel="icon" href="/assets/images/style/gingko.png" type="image/x-icon">
+    <link href="/assets/css/main.css" rel="stylesheet" title="lightmode" type="text/css" media="all">
+    <link href="/assets/css/darkmode.css" rel="alternate stylesheet" title="darkmode" type="text/css" media="all">
+
+    <script type="text/javascript" src="/assets/js/styleswitcher.js"></script>
+
+    <script data-goatcounter="https://cervidaze.goatcounter.com/count" async src="//gc.zgo.at/count.js">
+    </script>
 </head>
-<body>
+
+<body id="body" style="display:none">
+    
 	<noscript>hey uh you kinda need javascript for this</noscript>
-	<div id="container">
+	<div class="container">
 		<header>
-		<div id="header-image">
-                <a href="https://cervidaze.me">
-                    <img id="gingko" src="/assets/images/style/cervidaze_lightbanner.png">
-                </a>
-				<a href="https://cervidaze.me">
-				<img id="antlers" alt="a pair of antlers linking to the home page" src="/assets/images/style/cervidaze_darkbanner.png">
-			</a>
-        </div>
-		<nav class="border nav-link">
-			<ul>
-				<li><a href="/">return home</a></li>
-				<li><a href="/blog">blog</a></li>
-				<li><a href="/blog/tags">tags</a></li>
-				<li><a href="/blog/archive">archive</a></li>
-				<li>
-					<div aria-label="styleswitcher">
-					<select class="rounded" name="styleswitcher" onchange="changeStyle(this.value)">
-						<option value="1" selected="true" disabled="disabled">theme</option>
-						<option value="/assets/css/main">light</option>
-						<option value="/assets/css/darkmode">dark</option>
-					</select>
-					</div>
-				</li>
-			</ul>
-		</nav>
-</header>
+			<div id="header-image">
+	<a href="https://cervidaze.me">
+		<img id="gingko" src="/assets/images/style/cervidaze_lightbanner.png">
+	</a>
+	<a href="https://cervidaze.me">
+		<img id="antlers" alt="a pair of antlers linking to the home page"
+			src="/assets/images/style/cervidaze_darkbanner.png">
+	</a>
+</div>
+<nav class="border nav-link">
+	<ul>
+		<li><a href="/">return home</a></li>
+		<li><a href="/blog">blog</a></li>
+		<li><a href="/blog/tags">tags</a></li>
+		<li><a href="/blog/archive">archive</a></li>
+		<li>
+			<div aria-label="styleswitcher">
+				<select class="rounded" name="styleswitcher" onchange="changeStyle(this.value)">
+					<option value="1" selected="true" disabled="disabled">theme</option>
+					<option value="/assets/css/main">light</option>
+					<option value="/assets/css/darkmode">dark</option>
+				</select>
+			</div>
+		</li>
+	</ul>
+</nav>
+		</header>
 		<main class="border">
-				<h2>post grad sad</h2>
-				<time id="post-date">5/28/23</time>
-				<ul id="post-tags" class="flex-list"></ul>
+			<h2>post grad sad</h2>
+			<time id="post-date">5/28/23</time>
+			<ul id="post-tags" class="flex-list"></ul>
 
 			<p><small><em>note: this post was originally from our stillness, a now defunct blogging project.</em></small></p>
 <p>I was hoping that life would be a little calmer by now, but my hopes seem to be a bit crushed for the
@@ -66,7 +73,9 @@ silent form of company.</p>
 		<script src="/assets/js/comment-widget.js"></script>
 		<div id="post-nav"></div>
 	</div>
-		<footer class="border nav-link">
+
+	<footer>
+		<nav class="border nav-link">
             <ul>
                 <li><a href="/sitemap">sitemap</a></li>
                 <li>|</li>
@@ -76,11 +85,21 @@ silent form of company.</p>
                 <li>|</li>
                 <li><a href="/credits">credits</a></li>
             </ul>
-</footer>
+</nav>
 
 <div class="display-none return card-background">
 <a href="#top" rel="return">return to top</a>
 </div>
+	</footer>
 	<script src="/assets/js/blog.js"></script>
+
 </body>
+<script type="text/javascript">
+    window.onload = function () {
+        setTimeout(function () {
+            document.getElementById("body").style.display = "";
+        }, 40);
+    }
+</script>
+
 </html>

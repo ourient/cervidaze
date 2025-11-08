@@ -1,5 +1,5 @@
 ---
-layout: layouts/home.njk
+layout: layouts/main.njk
 title: credits |
 permalink: /credits.html
 ---
@@ -9,15 +9,15 @@ permalink: /credits.html
       <h1>about the site</h1>
       <p>cervidaze is hand-coded by me&mdash;with immense, immense amounts of help from designers much more
         experienced and tenacious than me. the site name is a reference to the family taxonomy for deer, cervidae.</p>
-      <p>please feel free to <a href="https://github.com/ourient/cervidaze" target="_blank">inspect my site</a> to see how i scrapped everything together if something interests you-my <a href="mailto:c3rvidaze.me" target="_blank">email</a> is also always open.
+      <p>please feel free to <a href="https://github.com/ourient/cervidaze" target="_blank">inspect my site</a> to see how i scrapped everything together if something interests you-<a href="mailto:c3rvidaze.me" target="_blank">my email</a> is also always open.
       </p><br>
       <h2>tools/assets</h2>
       <p>i use <a href="https://code.visualstudio.com/" target="_blank">visual studio code</a> and <a href="https://renkotsuban.neocities.org/posts/2023-11-15-Migrating-to-Eleventy" target="_blank">11ty</a> to code my site and
-        then manually deploy it to <a href="https://neocities.org/" target="_blank"> neocities</a>.</p>
-      <p>the header font is <a href="https://pangrampangram.com/products/bitmap-mondwest" target="_blank">mondwest</a>, and the body font is <a href="https://www.dafont.com/pixel-operator.font" target="_blank">pixel operator</a>. i use <a href="https://coolors.co"
-          target="_blank">coolors</a> to select my site's color palettes. the site buttons are designed by me.
-        i try to
-        include the source of my graphics in the file names whenever possible. images are dithered and compressed with <a href="https://app.dithermark.com/" target="_blank">dithermark</a> and <a href ="https://tinypng.com/" target="_blank">tinypng</a> respectively.</p><br>
+        then deploy it to <a href="https://neocities.org/" target="_blank"> neocities</a>.</p>
+      <p>the header font is <a href="https://pangrampangram.com/products/bitmap-mondwest" target="_blank">mondwest</a>, and the body font is <a href="https://www.dafont.com/pixel-operator.font" target="_blank">pixel operator</a>.</p>
+      <p>i use <a href="https://coolors.co"
+          target="_blank">coolors</a> to select my site's color palettes. the site buttons are designed by me.</p>
+        <p>whenever possible, i include sources in the file names of my graphics, which are typically from <a href="https://unsplash.com/" target="_blank">unsplash</a> and adobe stock (i am stealing with my workplace's license); otherwise, they are from tumblr, pinterest, or neocities sites. images are dithered and compressed with <a href="https://app.dithermark.com/" target="_blank">dithermark</a> and <a href ="https://tinypng.com/" target="_blank">tinypng</a> respectively.</p><br>
       <h2>codes</h2>
       <p>base: <a href="https://sadgrlonline.github.io/archived-sadgrl.online/projects/layout-builder/" target="_blank">sadgrl (archived)</a></p>
       <p>formatting: <a href="https://petrapixel.neocities.org/">petrapixel</a>

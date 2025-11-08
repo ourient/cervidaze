@@ -1,6 +1,6 @@
 ---
 permalink: /media.html
-layout: layouts/home.njk
+layout: layouts/main.njk
 title: media log |
 ---
 <script>

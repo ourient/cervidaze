@@ -1,5 +1,5 @@
 ---
-layout: /layouts/home.njk
+layout: /layouts/main.njk
 title: sitemap |
 permalink: /sitemap.html
 ---
@@ -17,11 +17,11 @@ permalink: /sitemap.html
 			</ul>
 			<li><a href="/interests">interests</a></li>
 			<li><a href="/media">media</a></li>
-			<li><a href="links">links</a></li>
+			<li><a href="links/index">links</a></li>
 			<li><a href="/guestbook">guestbook</a></li>
 			<li><a href="rss.xml" target="_blank">rss</a> / <a href="https://tally.so/r/mZZgqA" target="_blank">newsletter form</a></li>
 			<li><a href="/credits">credits</a></li>
-			<li><a href="#">sitemap</a> (you are here)</li>
+			<li><a href="#">sitemap</a> <small>(you are here)</small></li>
 		</ul>
 	</div>
 </main>

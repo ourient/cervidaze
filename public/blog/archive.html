@@ -21,40 +21,42 @@
 <body id="body" style="display:none">
     
 <noscript>hey uh you kinda need javascript for this</noscript>
-    <div id="container">
-            <header>
-		<div id="header-image">
-                <a href="https://cervidaze.me">
-                    <img id="gingko" src="/assets/images/style/cervidaze_lightbanner.png">
-                </a>
-				<a href="https://cervidaze.me">
-				<img id="antlers" alt="a pair of antlers linking to the home page" src="/assets/images/style/cervidaze_darkbanner.png">
-			</a>
-        </div>
-		<nav class="border nav-link">
-			<ul>
-				<li><a href="/">return home</a></li>
-				<li><a href="/blog">blog</a></li>
-				<li><a href="/blog/tags">tags</a></li>
-				<li><a href="/blog/archive">archive</a></li>
-				<li>
-					<div aria-label="styleswitcher">
-					<select class="rounded" name="styleswitcher" onchange="changeStyle(this.value)">
-						<option value="1" selected="true" disabled="disabled">theme</option>
-						<option value="/assets/css/main">light</option>
-						<option value="/assets/css/darkmode">dark</option>
-					</select>
-					</div>
-				</li>
-			</ul>
-		</nav>
-</header>
+    <div class="container">
+        <header>
+            <div id="header-image">
+	<a href="https://cervidaze.me">
+		<img id="gingko" src="/assets/images/style/cervidaze_lightbanner.png">
+	</a>
+	<a href="https://cervidaze.me">
+		<img id="antlers" alt="a pair of antlers linking to the home page"
+			src="/assets/images/style/cervidaze_darkbanner.png">
+	</a>
+</div>
+<nav class="border nav-link">
+	<ul>
+		<li><a href="/">return home</a></li>
+		<li><a href="/blog">blog</a></li>
+		<li><a href="/blog/tags">tags</a></li>
+		<li><a href="/blog/archive">archive</a></li>
+		<li>
+			<div aria-label="styleswitcher">
+				<select class="rounded" name="styleswitcher" onchange="changeStyle(this.value)">
+					<option value="1" selected="true" disabled="disabled">theme</option>
+					<option value="/assets/css/main">light</option>
+					<option value="/assets/css/darkmode">dark</option>
+				</select>
+			</div>
+		</li>
+	</ul>
+</nav>
+        </header>
         <main class="border">
 	<h2>archive</h2>
 	<ol id="all-posts" class="post-list" reversed></ol>
 </main>
     </div>
-    <footer class="border nav-link">
+<footer id="footer">
+    <nav class="border nav-link">
             <ul>
                 <li><a href="/sitemap">sitemap</a></li>
                 <li>|</li>
@@ -64,11 +66,12 @@
                 <li>|</li>
                 <li><a href="/credits">credits</a></li>
             </ul>
-</footer>
+</nav>
 
 <div class="display-none return card-background">
 <a href="#top" rel="return">return to top</a>
 </div>
+</footer>
 <script src="/assets/js/blog.js"></script>
 
 </body>

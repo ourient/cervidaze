@@ -21,37 +21,35 @@
 <body id="body" style="display:none">
     
 <noscript>hey uh you kinda need javascript for this</noscript>
-    <div id="container">
-        <header id="header">
-            <header>
-<div id="header-image">
-                <a href="https://cervidaze.me">
-                    <img id="gingko" alt="a gingko leaf linking to the home page" src="/assets/images/style/cervidaze_lightbanner.png">
-                </a>
-                <a href="https://cervidaze.me">
-                    <img id="antlers" alt="a pair of antlers linking to the home page" src="/assets/images/style/cervidaze_darkbanner.png">
-                </a>
-            </div>
-            <nav class="border nav-link">
-                <ul>
-                    <li><a href="/">home</a></li>
-                    <li><a href="/about">about</a></li>
-                    <li><a href="/blog">blog</a></li>
-                    <li><a href="/interests">interests</a></li>
-                    <li><a href="/media">media</a></li>
-                    <li><a href="/links">links</a></li>
-                    <li>
-                        <form aria-label="styleswitcher">
-                        <select class="rounded" name="styleswitcher" onchange="changeStyle(this.value)">
-                            <option value="1" selected="true" disabled="disabled">theme</option>
-                            <option value="/assets/css/main">light</option>
-                            <option value="/assets/css/darkmode">dark</option>
-                        </select>
-                        </form>
-                    </li>
-                </ul>
-            </nav>
-</header>
+    <div class="container">
+        <header>
+            <div id="header-image">
+    <a href="https://cervidaze.me">
+        <img id="gingko" alt="a gingko leaf linking to the home page" src="/assets/images/style/cervidaze_lightbanner.png">
+    </a>
+    <a href="https://cervidaze.me">
+        <img id="antlers" alt="a pair of antlers linking to the home page" src="/assets/images/style/cervidaze_darkbanner.png">
+    </a>
+</div>
+<nav class="border nav-link">
+    <ul>
+        <li><a href="/">home</a></li>
+        <li><a href="/about">about</a></li>
+        <li><a href="/blog">blog</a></li>
+        <li><a href="/interests">interests</a></li>
+        <li><a href="/media">media</a></li>
+        <li><a href="/links">links</a></li>
+        <li>
+            <form aria-label="styleswitcher">
+            <select class="rounded" name="styleswitcher" onchange="changeStyle(this.value)">
+                <option value="1" selected="true" disabled="disabled">theme</option>
+                <option value="/assets/css/main">light</option>
+                <option value="/assets/css/darkmode">dark</option>
+            </select>
+            </form>
+        </li>
+    </ul>
+</nav>
         </header>
         <div class="flex">
 <main class="border">
@@ -67,18 +65,18 @@
 			</ul>
 			<li><a href="/interests">interests</a></li>
 			<li><a href="/media">media</a></li>
-			<li><a href="links">links</a></li>
+			<li><a href="links/index">links</a></li>
 			<li><a href="/guestbook">guestbook</a></li>
 			<li><a href="rss.xml" target="_blank">rss</a> / <a href="https://tally.so/r/mZZgqA" target="_blank">newsletter form</a></li>
 			<li><a href="/credits">credits</a></li>
-			<li><a href="#">sitemap</a> (you are here)</li>
+			<li><a href="#">sitemap</a> <small>(you are here)</small></li>
 		</ul>
 	</div>
 </main>
 </div>
     </div>
 <footer id="footer">
-    <footer class="border nav-link">
+    <nav class="border nav-link">
             <ul>
                 <li><a href="/sitemap">sitemap</a></li>
                 <li>|</li>
@@ -88,7 +86,7 @@
                 <li>|</li>
                 <li><a href="/credits">credits</a></li>
             </ul>
-</footer>
+</nav>
 
 <div class="display-none return card-background">
 <a href="#top" rel="return">return to top</a>

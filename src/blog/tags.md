@@ -1,6 +1,6 @@
 ---
 title: tags
-layout: layouts/blogbase.njk
+layout: layouts/blog.njk
 permalink: blog/tags.html
 ---
 <main class="border">

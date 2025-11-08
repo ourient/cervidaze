@@ -1,5 +1,5 @@
 ---
-layout: layouts/home.njk
+layout: layouts/main.njk
 permalink: /interests/theorypaper.html
 title: an unending process of linguistic becoming
 ---

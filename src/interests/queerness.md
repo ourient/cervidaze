@@ -1,5 +1,5 @@
 ---
-layout: layouts/home.njk
+layout: layouts/main.njk
 permalink: /interests/queerness.html
 title: what i was taught about queerness growing up
 ---

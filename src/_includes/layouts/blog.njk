@@ -2,10 +2,14 @@
 
 {% block content %}
 <noscript>hey uh you kinda need javascript for this</noscript>
-    <div id="container">
+    <div class="container">
+        <header>
             {% include "partials/blogheader.njk" %}
+        </header>
         {{ content | safe}}
     </div>
+<footer id="footer">
     {% include "partials/footer.njk" %}
+</footer>
 <script src="/assets/js/blog.js"></script>
 {% endblock %}

@@ -1,8 +1,9 @@
 ---
 title: blog
-layout: /layouts/blogbase.njk
+layout: /layouts/blog.njk
 permalink: /blog/index.html
 ---
+
 <div class="flex">
 <main class="border">
 <h2>blog</h2>
@@ -40,15 +41,16 @@ permalink: /blog/index.html
 <summary>setting up</summary>
 
 site descriptions for neighbors\
-buttons for neighbors who don't have one\
-a /media page\
+buttons for neighbors without one\
+<del>a /media page<del>\
 <del>iframe for atabook</del>
 </details>
 <details>
 	<summary>working on</summary>
 
+incorporating more single purpose devices\
 migrating from windows to linux\
-migrating from notion to obsidian
+<del>migrating from notion to obsidian<del>
 </details>
 </aside>
 </div>
