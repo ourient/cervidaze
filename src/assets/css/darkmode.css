@@ -180,8 +180,12 @@ a:hover {
     }
 }
 
+.transparent {
+    background-color: transparent;
+}
+
 .card-background {
-        background-color: rgba(222, 217, 206, 0.1);
+        background-color: rgba(220, 226, 230, 0.1);
 }
 
 /* LAYOUT SHIT */
@@ -194,7 +198,7 @@ main {
     }
     
     a {
-        text-shadow: 0 0 0.4rem #72705b;
+        text-shadow: 0 0 0.4rem #5C7273;
     }
 }
 
@@ -270,6 +274,7 @@ aside {
     width: 19.6rem;
     padding: 1.8rem;
     font-size: smaller;
+    background-color: rgba(220, 226, 230, 0.04);
     
     a {
         text-shadow: 0 0 0.4rem #72705b;
@@ -519,10 +524,6 @@ textarea {
 /* MUSIC PLAYER SHIT */
 
 #musicplayer {
-    background: rgba(222, 217, 206, 0.1);
-    border-width: 0.05rem;
-    border-style: dashed;
-    border-color: #DED9CE;
     padding: 0.6rem;
     text-align: center;
     display: -webkit-box;
@@ -661,11 +662,9 @@ input[type=range]::-moz-range-thumb {
     text-decoration: none;
     text-align: center;
     text-transform: lowercase;
-    background-color: rgba(222, 217, 206, 0.1);
+    background-color: rgba(220, 226, 230, 0.1);
     color: #FDFBFB;
-    border-width: 0.05rem;
-    border-style: dashed;
-    border-color: #DED9CE;
+    border-color: transparent;
     border-radius: 0.4rem;
 }
 
@@ -690,7 +689,7 @@ input[type=range]::-moz-range-thumb {
     margin-bottom: 2rem;
     padding: 0.66rem;
     border-radius: 0.4rem;
-    background-color: rgba(222, 217, 206, 0.1);
+    background-color: rgba(220, 226, 230, 0.1);
     border-width: 0.05rem;
     border-style: dashed;
     border-color: #DED9CE;
@@ -721,11 +720,8 @@ input[type=range]::-moz-range-thumb {
     font-family: 'pixel', Arial, Helvetica, sans-serif;
     color: #DED9CE;
     outline: none;
-    border-width: 0.05rem;
-    border-style: dashed;
-    border-color: #DED9CE;
-    border-radius: 0.4rem;
-    background-color: rgba(222, 217, 206, 0.1);
+    border: none;
+    background-color: rgba(220, 226, 230, 0.1);
 }
 
 .c-input:focus {
@@ -767,7 +763,7 @@ input[type=range]::-moz-range-thumb {
     border-width: 0.05rem;
     border-style: dashed;
     border-color: #DED9CE;
-    background-color: rgba(222, 217, 206, 0.1);
+    background-color: rgba(220, 226, 230, 0.1);
 }
 
 .c-reply {
@@ -778,7 +774,7 @@ input[type=range]::-moz-range-thumb {
     margin-right: 0;
     padding: 0.6rem;
     border-radius: 0.4rem;
-    background-color: rgba(222, 217, 206, 0.1);
+    background-color: rgba(220, 226, 230, 0.1);
 }
 
 .c-reply:last-child {

@@ -23,7 +23,7 @@ permalink: /index.html
     </main>
     <aside class="fixed-height border right-side narrow scrollbar order-last">
         <h4>status</h4>
-        <div class="border card-background" id="statuscafe">
+        <div class="rounded card-background" id="statuscafe">
             <div id="statuscafe-username"></div>
             <div id="statuscafe-content"></div>
         </div>
@@ -36,13 +36,13 @@ permalink: /index.html
             <img src="assets/images/graphics/buttons/sites/cervidaze_v2_dark.png" title="cervidaze dark"
                 alt="cervidaze dark">
         </div>
-        <textarea class="border card-background"><a href="https://cervidaze.me/" target="_blank"><img src="your local link here" alt="cervidaze"></a></textarea>
+        <textarea class="rounded card-background"><a href="https://cervidaze.me/" target="_blank"><img src="your local link here" alt="cervidaze"></a></textarea>
         <br>
         <h4>playlist</h4>
         {% include "./_includes/partials/musicplayer.njk" %}
         <br>
         <h4>changelog</h4>
-        <div class="changelog border scrollbar card-background">
+        <div class="changelog rounded scrollbar card-background">
             <ul class="no-bullets">
                 <li>11/7/25<br>updated links page;<br>code optimization
                 <li>11/4/25<br>dark mode styling tweaks
