@@ -198,3 +198,7 @@ input[type=range]::-moz-range-thumb {
         max-width: 75%;
     }
 }
+
+.loading {
+    display: none;
+}

@@ -1057,3 +1057,7 @@ article>header {
         font-size: smaller;
     }
 }
+
+.loader {
+    display: none;
+}

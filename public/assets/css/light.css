@@ -321,3 +321,7 @@ article>header {
         max-width: 75%;
     }
 }
+
+.loading {
+    display: none;
+}

@@ -1,6 +1,18 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto">
+
 <head>
+    <style>
+        .loading {
+            background-color: #151515;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            height: 100%;
+            z-index: 2000;
+        }
+    </style>
 
     <title>archive cervidaze ☘</title>
 
@@ -15,10 +27,11 @@
 
     <script src="/assets/js/styleswitcher.js">
     </script>
-    <script data-goatcounter="https://cervidaze.goatcounter.com/count" async src="//gc.zgo.at/count.js">
-    </script>
 </head>
-<body id="body" style="display: none">
+
+<body>
+    <div class="loading">
+    </div>
     
 <noscript>hey uh you kinda need javascript for this</noscript>
     <div class="container">
@@ -75,11 +88,5 @@
 <script src="/assets/js/blog.js"></script>
 
 </body>
-<script>
-    window.onload = function () {
-        setTimeout(function () {
-            document.getElementById("body").style.display = "";
-        }, 40);
-    }
-</script>
+
 </html>

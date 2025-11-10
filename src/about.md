@@ -18,7 +18,7 @@ permalink: /about.html
 </main>
 
 <aside class="border right-side order-one" id="connect">
-  <img class="rounded center" src="assets/images/photos/self_portrait.png" alt="a blurry self portrait of reyn sitting on a chair and smiling">
+  <img class="rounded center" src="assets/images/photos/self_portrait.png" loading="lazy" alt="a blurry self portrait of reyn sitting on a chair and smiling">
   <br><br>
   <h3>connect</h3>
   <div class="padding-inline">
@@ -76,44 +76,44 @@ permalink: /about.html
   <h3>collections</h3>
   <div class="column-grid">
   <div class="column">
-    <img src="assets/images/graphics/userboxes/this.jpg" alt="a userbox that says &quot;this&quot;">
-    <img src="assets/images/graphics/userboxes/borntodie.png"
+    <img src="assets/images/graphics/userboxes/this.jpg" loading="lazy" alt="a userbox that says &quot;this&quot;">
+    <img src="assets/images/graphics/userboxes/borntodie.png" loading="lazy"
       alt="a userbox of the &quot;born to die world is a fuck&quot; meme">
   </div>
 
   <div class="column site-button">
-    <img src="assets/images/graphics/stamps/snoopyspace_girlfreak.png" alt="a stamp of snoopy in space">
-    <img src="assets/images/graphics/stamps/catuser.gif" alt="a stamp of a cat using a pc">
-    <img src="assets/images/graphics/stamps/deer.png" alt="a stamp of a deer snooping into the camera">
-    <img src="assets/images/graphics/stamps/killyourself_peanutbuttaz.png"
+    <img src="assets/images/graphics/stamps/snoopyspace_girlfreak.png" loading="lazy" alt="a stamp of snoopy in space">
+    <img src="assets/images/graphics/stamps/catuser.gif" loading="lazy" alt="a stamp of a cat using a pc">
+    <img src="assets/images/graphics/stamps/deer.png" loading="lazy" alt="a stamp of a deer snooping into the camera">
+    <img src="assets/images/graphics/stamps/killyourself_peanutbuttaz.png" loading="lazy"
       alt="a stamp that says &quot;hate trans people? kill yourself!&quot;">
-    <img src="assets/images/graphics/stamps/thumbsup.jpg" alt="a stamp of crumbcat giving a thumbs up">
-    <img src="assets/images/graphics/stamps/7bilpeople.png"
+    <img src="assets/images/graphics/stamps/thumbsup.jpg" loading="lazy" alt="a stamp of crumbcat giving a thumbs up">
+    <img src="assets/images/graphics/stamps/7bilpeople.png" loading="lazy"
       alt="a stamp that says &quot;7 billion people instantly enlightened&quot;">
-    <img src="assets/images/graphics/stamps/navyseal.jpg" alt="a stamp reading the navy seal copypasta">
-    <img src="assets/images/graphics/stamps/support.jpg"
+    <img src="assets/images/graphics/stamps/navyseal.jpg" loading="lazy" alt="a stamp reading the navy seal copypasta">
+    <img src="assets/images/graphics/stamps/support.jpg" loading="lazy"
       alt="a stamp that says &quot;i can't remember what i support but i support it anyways&quot;">
-    <img src="assets/images/graphics/stamps/ow.jpg"
+    <img src="assets/images/graphics/stamps/ow.jpg" loading="lazy"
       alt="a stamp of the animal crossing villager lucky saying &quot;ow&quot;">
   </div>
 
   <div class="column">
-    <img src="assets/images/graphics/buttons/likecomputer.jpg"
+    <img src="assets/images/graphics/buttons/likecomputer.jpg" loading="lazy"
       alt="a button that says &quot;i like computer&quot;">
-    <img src="assets/images/graphics/buttons/cssisaweseom.png"
+    <img src="assets/images/graphics/buttons/cssisaweseom.png" loading="lazy"
       alt="a button that says &quot;css is awesome.&quot; the word &quot;awesome&quot; is overflowing from the frame">
-    <img src="assets/images/graphics/buttons/by_cyber-rot_on_neocities.png"
+    <img src="assets/images/graphics/buttons/by_cyber-rot_on_neocities.png" loading="lazy"
       alt="a button that says &quot;fuck yeah it hurts&quot;">
-    <img src="assets/images/graphics/buttons/fuck_zios.png"
+    <img src="assets/images/graphics/buttons/fuck_zios.png" loading="lazy"
       alt="a button that says &quot;fuck israel kill zionists&quot;">
-    <img src="assets/images/graphics/buttons/masknow.png" alt="a button that says &quot;mask now!&quot;">
-    <img src="assets/images/graphics/buttons/noEthicalConsumer.png"
+    <img src="assets/images/graphics/buttons/masknow.png" loading="lazy" alt="a button that says &quot;mask now!&quot;">
+    <img src="assets/images/graphics/buttons/noEthicalConsumer.png" loading="lazy"
       alt="a button that says &quot;there is no ethical consumerism&quot;">
-    <img src="assets/images/graphics/buttons/no-button.gif"
+    <img src="assets/images/graphics/buttons/no-button.gif" loading="lazy"
       alt="a button that says &quot;this site has no button&quot;">
-    <img src="assets/images/graphics/buttons/gaypeople.jpg"
+    <img src="assets/images/graphics/buttons/gaypeople.jpg" loading="lazy"
       alt="a button that says &quot;gay people&quot;">
-    <img src="assets/images/graphics/buttons/killmenow.jpg"
+    <img src="assets/images/graphics/buttons/killmenow.jpg" loading="lazy"
       alt="a button that says &quot;kill me now&quot;">
   </div>
   </div>
