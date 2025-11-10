@@ -6,7 +6,7 @@ function setStyle(style) {
 
 // get the current chosen style from local storage
 // if local storage doesn't have a saved style, choose "light" as a default
-const currentStyle = localStorage.getItem('style') || 'assets/css/light';
+const currentStyle = localStorage.getItem('style') || '/assets/css/light';
 
 // set the chosen style
 setStyle(currentStyle);
