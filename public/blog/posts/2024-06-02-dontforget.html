@@ -24,7 +24,7 @@
     <link rel="icon" href="/assets/images/style/gingko.png?v=4348f8035668" type="image/x-icon">
 
     <link href="/assets/css/light.css?v=88c7ab12b9fa" rel="stylesheet" type="text/css" media="all">
-    <link href="/assets/css/global.css?v=ea88ecaadfe3" rel="stylesheet" type="text/css" media="all">
+    <link href="/assets/css/global.css?v=798ac6d4752b" rel="stylesheet" type="text/css" media="all">
 
     <script src="/assets/js/styleswitcher.js?v=b4dde5cebb14">
     </script>
@@ -38,15 +38,13 @@
 	<noscript>hey uh you kinda need javascript for this</noscript>
 	<div class="container">
 		<header>
-			<div id="header-image">
-	<a href="https://cervidaze.me">
-		<img id="gingko" src="/assets/images/style/cervidaze_lightbanner.png?v=88d0f18febe6">
-	</a>
-	<a href="https://cervidaze.me">
-		<img id="antlers" alt="a pair of antlers linking to the home page"
-			src="/assets/images/style/cervidaze_darkbanner.png?v=ced0b96b4a14">
-	</a>
-</div>
+			<a href="https://cervidaze.me">
+	<img id="gingko" alt="a gingko leaf linking to the home page" src="/assets/images/style/cervidaze_lightbanner.png?v=88d0f18febe6">
+</a>
+<a href="https://cervidaze.me">
+	<img id="antlers" alt="a pair of antlers linking to the home page"
+		src="/assets/images/style/cervidaze_darkbanner.png?v=ced0b96b4a14">
+</a>
 <nav class="border nav-link">
 	<ul>
 		<li><a href="/">return home</a></li>
@@ -55,17 +53,17 @@
 		<li><a href="/blog/archive">archive</a></li>
 		<li>
 			<div aria-label="styleswitcher">
-				<select class="rounded" name="styleswitcher" onchange="changeStyle(this.value)">
+				<select class="rounded" name="styleswitcher" onchange="setStyle(this.value)">
 					<option value="1" selected="true" disabled="disabled">theme</option>
-					<option value="/assets/css/main">light</option>
-					<option value="/assets/css/darkmode">dark</option>
+					<option value="/assets/css/light">light</option>
+					<option value="/assets/css/dark">dark</option>
 				</select>
 			</div>
 		</li>
 	</ul>
 </nav>
 		</header>
-		<main class="border">
+		<main class="border main--padding">
 			<h2>don&#39;t forget the l-theanine</h2>
 			<time id="post-date">6/02/24</time>
 			<ul id="post-tags" class="flex-list"></ul>

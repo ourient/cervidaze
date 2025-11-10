@@ -127,6 +127,10 @@ a:hover {
     }
 }
 
+.main--padding {
+    padding: 4rem 6rem;
+}
+
 .overflow-hidden {
     overflow: hidden;
 }
@@ -157,10 +161,6 @@ a:hover {
 
 main {
     line-height: 1.4rem;
-    
-    ul {
-        list-style-type: none;
-    }
 }
 
 main,

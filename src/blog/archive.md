@@ -1,5 +1,5 @@
 ---
-title: archive
+title: archive |
 layout: layouts/blog.njk
 permalink: blog/archive.html
 ---

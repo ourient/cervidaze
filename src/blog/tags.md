@@ -1,5 +1,5 @@
 ---
-title: tags
+title: tags |
 layout: layouts/blog.njk
 permalink: blog/tags.html
 ---

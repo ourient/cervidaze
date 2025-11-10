@@ -17,8 +17,11 @@ permalink: /blog/index.html
 	and unsubscribe to emails from me.</p>
 <br>
 <hr><br>
-<h3>recent posts</h3>
-<ol id="latest-posts" class="post-list" reversed></ol><!--#latest-posts end-->
+<h3>featured posts</h3>
+<p><a href="posts/2025-03-21-boycotts-and-degoogling">boycotts and degoogling</a><p>
+<p><a href="posts/2025-08-30-digitalminimalism">digital minimalism and death machines</a></p>
+<p><a href="posts/2025-09-28-iknowwhenfallishere">i know when fall is here</a></p>
+</ul>
 </main>
 <aside class="border right-side narrow fit-content">
 <h3>currently</h3>

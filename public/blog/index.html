@@ -24,7 +24,7 @@
     <link rel="icon" href="/assets/images/style/gingko.png?v=4348f8035668" type="image/x-icon">
 
     <link href="/assets/css/light.css?v=88c7ab12b9fa" rel="stylesheet" type="text/css" media="all">
-    <link href="/assets/css/global.css?v=ea88ecaadfe3" rel="stylesheet" type="text/css" media="all">
+    <link href="/assets/css/global.css?v=798ac6d4752b" rel="stylesheet" type="text/css" media="all">
 
     <script src="/assets/js/styleswitcher.js?v=b4dde5cebb14">
     </script>
@@ -38,15 +38,13 @@
 <noscript>hey uh you kinda need javascript for this</noscript>
     <div class="container">
         <header>
-            <div id="header-image">
-	<a href="https://cervidaze.me">
-		<img id="gingko" src="/assets/images/style/cervidaze_lightbanner.png?v=88d0f18febe6">
-	</a>
-	<a href="https://cervidaze.me">
-		<img id="antlers" alt="a pair of antlers linking to the home page"
-			src="/assets/images/style/cervidaze_darkbanner.png?v=ced0b96b4a14">
-	</a>
-</div>
+            <a href="https://cervidaze.me">
+	<img id="gingko" alt="a gingko leaf linking to the home page" src="/assets/images/style/cervidaze_lightbanner.png?v=88d0f18febe6">
+</a>
+<a href="https://cervidaze.me">
+	<img id="antlers" alt="a pair of antlers linking to the home page"
+		src="/assets/images/style/cervidaze_darkbanner.png?v=ced0b96b4a14">
+</a>
 <nav class="border nav-link">
 	<ul>
 		<li><a href="/">return home</a></li>
@@ -55,10 +53,10 @@
 		<li><a href="/blog/archive">archive</a></li>
 		<li>
 			<div aria-label="styleswitcher">
-				<select class="rounded" name="styleswitcher" onchange="changeStyle(this.value)">
+				<select class="rounded" name="styleswitcher" onchange="setStyle(this.value)">
 					<option value="1" selected="true" disabled="disabled">theme</option>
-					<option value="/assets/css/main">light</option>
-					<option value="/assets/css/darkmode">dark</option>
+					<option value="/assets/css/light">light</option>
+					<option value="/assets/css/dark">dark</option>
 				</select>
 			</div>
 		</li>
@@ -78,8 +76,11 @@
 	and unsubscribe to emails from me.</p>
 <br>
 <hr><br>
-<h3>recent posts</h3>
-<ol id="latest-posts" class="post-list" reversed></ol><!--#latest-posts end-->
+<h3>featured posts</h3>
+<p><a href="posts/2025-03-21-boycotts-and-degoogling">boycotts and degoogling</a><p>
+<p><a href="posts/2025-08-30-digitalminimalism">digital minimalism and death machines</a></p>
+<p><a href="posts/2025-09-28-iknowwhenfallishere">i know when fall is here</a></p>
+</ul>
 </main>
 <aside class="border right-side narrow fit-content">
 <h3>currently</h3>
