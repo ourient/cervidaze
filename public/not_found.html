@@ -1,7 +1,13 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto">
-
 <head>
+    <style>
+        html {
+            visibility: hidden;
+            opacity: 0;
+        }
+    </style>
+
     <title>not found! | cervidaze ☘</title>
 
     <meta name="description" content="stay deer">
@@ -9,28 +15,35 @@
     <meta charset="UTF-8">
 
     <link rel="icon" href="/assets/images/style/gingko.png" type="image/x-icon">
-    <link href="/assets/css/main.css" rel="stylesheet" title="lightmode" type="text/css" media="all">
-    <link href="/assets/css/darkmode.css" rel="alternate stylesheet" title="darkmode" type="text/css" media="all">
 
-    <script type="text/javascript" src="/assets/js/styleswitcher.js"></script>
+    <link href="/assets/css/light.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/assets/css/global.css" rel="stylesheet" type="text/css" media="all">
 
+    <script>
+        function changeStyle(style) {
+            if (style == null)
+                style = localStorage.getItem("style");
+            if (style == null)
+                style = "/assets/css/light";
+            document.querySelector("link[type='text/css']").setAttribute("href", style + ".css");
+            localStorage.setItem("style", style);
+        }
+        changeStyle();
+    </script>
     <script data-goatcounter="https://cervidaze.goatcounter.com/count" async src="//gc.zgo.at/count.js">
     </script>
 </head>
-
-<body id="body" style="display:none">
+<body id="body" style="display: none">
     
 <noscript>hey uh you kinda need javascript for this</noscript>
     <div class="container">
         <header>
-            <div id="header-image">
-    <a href="https://cervidaze.me">
+            <a href="https://cervidaze.me">
         <img id="gingko" alt="a gingko leaf linking to the home page" src="/assets/images/style/cervidaze_lightbanner.png">
     </a>
     <a href="https://cervidaze.me">
         <img id="antlers" alt="a pair of antlers linking to the home page" src="/assets/images/style/cervidaze_darkbanner.png">
-    </a>
-</div>
+</a>
 <nav class="border nav-link">
     <ul>
         <li><a href="/">home</a></li>
@@ -43,8 +56,8 @@
             <form aria-label="styleswitcher">
             <select class="rounded" name="styleswitcher" onchange="changeStyle(this.value)">
                 <option value="1" selected="true" disabled="disabled">theme</option>
-                <option value="/assets/css/main">light</option>
-                <option value="/assets/css/darkmode">dark</option>
+                <option value="/assets/css/light">light</option>
+                <option value="/assets/css/dark">dark</option>
             </select>
             </form>
         </li>
@@ -78,12 +91,11 @@
 </footer>
 
 </body>
-<script type="text/javascript">
+<script>
     window.onload = function () {
         setTimeout(function () {
             document.getElementById("body").style.display = "";
         }, 40);
     }
 </script>
-
 </html>

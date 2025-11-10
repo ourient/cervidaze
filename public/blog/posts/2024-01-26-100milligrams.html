@@ -1,7 +1,13 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto">
-
 <head>
+    <style>
+        html {
+            visibility: hidden;
+            opacity: 0;
+        }
+    </style>
+
     <title>100 milligrams, $10 copay cervidaze ☘</title>
 
     <meta name="description" content="stay deer">
@@ -9,16 +15,25 @@
     <meta charset="UTF-8">
 
     <link rel="icon" href="/assets/images/style/gingko.png" type="image/x-icon">
-    <link href="/assets/css/main.css" rel="stylesheet" title="lightmode" type="text/css" media="all">
-    <link href="/assets/css/darkmode.css" rel="alternate stylesheet" title="darkmode" type="text/css" media="all">
 
-    <script type="text/javascript" src="/assets/js/styleswitcher.js"></script>
+    <link href="/assets/css/light.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/assets/css/global.css" rel="stylesheet" type="text/css" media="all">
 
+    <script>
+        function changeStyle(style) {
+            if (style == null)
+                style = localStorage.getItem("style");
+            if (style == null)
+                style = "/assets/css/light";
+            document.querySelector("link[type='text/css']").setAttribute("href", style + ".css");
+            localStorage.setItem("style", style);
+        }
+        changeStyle();
+    </script>
     <script data-goatcounter="https://cervidaze.goatcounter.com/count" async src="//gc.zgo.at/count.js">
     </script>
 </head>
-
-<body id="body" style="display:none">
+<body id="body" style="display: none">
     
 	<noscript>hey uh you kinda need javascript for this</noscript>
 	<div class="container">
@@ -105,12 +120,11 @@
 	<script src="/assets/js/blog.js"></script>
 
 </body>
-<script type="text/javascript">
+<script>
     window.onload = function () {
         setTimeout(function () {
             document.getElementById("body").style.display = "";
         }, 40);
     }
 </script>
-
 </html>

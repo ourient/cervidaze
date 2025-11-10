@@ -54,19 +54,12 @@ main, aside {
     }
 }
 
-header {
-    text-align: center;
-    margin-top: -2.2rem;
-    margin-bottom: 1rem;
-}
-
 #gingko {
     display: none;
 }
 
 #antlers {
     max-width: 80%;
-    max-height: auto;
     display: inline;
     margin-bottom: 1.2rem;
 }
@@ -200,7 +193,7 @@ input[type=range]::-moz-range-thumb {
 /* MEDIA QUERY SHIT */
 
 @media only screen and (orientation:portrait) {
-
+    
     #antlers {
         max-width: 75%;
     }

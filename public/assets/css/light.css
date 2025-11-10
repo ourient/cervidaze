@@ -316,4 +316,8 @@ article>header {
         color: #FBFAF9;
         }
     }
+
+    #gingko {
+        max-width: 75%;
+    }
 }
