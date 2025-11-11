@@ -44,7 +44,7 @@ permalink: /index.html
         <h4>changelog</h4>
         <div class="changelog rounded scrollbar card-background">
             <ul class="no-bullets">
-                <li>11/10/25<br>removed FOUC;<br>added loading div hotfix;<br>added cachebuster<br>(please refresh your page!)</li>
+                <li>11/10/25<br>reduced FOUC;<br>added cachebuster<br>(please refresh your page!)</li>
                 <li>11/7/25<br>updated links page;<br>code optimization</li>
                 <li>11/4/25<br>dark mode styling tweaks</li>
                 <li>11/3/25<br>added git integration</li>

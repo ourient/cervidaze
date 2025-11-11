@@ -4,7 +4,7 @@ title: credits |
 permalink: /credits.html
 ---
 <div class="flex">
-  <main class="border">
+  <main class="border main--padding">
     <div>
       <h1>about the site</h1>
       <p>cervidaze is hand-coded by me&mdash;with immense, immense amounts of help from designers much more
@@ -22,7 +22,7 @@ permalink: /credits.html
       <p>base: <a href="https://sadgrlonline.github.io/archived-sadgrl.online/projects/layout-builder/" target="_blank">sadgrl (archived)</a></p>
       <p>formatting: <a href="https://petrapixel.neocities.org/">petrapixel</a>
       </p>
-      <p>theme switcher: <a href="https://kalechips.net/projects/snippets/styleswitcher"
+      <p>theme switcher: <a href="https://alphacentauri.neocities.org/tutorials/javascript-tidbits#theme" target="_blank">alpha centauri</a> / <a href="https://kalechips.net/projects/snippets/styleswitcher"
           target="_blank">kalechips</a></p>
       <p>blog: <a href="https://codeberg.org/cdvr/Zonelots" target="_blank">zonelots</a></p>
       <p>comments: <a href="https://virtualobserver.moe/ayano/comment-widget" target="_blank">virtual observer</a>

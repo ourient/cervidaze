@@ -10,11 +10,11 @@ permalink: /about.html
   <h1>about</h1>
   <p>my name is reyn. i'm a 2X year old writer and serial hobbyist based in california. i entered the world as someone entranced by media and i am going to exit the world as someone disgusted by it.</p>
   <p>i&apos;m constantly struggling with words, which has manifested itself in many ways&semi; i've written essays, articles, poems, screenplays, and most recently, songs. this site serves as a repository for all of these pursuits (and hopefully more).</p>
-  <p>i decided to move my creative work to neocities out of frustration and spite towards the attention
-    economy. my day job already has me making shallow, morally bankrupt content on the same five social media
+  <p>i decided to move my creative work to neocities out of spite towards the attention
+    economy. my day job already has me editing shallow, morally bankrupt content on the same five social media
     platforms for 40 hours a week, so i would prefer if the rest of my life wasn't also wasted on selling my soul
-    to capital. it's probably the best decision i've ever made for my creative life.</p>
-  <p>thanks for visiting.</p>
+    to capital.</p>
+    <p> this is probably the best decision i've ever made for my creative life.<br>thanks for visiting.</p>
 </main>
 
 <aside class="border right-side order-one" id="connect">
@@ -34,16 +34,14 @@ permalink: /about.html
 </div>
 
 <section class="column-grid">
-  <div id="column-hobbies" class="column border circle-bullets">
-    <h3>(some) hobbies/interests</h3>
+  <div id="column-favorites" class="column border circle-bullets">
+    <h3>favorites</h3>
     <ul>
-      <li>chinese tea</li>
-      <li>secondhand shopping</li>
-      <li>DIY tech/modding</li>
-      <li>mechanical keyboards</li>
-      <li>gender abolition</li>
-      <li>bouldering</li>
-      <li>snoopy</li>
+      <li>animal: deer</li>
+      <li>video games: disco elysium, balatro, yakuza 0, pokemon BW/XY</li>
+      <li>artists: temachii, the world is a beautiful place and i am no longer afraid to die, ichiko aoba, ethel
+        cain, JPEGMAFIA</li>
+      <li>misc: gingkos, making art on the clock, solarpunk, hojicha, spelling &quot;gray&quot; with &quot;a&quot;</li>
     </ul>
   </div>
 
@@ -59,15 +57,18 @@ permalink: /about.html
       <li>target (lent 2025)</li>
     </ul>
   </div>
-
-  <div id="column-favorites" class="column border circle-bullets">
-    <h3>favorites</h3>
+  
+  <div id="column-hobbies" class="column border circle-bullets">
+    <h3>(some) hobbies/interests</h3>
     <ul>
-      <li>animal: deer</li>
-      <li>video games: disco elysium, balatro, yakuza 0, pokemon BW/XY</li>
-      <li>artists: temachii, the world is a beautiful place and i am no longer afraid to die, ichiko aoba, ethel
-        cain, JPEGMAFIA</li>
-      <li>misc: gingkos, making art on the clock, solarpunk, hojicha, spelling &quot;gray&quot; with &quot;a&quot;</li>
+      <li>chinese tea</li>
+      <li>DIY tech/modding</li>
+      <li>physical media</li>
+      <li>secondhand shopping</li>
+      <li>mechanical keyboards</li>
+      <li>gender abolition</li>
+      <li>bouldering</li>
+      <li>snoopy</li>
     </ul>
   </div>
 </section>

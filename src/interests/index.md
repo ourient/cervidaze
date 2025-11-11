@@ -23,7 +23,7 @@ title: interests |
         <ul class="no-bullets">
         <p>writing</p>
         <ul class="no-bullets">
-        <li><a onclick="openTab(event, `essays`)">essays</a></li>
+        <li><a onclick="openTab(event, `editorial`)">editorial</a></li>
         <li><a onclick="openTab(event, `poetry`)">poetry</a></li>
         </ul>
         </ul>
@@ -50,8 +50,8 @@ title: interests |
         </ul>
         </div>
     </aside>
-    <main class="tabcontent border" id="essays">
-        {% include "src/interests/drafts/essays.md" %}
+    <main class="tabcontent border" id="editorial">
+        {% include "src/interests/drafts/editorial.md" %}
     </main>
     <main class="tabcontent border" id="poetry">
         {% include "src/interests/drafts/poetry.md" %}

@@ -1,13 +1,14 @@
 ---
 layout: layouts/main.njk
-permalink: /interests/queerness.html
+permalink: /interests/essays/queerness.html
 title: what i was taught about queerness growing up
 ---
 <div class="flex">
     <aside class="border thin left-side fit-content">
         <a href="/interests">return to interests</a>
     </aside>
-<main class="border">
+<main class="border main--padding">
+
 <h1>what i was taught about queerness growing up</h1>
 <p><small>A friend of mine decided to hold an interview with me about my experience as a queer
     diasporic Asian —

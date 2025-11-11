@@ -1,13 +1,13 @@
 ---
 layout: layouts/main.njk
-permalink: /interests/theorypaper.html
+permalink: /interests/essays/theorypaper.html
 title: an unending process of linguistic becoming
 ---
 <div class="flex">
     <aside class="border thin left-side fit-content">
         <a href="/interests">return to interests</a>
     </aside>
-<main class="border">
+<main class="border main--padding">
     <h1>an unending process of linguistic becoming: a poststructural analysis of queer liberation</h1>
     <p><small>a theory paper for my sociology class in college. please keep in mind that i was 20 when i wrote this and i apologize for it being unreadable and pedestrian</small></p>
 
