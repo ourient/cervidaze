@@ -27,7 +27,7 @@ a:hover {
 }
 
 .card-background {
-        background-color: #FBFAF9;
+        background-color: rgba(250, 250, 250, 0.8);
 }
 
 
@@ -36,7 +36,7 @@ a:hover {
 main,
 .column,
 #collections {
-    background-color: #FBFAF9;
+    background-color: rgba(250, 250, 250, 0.8);
 }
 
 #gingko {
@@ -51,6 +51,7 @@ main,
 
 .nav-link {
     background-color: #5D6156;
+    opacity: 90%;
     color: #FBFAF9;
         
     /* SEPARATE INTO SKIN CLASS LATER */
@@ -64,7 +65,7 @@ main,
 }
 
 aside {
-    background-color: #DED9CE;
+    background-color: rgba(222, 216, 206, 0.8);
     
     a {
         color: #474738;
@@ -320,8 +321,4 @@ article>header {
     #gingko {
         max-width: 75%;
     }
-}
-
-.loading {
-    display: none;
 }

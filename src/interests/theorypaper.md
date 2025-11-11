@@ -56,7 +56,9 @@ For many, the extent of queer liberation ends here, with the continued legalizat
 However, the mild acceptance of the concessions granted by heteronormative hegemony by the queer community would only prolong the subsequent subjugation of queerness. As long as heteronormativity remains as the dominant citational script, power will still be held over the predetermined periphery, and its members will continue to engage with heteronormative politics out of complacency and survival. There must be a larger incitement to question the nature of identity as a conduit of power and the nature of those who wield such power over the queer periphery. Queer liberation must include a critical analysis of why queerness is definitive and constructed as a consequential identity formation to begin with. It is for this reason that poststructuralism is necessary for fundamental change; those on the periphery must be reminded that identity formations are social constructions that have been normalized for mechanizations of power and structural violence. It is only through the deconstructive practice of these social constructions that will disrupt the hegemony of heteronormative citationality.
 
 <br><br>
-Bibliography
+
+<details>
+<summary>Bibliography</summary>
 
 Butler, J. (1989). *Gender Trouble: Feminism and the Subversion of Identity.* New York: Routledge.\
 Felluga, D. (2011). Introduction to Judith Butler, module on performativity.\
@@ -66,5 +68,6 @@ Kaplan, C. (2007). Keywords for American cultural studies. New York: New York Un
 Ton, J. (2018). *Judith Butler's Notion of Gender Performativity* (Unpublished master's thesis). Villanova University\
 Xie, W. (2014). Queer[ing] Performativity, Queer[ing] Subversions: A Critique of Judith Butler’s Theory of Performativity. *Comparative Literature: East & West.* doi:10.1080/25723618.2014.12015486\
 Young, S. (2016, November 13). Judith Butler: Performativity.
+</details>
 </main>
 </div>

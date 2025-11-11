@@ -44,17 +44,18 @@ permalink: /index.html
         <h4>changelog</h4>
         <div class="changelog rounded scrollbar card-background">
             <ul class="no-bullets">
-                <li>11/7/25<br>updated links page;<br>code optimization
-                <li>11/4/25<br>dark mode styling tweaks
-                <li>11/3/25<br>added git integration
-                <li>10/20/25<br>updated media page;<br>updated music playlist
-                <li>9/28/25<br>new blog post;<br>implemented OOCSS;<br>added neighbors
+                <li>11/10/25<br>removed FOUC;<br>added loading div hotfix;<br>added cachebuster<br>(please refresh your page!)</li>
+                <li>11/7/25<br>updated links page;<br>code optimization</li>
+                <li>11/4/25<br>dark mode styling tweaks</li>
+                <li>11/3/25<br>added git integration</li>
+                <li>10/20/25<br>updated media page;<br>updated music playlist</li>
+                <li>9/28/25<br>new blog post;<br>implemented OOCSS;<br>added neighbors</li>
                 <li>9/17/25<br>new media page;<br>updated nav and footer;<br>added neighbors</li>
                 <li>8/29/25<br>new blog post</li>
                 <li>8/11/25<br>added internal guestbook page</li>
                 <li>8/9/25<br>updated interests page;<br>added lightbox features</li>
                 <li>8/5/25<br>new essay;<br>updated about page</li>
-                <li>8/3/25<br>new site buttons!
+                <li>8/3/25<br>new site buttons!</li>
                 <li>8/1/25<br>updated<br>interests page;<br>added mutuals buttons;<br>added 11ty integration</li>
                 <li>7/25/25<br>new blog post;<br>light layout reformatting</li>
                 <li>4/30/25<br>new blog post</li>

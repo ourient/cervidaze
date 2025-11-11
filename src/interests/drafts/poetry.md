@@ -1,6 +1,6 @@
 <h1>poetry</h1>
 <br><hr><br>
-<ul>
+<ul class="no-bullets">
 <li>
 
 #### untitled religious poem

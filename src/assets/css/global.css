@@ -911,6 +911,10 @@ article>header {
         margin: auto 0 1.2rem;
     }
 
+    .main--padding {
+        padding: 2.6rem;
+    }
+
     #statuscafe {
         width: 70%;
         height: auto;
@@ -1056,8 +1060,4 @@ article>header {
         margin-top: 0.2rem;
         font-size: smaller;
     }
-}
-
-.loader {
-    display: none;
 }

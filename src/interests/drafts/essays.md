@@ -13,7 +13,7 @@ where i was employed. my positions now, or at least my preferences in articulati
 exactly the same as the ones here, but at the time, they deeply resonated with those who read them.
 it's my hope that they will still resonate with a select few now. enjoy.</p>
 <br><hr><br>
-<ul>
+<ul class="no-bullets">
 <li><a href="/interests/theorypaper">an unending process of linguistic becoming: a poststructural analysis of queer liberation</a></li>
 <br>
 <li><a href="/interests/queerness">what i was taught about queerness growing up</a></li>
