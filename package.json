@@ -18,6 +18,7 @@
     "luxon": "^3.7.1"
   },
   "dependencies": {
-    "eleventy-plugin-markdown-shortcode": "^0.1.2"
+    "eleventy-plugin-markdown-shortcode": "^0.1.2",
+    "freezeframe": "^5.0.2"
   }
 }

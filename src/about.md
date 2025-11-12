@@ -5,8 +5,7 @@ permalink: /about.html
 ---
 
 <div class="flex">
-<main class="border">
-  <br>
+<main class="border tall">
   <h1>about</h1>
   <p>my name is reyn. i'm a 2X year old writer and serial hobbyist based in california. i entered the world as someone entranced by media and i am going to exit the world as someone disgusted by it.</p>
   <p>i&apos;m constantly struggling with words, which has manifested itself in many ways&semi; i've written essays, articles, poems, screenplays, and most recently, songs. this site serves as a repository for all of these pursuits (and hopefully more).</p>
@@ -17,10 +16,10 @@ permalink: /about.html
     <p> this is probably the best decision i've ever made for my creative life.<br>thanks for visiting.</p>
 </main>
 
-<aside class="border right-side order-one" id="connect">
+<aside class="border tall right-side order-one" id="connect">
   <img class="rounded center" src="assets/images/photos/self_portrait.png" loading="lazy" alt="a blurry self portrait of reyn sitting on a chair and smiling">
   <br><br>
-  <h3>connect</h3>
+  <h2>connect</h2>
   <div class="padding-inline">
     <a href="mailto:c3rvidaze@pm.me">email</a>
     <a href="/rss.xml" target="_blank">rss</a>
@@ -35,7 +34,7 @@ permalink: /about.html
 
 <section class="column-grid">
   <div id="column-favorites" class="column border circle-bullets">
-    <h3>favorites</h3>
+    <h2>favorites</h2>
     <ul>
       <li>animal: deer</li>
       <li>video games: disco elysium, balatro, yakuza 0, pokemon BW/XY</li>
@@ -46,7 +45,7 @@ permalink: /about.html
   </div>
 
   <div id="column-boycott" class="column border circle-bullets">
-    <h3>boycott list</h3>
+    <h2>boycott list</h2>
     <ul>
       <li>chik fil a (2019)</li>
       <li>jkr and affiliated properties (2019)</li>
@@ -59,14 +58,14 @@ permalink: /about.html
   </div>
   
   <div id="column-hobbies" class="column border circle-bullets">
-    <h3>(some) hobbies/interests</h3>
+    <h2>(some) hobbies/interests</h2>
     <ul>
       <li>chinese tea</li>
       <li>DIY tech/modding</li>
+      <li>film photography</li>
       <li>physical media</li>
       <li>secondhand shopping</li>
       <li>mechanical keyboards</li>
-      <li>gender abolition</li>
       <li>bouldering</li>
       <li>snoopy</li>
     </ul>
@@ -74,7 +73,7 @@ permalink: /about.html
 </section>
 
 <section class="border" id="collections">
-  <h3>collections</h3>
+  <h2>collections</h2>
   <div class="column-grid">
   <div class="column">
     <img src="assets/images/graphics/userboxes/this.jpg" loading="lazy" alt="a userbox that says &quot;this&quot;">

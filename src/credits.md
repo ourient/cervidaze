@@ -5,7 +5,6 @@ permalink: /credits.html
 ---
 <div class="flex">
   <main class="border main--padding">
-    <div>
       <h1>about the site</h1>
       <p>cervidaze is hand-coded by me&mdash;with immense, immense amounts of help from designers much more
         experienced and tenacious than me. the site name is a reference to the family taxonomy for deer, cervidae.</p>
@@ -32,9 +31,9 @@ permalink: /credits.html
       <br>
       <div id="credits">
         <img src="assets/images/graphics/buttons/button (10).png"
-          alt="a button saying &quot;made with visual studio code&quot;">
+          alt="">
         <img src="assets/images/graphics/buttons/a50.png"
-          alt="a button saying &quot;this site is certified 100&#37; cookie free!&quot;">
+          alt="">
       </div>
       <br>
       <h2>accessibility</h2>
@@ -53,7 +52,5 @@ permalink: /credits.html
       </ul>
       <br>
       <h2>i love you</h2>
-    </div>
   </main>
-</div>
 </div>

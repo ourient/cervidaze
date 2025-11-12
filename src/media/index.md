@@ -26,16 +26,16 @@ title: media log |
         <ul class="no-bullets"><a onclick="openTab(event, `books`)">books</a></ul>
         </div>
     </aside>
-    <main class="tabcontent border fixed-height scrollbar" id="music">
+    <main class="tabcontent border short short-mobile scrollbar" id="music">
         {% include "src/media/drafts/music.md" %}
     </main>
-    <main class="tabcontent border fixed-height scrollbar" id="filmtv">
+    <main class="tabcontent border short short-mobile scrollbar" id="filmtv">
         {% include "src/media/drafts/filmtv.md" %}
     </main>
-    <main class="tabcontent border fixed-height scrollbar" id="games">
+    <main class="tabcontent border short short-mobile scrollbar" id="games">
         {% include "src/media/drafts/games.md" %}
     </main>
-    <main class="tabcontent border fixed-height scrollbar" id="books">
+    <main class="tabcontent border short short-mobile scrollbar" id="books">
         {% include "src/media/drafts/books.md" %}
     </main>
 </div>

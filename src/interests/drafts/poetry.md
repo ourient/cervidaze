@@ -1,9 +1,9 @@
 <h1>poetry</h1>
-<br><hr><br>
+<hr>
 <ul class="no-bullets">
 <li>
 
-#### untitled religious poem
+## untitled religious poem
 
 the most alive i'll ever feel<br>
 is when you cut through my skin<br>
@@ -16,16 +16,25 @@ and i'll show you the price of decay<br>
 angels weep at lives dismembered<br>
 but they still see mutilation as sacrifice<br>
 
-</li>
-<li><br>
-<h4>front windows and open doors</h4>
-<p>it's been weeks and days and hours since we last spoke,<br>and all i can do is sweep the
-front
-doorstep and tidy the kitchen<br>i saved a seat for faith at this dining table, repeating to
-myself<br><br>that absence is also a visitor<br>and waiting is also an action</p>
 </li><br>
+
 <li>
-<h4>451</h4>
+
+## front windows and open doors
+
+it's been weeks and days and hours since we last spoke,<br>
+and all i can do is sweep the front doorstep and tidy the kitchen<br>
+i saved a seat for faith at this dining table, repeating to myself<br><br>
+
+that absence is also a visitor<br>
+and waiting is also an action
+
+</li><br>
+
+<li>
+
+## 451
+
 <p>death speaks to me in threes and nines<br>
 i check the clock as if a minute could tell me anything<br><br>
 tell me,<br>
@@ -35,8 +44,11 @@ i hope i die on an even number<br>
 i hope my body thinks it had healed itself overnight<br>
 </p>
 </li><br>
+
 <li>
-<h4>heaven is in the medicine cabinet</h4>
+
+## heaven is in the medicine cabinet
+
 <p>i peel the fibers off each tangerine slice<br>
 i don't like the taste of dirt and drought<br>
 scrubbing my skin raw in the shower<br>
@@ -51,8 +63,11 @@ god speaks through sonic soothsaying laughter,<br>
 but there was no blood to rinse off that bathroom faucet,<br>
 nor was there a body that could ever be cleansed holy</p>
 </li><br>
+
 <li>
-<h4>hometown medical center</h4>
+
+## hometown medical center
+
 <p>there are medical encyclopedias - erudite chant, never a hymn<br>
 never like the way i hear you sigh through the screen<br>
 when i tell you i am carrying your sorrow again<br>

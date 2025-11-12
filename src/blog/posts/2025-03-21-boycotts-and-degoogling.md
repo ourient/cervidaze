@@ -34,12 +34,12 @@ permalink: blog/posts/2025-03-21-boycotts-and-degoogling.html
 </p><br>
 <hr><br>
 
-<h4>browser</h4>
+<h2>browser</h2>
 <ul class="no-bullets">
 	<li>i&apos;ve been using <a href="https://www.mozilla.org/en-US/firefox/" target="_blank">firefox</a> for a while now. even though i hold a healthy amount of skepticism towards their commitment towards privacy, i think firefox is the most accessible option for online laymen who just need to get away from anything chromium. there are quite a few powerful	extensions that have basically eradicated all sense of discomfort i would typically be used to when browsing online. i haven&apos;t seen a <a href="https://ublockorigin.com/" target="_blank">youtube ad</a> in years, and i&apos;m able to <a href="https://shinigami-eyes.github.io/" target="_blank">block TERFs</a> without having to dive into their profiles to perform a litmus test first.</li>
 </ul><br>
 
-<h4>email/calendar</h4>
+<h2>email/calendar</h2>
 <ul class="no-bullets">this was
 	fairly easy. working with organizers and independent journalists quickly introduced me to <a href="https://proton.me/" target="_blank">proton</a>, a
 	free, open-source, and privacy-focused service with a variety of digital products. migration from google
@@ -49,7 +49,7 @@ permalink: blog/posts/2025-03-21-boycotts-and-degoogling.html
 	counterparts.<br><br>however, proton&apos;s services are still a little lacking, which brings me to my
 	next point.</ul><br>
 
-<h4>cloud storage</h4>
+<h2>cloud storage</h2>
 <ul class="no-bullets">my only qualm with proton is that they have yet to finish developing
 	their document-editing software&mdash;this makes their cloud storage service, proton drive, effectively
 	just a file management service that lacks substitutes for sheets, docs, slides, and the like. i still
@@ -63,7 +63,7 @@ permalink: blog/posts/2025-03-21-boycotts-and-degoogling.html
 	feature called &quot;guest mode,&quot; which you can toggle before showing someone a photo so they
 	can&apos;t swipe through all the other photos in your gallery. pretty neat.</ul><br>
 
-<h4>keyboard</h4>
+<h2>keyboard</h2>
 <ul class="no-bullets">i had
 	some pretty strict criteria for my mobile keyboard, which admittedly made the search for one much
 	harder. i wanted one that offered accurate swipe typing, clipboard functions, and no tracking while
@@ -71,7 +71,7 @@ permalink: blog/posts/2025-03-21-boycotts-and-degoogling.html
 	pinyin/jyutping keyboards aren&apos;t supported, so i currently circumvent that using my native phone&apos;s
 	chinese keyboard with online services turned off.</ul><br>
 
-<h4>navigation</h4>
+<h2>navigation</h2>
 <ul class="no-bullets">this is probably one of the
 	hardest. google maps acts as both a navigation service and a reviewing service. i use both. there is
 	currently no immediate alternative that can do both. however, out of all the open-source apps that pull data from <a href="https://www.openstreetmap.org/" target="_blank">openstreetmaps</a>, <a href="https://wego.here.com/" target="_blank">herewego</a> has the cleanest UI and most
@@ -79,7 +79,7 @@ permalink: blog/posts/2025-03-21-boycotts-and-degoogling.html
 	for finding reviews and recommendations on where to eat, i use my girlfriend, who uses
 	yelp.</ul><br>
 
-<h4>misc</h4>
+<h2>misc</h2>
 <ul class="no-bullets">to replace the play store, i use a combination of <a href="https://f-droid.org/" target="_blank">f-droid</a> (where open-source/FLOSS
 	devs host their apps) and <a href="https://f-droid.org/packages/com.aurora.store/" target="_blank">aurora store</a> (an app that allows you to download and update apps from the play
 	store without a google account). for google wallet, i now use my actual wallet and <a href="https://catima.app/" target="_blank">catima</a> to

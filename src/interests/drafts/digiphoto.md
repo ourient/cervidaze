@@ -1,9 +1,9 @@
 <h1>digital photography</h1>
 <p>when i was 15, i asked my dad for a video camera. he got me a used $400 canon t5i from some guy on craigslist. this fucking thing carried my work well into my 20s.<p>
 <p>i later shelled out a good amount of my savings to get a lumix gh5 for my videography gigs, but it's been collecting dust lately. mostly because it costs way more to invest in a proper lens for this body.</p>
-<br><hr><br>
+<hr>
 
-### sept 2023 - san diego
+## sept 2023 - san diego
 lumix gh5
 
 <ul class="gallery">
@@ -12,7 +12,7 @@ lumix gh5
 </ul>
 <br>
 
-### nov 2018 - sequoia
+## nov 2018 - sequoia
 canon t5i
 
 <ul class="gallery">
@@ -23,7 +23,7 @@ canon t5i
 </ul>
 <br>
 
-### jul 2018 - guangzhou/hong kong
+## jul 2018 - guangzhou/hong kong
 canon t5i
 
 <ul class="gallery">
@@ -34,7 +34,7 @@ canon t5i
 </ul>
 <br>
 
-### jun 2018 - lake tahoe
+## jun 2018 - lake tahoe
 canon t5i
 
 <ul class="gallery">

@@ -7,7 +7,7 @@ permalink: /guestbook.html
 <div id="flex">
 <main class="border">
 
-### guestbook
+# guestbook
 
 if the iframe is not working, please visit my <a href="https://cervidaze.atabook.org" target="_blank" alt="cervidaze's guestbook">atabook</a>!
 

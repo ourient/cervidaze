@@ -1,8 +1,8 @@
 <h1>film photography</h1>
 <p>i'm lucky enough to be able to borrow my uncle's nikon FM2 from the 90s. on occassion, i use a canon af35m when i want something light to travel with. i mostly shoot on cheap expired film as i'm still new to this particular medium and did not want to feel stingy with the photos i take.<p>
-<br><hr><br>
+<hr>
 
-### sept 2025 - san diego
+## sept 2025 - san diego
 <p>canon af35m / expired fujifilm superia x-tra 400</p>
 <ul class="gallery">
         <li><img src="/assets/images/photos/film/092525-42.jpg" loading="lazy" alt="a waterfront villa at balboa park"></li>
@@ -12,7 +12,7 @@
 </ul>
 <br>
 
-### jan 2025 - korea
+## jan 2025 - korea
 <p>nikon fm2 / expired fujifilm superia x-tra 400</p>
 <ul class="gallery">
         <li><img src="/assets/images/photos/film/011225_1.jpg" loading="lazy" alt="two cats greeting each other in a courtyard"></li>
@@ -22,7 +22,7 @@
 </ul>
 <br>
 
-### oct 2024 - home
+## oct 2024 - home
 <p>nikon fm2 / expired fujifilm fujicolor 200</p>
 <ul class="gallery">
         <li><img src="/assets/images/photos/film/100324_1.jpg" loading="lazy" alt="a person standing in a dimly lit black box theater"></li>
@@ -32,7 +32,7 @@
 </ul>
 <br>
 
-### mar 2024 - san francisco
+## mar 2024 - san francisco
 <p>nikon fm2 / expired fujifilm fujicolor 200</p>
 <ul class="gallery">
         <li><img src="/assets/images/photos/film/033024_1.jpg" loading="lazy" alt="a plum blossom tree in bloom"></li>
