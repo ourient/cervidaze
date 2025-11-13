@@ -1,7 +1,7 @@
 ---
 layout: layouts/main.njk
 permalink: /interests/essays/queerness.html
-title: what i was taught about queerness growing up
+title: what i was taught about queerness growing up |
 ---
 <div class="flex">
     <aside class="border thin left-side fit-content">

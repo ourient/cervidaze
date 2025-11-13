@@ -1,7 +1,7 @@
 ---
 layout: layouts/main.njk
 permalink: /interests/essays/freezerdog.html
-title: the dog in the freezer
+title: the dog in the freezer |
 description: all dogs go to heaven, but some go through hell to get there.
 ---
 <div class="flex">
@@ -12,7 +12,7 @@ description: all dogs go to heaven, but some go through hell to get there.
 
 # the dog in the freezer
 
-<p><small>all dogs go to heaven, but some go through hell to get there.</small></p>
+<p><small>all dogs go to heaven, but some go through hell to get there. (originally published 5/3/23)</small></p>
 
 I found out about the death of my childhood dog through an Instagram post. 
 
@@ -42,7 +42,7 @@ I attempted to say something, but there was a mind-numbing hum in the room that 
 
 And then, I saw it: a stainless steel Magic Chef mini-fridge that hadn't been turned on in years, lit by a faint glow leaking through several haphazardly wrapped layers of painter’s tape. A real feat of blue-collar Dadaism.
 
-I walked right past it despite the spectacle, but Vienna stopped me, eyes puffy from a night spent crying alone.
+I walked right past it despite the spectacle, but my sister stopped me, eyes puffy from a night spent crying alone.
 
 “You’re not going to look inside?”
 

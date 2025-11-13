@@ -1,7 +1,7 @@
 ---
 layout: layouts/main.njk
 permalink: /interests/essays/theorypaper.html
-title: an unending process of linguistic becoming
+title: an unending process of linguistic becoming |
 ---
 <div class="flex">
     <aside class="border thin left-side fit-content">

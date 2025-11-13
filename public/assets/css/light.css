@@ -23,7 +23,7 @@ a:hover {
 
 .border, .rounded {
     border-radius: 0.4rem;
-    border-color: transparent;
+    border: none;
 }
 
 .card-background {
