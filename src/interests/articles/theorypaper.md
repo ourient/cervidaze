@@ -1,6 +1,5 @@
 ---
 layout: layouts/main.njk
-permalink: /interests/essays/theorypaper.html
 title: an unending process of linguistic becoming |
 ---
 <div class="flex">

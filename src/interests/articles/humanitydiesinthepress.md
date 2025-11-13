@@ -1,0 +1,48 @@
+---
+layout: layouts/main.njk
+title: democracy dies in darkness, humanity dies in the press |
+---
+
+<div class="flex">
+    <aside class="border thin left-side fit-content">
+        <a href="/interests">return to interests</a>
+    </aside>
+<main class="border main--padding">
+
+# democracy dies in darkness, humanity dies in the press
+
+<p><small>i am forced to confront the horrors of collegiate journalism alone with a copy of the 2018 edition of the ap stylebook and an eight of marijuana. originally published december 2022.</small></p>
+
+
+In the fall of 2021, two significant things happened to me. One, I switched my major to the journalism department. Two, I met A. And since that point, I’ve witnessed both entities’ slow, painful decay.
+
+As a token of my appreciation for him, I promised A that I would write a piece for his final magazine issue here at [redacted]. He said that I couldn’t say that I’ll kill someone on here and I had to promise him that I wouldn’t do that either.
+
+I first met A outside a coffee shop that was hosting a queer open mic. He was wearing his Columbia zip-up jacket and the rectangular glasses he owned before he switched to the round malewhore ones. We were both imprisoned under 16 layers of irony at the time, so I doubt that either one of us would believe that he’d end up on the [redacted] suicide watchlist and develop a nicotine addiction a year later.
+
+The field of collegiate journalism has heaved despair upon A and me respectively. We were both brought into this world under some kind of delusion—I was herded in by the fear of going broke and the semi-naive pursuit of justice. A was bribed with pizza. (You can laugh.)
+
+Two weeks into my debut in student journalism, I was trapped in a pit of alt-right protesters while trying to get footage of Biden’s visit to a nearby college campus. I was jeered at, harassed, and followed by white supremacists, Proud Boys and other people that reminded me too much of my parents. I developed mild PTSD that I had to seek treatment for and to this day, interviewing people on the street sets off a trauma response. I don’t think anyone on my team knew that, but they would’ve if they had asked me how I was doing instead of asking me to upload the footage.
+
+Then for the six months that followed, I was chronically misgendered and overworked to the point where in March 2022, I broke down and slammed my head on my bathroom faucet several times until my girlfriend had to forcibly pull me away. I had developed gender dysphoria so severe that I could no longer physically enter the newsroom, and when I told the manager this, he apologized for how “it had to come to this,” did absolutely nothing to address the situation, graduated, and then got the rest of the newsroom drunk with bar hopping and parties. Like before, I think my team would’ve known this if they had asked instead of asking me how soon I could turn in my next video.
+
+I bring these two incidents up because the one person who did ask me about them was A. Maybe as a journalist, it’s necessary to set aside compassion and care for the sake of getting the breaking story in on time. But A wasn’t a coworker—he was a friend. I only realized how bad it was when I saw the look on his face. It didn’t go away for the entire duration of the party where I decided to trauma-dump my issues. Anyways, I was able to quit that job with his help, and now I work here at [redacted].
+
+I wouldn’t necessarily call myself a public servant, a pursuant of truth or really anything remotely redeeming that’s used to describe a journalist. As previously mentioned in an interview that was far more jaded and depressing than I was prepared for, I’m here because I needed a job and had a natural propensity to hate how everyone else was doing theirs. So speaking as someone with no attachment to any of the work I do nor faith in its impact on society, I really fucking hate this.
+
+I’m a terrible journalist. I really am. I hate the pseudosocial nature of social media, I couldn’t care less for the First Amendment—or any farcical piece of American legislature for that matter—and most of all, I hate consuming and producing multimedia content. I have been recovering from a multiyear neurotic breakdown that has resulted in me being unable to enjoy a piece of long-form media since I was 17.
+
+I am a mirthless hypercritic that is prone to both sensory and information overload and I have absolutely no desire to engage with western neoliberalism. But in a grand sweep of narrative irony and lack of foresight, I have established my career in journalism and film, the two tenant pillars of the apparatus that is U.S. state propaganda.
+
+I now spend my time listening to people legitimize the government and its agents and exhibit some of the worst media literacy I have ever fucking seen. Seriously. Like you guys should be genuinely scared of the people who are going to be your media pundits in the future. These fuckers are unironically reinventing COINTELPRO in their discussion board posts.
+
+Meanwhile, I have $16 an hour to my name and sit upon a mountain of videos, articles and podcasts that I don’t have the shame to take pride in. I based a good amount of these on very personal experiences that I had no choice but to exploit as content to fulfill a quota. When that wasn’t enough, I used my friends and loved ones.
+
+Appropriation seems to be the common thread in mainstream journalism. One of my first introductions to journalism was seeing NBC4 stake out my friend’s house after finding out that she was the niece of a mass shooting victim. Every time I go on Twitter and see a victim’s post during a national tragedy, I see dozens of reporters hounding the replies before the bodies have even hit the morgue.
+
+Let’s stop pretending that our practice as journalists is to serve a greater moral purpose when the entire model of mainstream journalism is predicated on immediacy, trauma porn, and pay-per-click propaganda. There is no honor in replying underneath a grieving mother’s wail for help on Twitter for a quick headline that is yet to be buried under more headlines. There is no way to codify ethics into profiting off of people’s tragedy.
+
+There is a small part of me that really wanted to enjoy this. There is a small part of me that really wanted to believe that I’m contributing to the community and “spreading awareness” and “informing the public.” But when the money I’ve made off of other people’s lives enters my bank account and I see yet another classmate advocating for global south regime change, all I can ever really think about is just how relieved I am that A is finally able to leave this all behind.
+
+</main>
+</div>

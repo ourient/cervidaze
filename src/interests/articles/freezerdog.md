@@ -1,6 +1,5 @@
 ---
 layout: layouts/main.njk
-permalink: /interests/essays/freezerdog.html
 title: the dog in the freezer |
 description: all dogs go to heaven, but some go through hell to get there.
 ---
@@ -12,7 +11,7 @@ description: all dogs go to heaven, but some go through hell to get there.
 
 # the dog in the freezer
 
-<p><small>all dogs go to heaven, but some go through hell to get there. (originally published 5/3/23)</small></p>
+<p><small>all dogs go to heaven, but some go through hell to get there. originally published may 2023.</small></p>
 
 I found out about the death of my childhood dog through an Instagram post. 
 

@@ -1,6 +1,5 @@
 ---
 layout: layouts/main.njk
-permalink: /interests/essays/diversityhire.html
 title: dear employers, i'm a great diversity hire |
 ---
 
@@ -12,7 +11,7 @@ title: dear employers, i'm a great diversity hire |
 
 # dear employers, i'm a great diversity hire
 
-<p><small>(originally published 5/4/2022)</small></p>
+<p><small>originally published may 2022.</small></p>
 
 My high school career counseling center recommended 13-year-old me to become a farmer. 
 

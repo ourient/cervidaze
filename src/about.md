@@ -116,6 +116,8 @@ permalink: /about.html
     <img src="assets/images/graphics/buttons/killmenow.jpg" loading="lazy"
       alt="a button that says &quot;kill me now&quot;">
   </div>
+  <div class="">
+  <div>
   </div>
 </section>
 </div>

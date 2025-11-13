@@ -1,6 +1,5 @@
 ---
 layout: layouts/main.njk
-permalink: /interests/essays/freechurro.html
 title: free churro - bojack horseman |
 ---
 

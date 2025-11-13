@@ -1,6 +1,5 @@
 ---
 layout: layouts/main.njk
-permalink: /interests/essays/killtheterf.html
 title: kill the terf in your head |
 ---
 
@@ -12,7 +11,7 @@ title: kill the terf in your head |
 
 # kill the terf in your head: the struggle for transgender liberation
 
-<p><small>(originally published 4/2/2022)</small></p>
+<p><small>originally published april 2022. written in conjunction with my girlfriend.</small></p>
 
 The current approach to transgender activism in mainstream spaces can largely be defined by two things: a repetition of vague platitudes such as “trans rights are human rights” or “trans women are real women” and, most notably, a genuine lack of sensitivity and understanding by well-intentioned people towards the purpose of transgender activism.
 
@@ -24,7 +23,7 @@ According to K, an assistant professor in the Department of Political Science at
 
 Therefore, TERFs project the source of this oppression onto transgender women, who they perceive as men who are trying to invade female spaces in order to engage in sexual violence.
 
->>> “There is virtually no evidence that this takes place. Instead, there is ample evidence that trans women are subject to sexual violence by men when forced to be in men’s spaces,” K said. “This rhetoric also relies on the transmisogynistic trope that trans women are deceptive and are ‘pretending’ to gain access to sex, something that contributes to the high rate of sexual violence and murder of trans women.”
+“There is virtually no evidence that this takes place. Instead, there is ample evidence that trans women are subject to sexual violence by men when forced to be in men’s spaces,” K said. “This rhetoric also relies on the transmisogynistic trope that trans women are deceptive and are ‘pretending’ to gain access to sex, something that contributes to the high rate of sexual violence and murder of trans women.”
 
 Not only is this projection misguided, but it is also actively violent in itself. By weaponizing the oppression of women to guise marginalization as self-defense, TERFs divert attention away from the violence of systemic patriarchy and instead use the oppression of women as fodder to fear-monger others into denying rights to trans women.
 
@@ -42,7 +41,7 @@ TERFs will often describe themselves as “biological women” or as “gender c
 
 However, this deliberate oversimplification results in the normalization of a malignant concept known as bioessentialism, the idea that a human’s unique characteristics are the innate, fixed products of being born as a particular sex.
 
->>> “Centering womanhood on having a uterus or regular menstruation not only excludes trans women, but it also excludes cis women who do not have these experiences,” K said. “Ultimately, it is critical for all feminists and allies of trans communities to take steps to denaturalize gender. Genitals are not inherently gendered, nor are hormones or other sex-based traits.”
+“Centering womanhood on having a uterus or regular menstruation not only excludes trans women, but it also excludes cis women who do not have these experiences,” K said. “Ultimately, it is critical for all feminists and allies of trans communities to take steps to denaturalize gender. Genitals are not inherently gendered, nor are hormones or other sex-based traits.”
 
 In order to truly support the transgender community, one must begin to deconstruct whatever bioessentialist presumptions they have developed surrounding sex and gender. However, realigning one’s fundamental understanding of society is a task often too burdensome for most allies.
 
@@ -53,3 +52,5 @@ When the functions of the state and its institutions are predicated on the natur
 The consequences of this naturalization affect both transgender and cisgender individuals.
 
 “The struggle to end gender-based oppression is not helped by efforts to naturalize gender and police the boundaries of womanhood,” K said. “Rather, we should see gender liberation as an intersectional struggle aligned with other movements for liberation and end the scapegoating of femininity.”
+</main>
+</div>
