@@ -148,7 +148,7 @@ input[type=range]::-moz-range-thumb {
 
 #c_widgetTitle {
     background-color: #5D6156;
-    color: #FBFAF9
+    color: #FBFAF9;
 }
 
 .c-input:focus {
@@ -161,7 +161,7 @@ input[type=range]::-moz-range-thumb {
 }
 
 .c-reply {
-    background-color: #DED9CE;
+    background-color: #FBFAF9;
 }
 
 .c-site {
@@ -174,26 +174,8 @@ input[type=range]::-moz-range-thumb {
 
 .c-text {
     background-color: #FBFAF9;
-}
-
-/* Pagination */
-#c_pagination {
-    text-align: center;
-}
-
-.c-replyButton {
-    margin-top: 0.6rem;
-    margin-right: 0.25rem;
-}
-
-.c-expandButton {
-    margin-top: 0.6rem;
-    margin-left: 0.25rem;
-}
-
-.c-paginationButton {
-    margin-right: 0.25rem;
-    margin-left: 0.25rem;
+    margin: 1rem -1.6rem 1.4rem;
+    padding: 1.4rem 1.8rem 1.4rem 2.6rem;
 }
 
 

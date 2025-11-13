@@ -16,7 +16,7 @@ permalink: /about.html
     <p> this is probably the best decision i've ever made for my creative life.<br>thanks for visiting.</p>
 </main>
 
-<aside class="border tall right-side order-one" id="connect">
+<aside class="border card-background tall right-side order-one" id="connect">
   <img class="rounded center" src="assets/images/photos/self_portrait.png" loading="lazy" alt="a blurry self portrait of reyn sitting on a chair and smiling">
   <br><br>
   <h2>connect</h2>
@@ -33,7 +33,7 @@ permalink: /about.html
 </div>
 
 <section class="column-grid">
-  <div id="column-favorites" class="column border circle-bullets">
+  <div id="column-favorites" class="column border main-background circle-bullets">
     <h2>favorites</h2>
     <ul>
       <li>animal: deer</li>
@@ -44,7 +44,7 @@ permalink: /about.html
     </ul>
   </div>
 
-  <div id="column-boycott" class="column border circle-bullets">
+  <div id="column-boycott" class="column border main-background circle-bullets">
     <h2>boycott list</h2>
     <ul>
       <li>chik fil a (2019)</li>
@@ -57,7 +57,7 @@ permalink: /about.html
     </ul>
   </div>
   
-  <div id="column-hobbies" class="column border circle-bullets">
+  <div id="column-hobbies" class="column border main-background circle-bullets">
     <h2>(some) hobbies/interests</h2>
     <ul>
       <li>chinese tea</li>
@@ -72,7 +72,7 @@ permalink: /about.html
   </div>
 </section>
 
-<section class="border" id="collections">
+<section class="border main-background " id="collections">
   <h2>collections</h2>
   <div class="column-grid">
   <div class="column">

@@ -28,9 +28,9 @@ a:hover {
 
 .border {
     border-radius: 0.4rem;
-    border-width: 0.05rem;
-    border-style: dashed;
-    border-color: #DED9CE;
+    border-width: 0.1rem;
+    border-style: solid;
+    border-color: rgba(220, 226, 230, 0.25);
 }
 
 .rounded {
@@ -43,10 +43,14 @@ a:hover {
 }
 
 .card-background {
-        background-color: rgba(220, 226, 230, 0.1);
+    background-color: rgba(220, 226, 230, 0.1);
 }
 
 /* LAYOUT SHIT */
+
+main, .main-background {
+    background-color: rgba(220, 226, 230, 0.025);
+}
 
 main, aside {
     a {
@@ -75,7 +79,7 @@ main, aside {
 }
 
 aside {
-    background-color: rgba(220, 226, 230, 0.04);
+    background-color: rgba(220, 226, 230, 0.045);
 }
 
 select {
@@ -158,9 +162,6 @@ input[type=range]::-moz-range-thumb {
 /* Input section */
 #c_inputDiv {
     background-color: rgba(220, 226, 230, 0.1);
-    border-width: 0.05rem;
-    border-style: dashed;
-    border-color: #DED9CE;
 }
 
 .c-input {
@@ -169,7 +170,11 @@ input[type=range]::-moz-range-thumb {
 }
 
 .c-input:focus {
-    border: 0.06rem dashed #B9BCB3;
+    border: 0.06rem solid rgba(220, 226, 230, 0.25);
+}
+
+#c_widgetTitle {
+    background-color: rgba(220, 226, 230, 0.1);
 }
 
 /* Comment section */
@@ -189,6 +194,10 @@ input[type=range]::-moz-range-thumb {
     color: #DED9CE;
 }
 
+.c-text {
+    margin-top: 0.6rem;
+    padding: 1.4rem 1.4rem 0;
+}
 
 /* MEDIA QUERY SHIT */
 

@@ -138,7 +138,7 @@ hr {
 }
 
 .no-margin {
-    margin: 0rem;
+    margin: 0;
 }
 
 .padding-inline {
@@ -224,7 +224,7 @@ nav {
 footer {
     width: fit-content;
     padding: 0.6rem;
-    margin: 0rem auto 4rem;
+    margin: 0 auto 4rem;
 
     li {
         padding-inline: .2rem;
@@ -297,7 +297,7 @@ select {
 .media-top {
     display: inline-block;
     width: 10rem;
-    margin: 0rem 1rem 4rem 0rem;
+    margin: 0 1rem 4rem 0;
 }
 
 .media-left-img {
@@ -457,7 +457,7 @@ textarea {
 
     .column {
         margin-bottom: 1.4rem;
-        padding: 0rem;
+        padding: 0;
         border: none;
         text-align: center;
     }
@@ -584,17 +584,11 @@ input[type=range]::-moz-range-thumb {
 
 
 /* BLOG SHIT */
-@font-face {
-    font-family: 'pixel';
-    src: url(/assets/images/style/pixel_operator/PixelOperator.ttf);
-}
 
 #c_widget {
-    box-sizing: border-box;
     height: 100%;
     max-width: 100%;
     margin-top: 2.8rem;
-    font-family: 'pixel', Arial, Helvetica, sans-serif;
     font-size: 20px;
 }
 
@@ -630,22 +624,18 @@ input[type=range]::-moz-range-thumb {
 }
 
 #c_widgetTitle {
-    margin: -0.65rem;
-    margin-bottom: 0.6rem;
-    padding: 0.8rem;
-    padding-left: 1.2rem;
-    border-bottom-width: 0.05rem;
-    border-bottom-style: dashed;
-    border-radius: 0.4rem 0.4rem 0 0;
-    font-family: 'pixel', Arial, Helvetica, sans-serif;
-    font-weight: lighter;
+    font-weight: bold;
     text-transform: lowercase;
     text-align: left;
+    margin: -0.6rem -0.6rem 1rem;
+    padding: 1.4rem 1.6rem;
+    border-radius: 0.4rem 0.4rem 0 0;
 }
 
 .c-inputWrapper {
     display: block;
     text-align: left;
+    padding-left: 0.6rem;
 }
 
 .c-input {
@@ -687,7 +677,7 @@ input[type=range]::-moz-range-thumb {
     flex: 1;
     height: auto;
     margin-bottom: 1rem;
-    padding: 1rem;
+    padding: 2rem 1.6rem;
     border-radius: 0.4rem;
 }
 
@@ -697,7 +687,7 @@ input[type=range]::-moz-range-thumb {
     margin-bottom: 0.6rem;
     margin-left: auto;
     margin-right: 0;
-    padding: 0.8rem;
+    padding: 1.6rem 1.8rem;
     border-radius: 0.4rem;
 }
 
@@ -728,22 +718,7 @@ input[type=range]::-moz-range-thumb {
     opacity: 75%;
 }
 
-.c-text {
-    margin-top: 0.6rem;
-    margin-left: -0.8rem;
-    margin-right: -0.8rem;
-    padding: 1.2rem;
-    font-family: 'pixel', Arial, Helvetica, sans-serif;
-    text-align: justify;
-}
-
-.c-reply .c-text,
-.c-reply .c-name {
-    margin-left: 0.2rem;
-}
-
 .c-reply .c-text {
-    margin-right: 0.2rem;
     border-radius: 0.4rem;
 }
 
@@ -874,7 +849,7 @@ article>header {
     }
 
     .container {
-        max-width: 90%;
+        max-width: 94%;
     }
 
     nav li {
@@ -884,12 +859,12 @@ article>header {
 
     nav ul li ul {
         left: -1.2rem;
-        padding: 0rem;
+        padding: 0;
     }
 
     main {
         margin: 0 auto 1.2rem auto;
-        padding: 2.8rem;
+        padding: 2.4rem;
     }
 
     main ul {
@@ -904,22 +879,12 @@ article>header {
         margin: 0;
     }
 
-    #column-hobbies.column {
-        border-radius: .4rem .4rem 0 0;
-    }
-
-    #column-boycott.column {
-        border-radius: 0;
-    }
-
-    #column-favorites.column {
-        padding-bottom: 2.6rem;
-        border-radius: 0 0 .4rem .4rem;
+    .column {
+        margin-block-start: 1.2rem;
     }
 
     aside {
         width: 100%;
-        max-height: 34rem;
         margin: 0 auto 1.2rem auto;
         padding: 1.8rem;
         font-size: 1rem;
@@ -930,7 +895,7 @@ article>header {
     }
 
     .short {
-    height: auto;
+    height: fit-content;
     }
 
     .short-mobile {

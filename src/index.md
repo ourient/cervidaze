@@ -20,7 +20,7 @@ permalink: /index.html
         <p><small><b>please note:</b> this site is responsive and mobile-friendly, but is best viewed on a
                 browser that supports javascript</small></p>
     </main>
-    <aside class="short narrow border right-side scrollbar order-last">
+    <aside class="short short-mobile narrow border right-side scrollbar order-last">
         <h4>status</h4>
         <div class="rounded card-background" id="statuscafe">
             <div id="statuscafe-username"></div>
