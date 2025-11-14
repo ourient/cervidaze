@@ -26,15 +26,17 @@ a:hover {
     border: none;
 }
 
-.card-background {
+.main-background {
         background-color: rgba(250, 250, 250, 0.8);
 }
 
+.card-background {
+    background-color: rgba(222, 216, 206, 0.8);
+}
 
 /* LAYOUT SHIT */
 
 main,
-.column,
 #collections {
     background-color: rgba(250, 250, 250, 0.8);
 }
@@ -43,6 +45,7 @@ main,
     max-width: 80%;
     display: inline;
     margin-bottom: 1.2rem;
+    opacity: 80%;
 }
 
 #antlers {
@@ -62,6 +65,10 @@ main,
     li a:hover {
         color: #DED9CE;
     }
+}
+
+nav {
+    padding: 0.4rem;
 }
 
 aside {

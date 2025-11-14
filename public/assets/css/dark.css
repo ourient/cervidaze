@@ -66,6 +66,7 @@ main, aside {
     max-width: 80%;
     display: inline;
     margin-bottom: 1.2rem;
+    opacity: 90%;
 }
 
 .nav-link {
@@ -76,6 +77,10 @@ main, aside {
     li a:hover {
         color: #B9BCB3;
     }
+}
+
+nav {
+    padding: 0.2rem;
 }
 
 aside {
