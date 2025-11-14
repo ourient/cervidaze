@@ -303,4 +303,12 @@ article>header {
     #gingko {
         max-width: 75%;
     }
+    
+    .c-comment, .c-reply {
+        font-size: 1.2rem;
+    }
+    
+    .c-text {
+        padding: 1.4rem 1.8rem 1.4rem 1.6rem;
+    }
 }

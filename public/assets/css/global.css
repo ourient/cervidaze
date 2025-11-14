@@ -704,11 +704,11 @@ input[type=range]::-moz-range-thumb {
 .c-name {
     display: inline-block;
     margin: 0;
-    margin-right: 0;
     margin-right: 0.6rem;
 }
 
 .c-site {
+    margin-right: 0.6rem;
     text-transform: lowercase;
     text-decoration: none;
 }
@@ -729,12 +729,11 @@ input[type=range]::-moz-range-thumb {
 
 .c-replyButton {
     margin-top: 0.6rem;
-    margin-right: 0.25rem;
+    margin-right: 0.5rem;
 }
 
 .c-expandButton {
     margin-top: 0.6rem;
-    margin-left: 0.25rem;
 }
 
 .c-paginationButton {
@@ -1075,7 +1074,6 @@ article>header {
     }
 
     .c-timestamp {
-        margin-top: 0.2rem;
-        font-size: smaller;
+        margin-top: 0.1rem;
     }
 }

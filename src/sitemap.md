@@ -8,12 +8,12 @@ permalink: /sitemap.html
 	<div id="sitemap">
 		<h1>sitemap</h1>
 		<ul class="no-bullets">
-			<li><a href="/index.html">home</a></li>
-			<li><a href="/about.html">about</a></li>
-			<li><a href="/blog/index.html">blog</a></li>
+			<li><a href="/index">home</a></li>
+			<li><a href="/about">about</a></li>
+			<li><a href="/blog">blog</a></li>
 			<ul class="no-bullets">
-				<li><a href="/blog/tags.html">tags</a></li>
-				<li><a href="/blog/archive.html">archive</a></li>
+				<li><a href="/blog/tags">tags</a></li>
+				<li><a href="/blog/archive">archive</a></li>
 			</ul>
 			<li><a href="/interests">interests</a></li>
 			<li><a href="/media">media</a></li>
