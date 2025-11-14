@@ -72,7 +72,7 @@ permalink: /about.html
   </div>
 </section>
 
-<section class="border main-background " id="collections">
+<section class="border main-background" id="collections">
   <h2>collections</h2>
   <div class="column-grid">
   <div class="column">
@@ -116,8 +116,34 @@ permalink: /about.html
     <img src="assets/images/graphics/buttons/killmenow.jpg" loading="lazy"
       alt="a button that says &quot;kill me now&quot;">
   </div>
-  <div class="">
-  <div>
+  </div>
+  <div class="slideshow flex-start space-evenly">
+    <img class="thin" src="assets/images/graphics/misc/attachment.jpg" loading="lazy"
+      alt="a button that says &quot;kill me now&quot;">
+    <img class="narrow" src="assets/images/graphics/misc/tumblr2.png" loading="lazy"
+      alt="a button that says &quot;kill me now&quot;">
+    <img class="narrow" src="assets/images/graphics/misc/tumblr3.png" loading="lazy"
+      alt="a button that says &quot;kill me now&quot;">
+    <img class="narrow" src="assets/images/graphics/misc/tumblr1.png" loading="lazy"
+      alt="a button that says &quot;kill me now&quot;">
+    <img class="narrow" src="assets/images/graphics/misc/handgun.jpg" loading="lazy"
+      alt="a button that says &quot;kill me now&quot;">
+    <img class="narrow" src="assets/images/graphics/misc/tumblr5.png" loading="lazy"
+      alt="a button that says &quot;kill me now&quot;">
+    <img class="narrow" src="assets/images/graphics/misc/spinattack.jpg" loading="lazy"
+      alt="a button that says &quot;kill me now&quot;">
+    <img class="narrow" src="assets/images/graphics/misc/tumblr4.png" loading="lazy"
+      alt="a button that says &quot;kill me now&quot;">
+    <img class="narrow" src="assets/images/graphics/misc/tumblr6.png" loading="lazy"
+      alt="a button that says &quot;kill me now&quot;">
+    <img class="narrow" src="assets/images/graphics/misc/live.jpg" loading="lazy"
+      alt="a button that says &quot;kill me now&quot;">
+    <img class="thin" src="assets/images/graphics/misc/nihilism.jpeg" loading="lazy"
+      alt="a button that says &quot;kill me now&quot;">
+    <img class="thin" src="assets/images/graphics/misc/obeliskmetronome.jpg" loading="lazy"
+      alt="a button that says &quot;kill me now&quot;">
+    <img class="thin" src="assets/images/graphics/misc/stinkydog.png" loading="lazy"
+      alt="a button that says &quot;kill me now&quot;">
   </div>
 </section>
 </div>
