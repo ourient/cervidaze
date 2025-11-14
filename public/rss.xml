@@ -3,11 +3,18 @@
   <title>cervidaze</title>
   <subtitle>a personal repository lovingly created by a writer of many varieties.</subtitle>
   <link href="https://cervidaze.me/rss.xml" rel="self" />
-  <updated>2025-09-28T00:00:00Z</updated>
+  <updated>2025-11-14T00:00:00Z</updated>
   <id>https://cervidaze.me/</id>
   <author>
     <name>reyn</name>
   </author>
+  <entry>
+    <title>breaking down (my website layout and issues i ran into)</title>
+    <content type="html"></content>
+    <link href="https://cervidaze.me/blog/posts/sitebreakdown.html" />
+    <updated>2025-11-14T00:00:00Z</updated>
+    <id>https://cervidaze.me/blog/posts/sitebreakdown.html</id>
+  </entry>
   <entry>
     <title>i know when fall is here</title>
     <content type="html">this month has been kind to me. my girlfriend and i went to san diego for a much needed respite from our usual obligations. everything was great up until the point where i caught COVID despite taking as many precautions as i could. it&#39;s the first time i caught it in three years, so i guess it wasn&#39;t for nothing. the COVID itself (likely the status variant) was not terribly agonizing, but past experiences with ME/CFS that debilitated me for months has made me terribly afraid of developing long COVID and having ME/CFS flare ups again.</content>

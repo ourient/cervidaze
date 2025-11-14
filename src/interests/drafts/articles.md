@@ -1,7 +1,7 @@
 
 # articles
 
-i studied journalism and film in college, where my cohort tended to mimic the hegemonic tendencies of western state media—which is to say that they took anything they consumed at face value and were incapable of writing critically about marginalized bodies. this of course was not limited to their craft as storytellers and subsequently extended to their actions as people. my collegiate experience was a bitter one.
+i studied journalism and film in college, where my cohort parroted the hegemonic tendencies of western state media—which is to say that they took anything they consumed at face value and were incapable of writing critically about marginalized people. this of course was not limited to their craft as storytellers and subsequently extended to their actions as people.
 
 some of the pieces here were written for a grade. many of them were written out of spite. my positions now, or at least my preferences in articulating them, may have changed from those listed here. frankly, they ought to be updated with current ones.
 
@@ -30,5 +30,5 @@ the only use to have come from my degree was the brief solace my works gave to t
 
 <ul class="no-bullets">
 <li><del><a href="#">on consumption</a></del></li>
-<li><del><a href="#">on social media and my website</a></del></li>
+<li><del><a href="#">on the internet</a></del></li>
 </ul>

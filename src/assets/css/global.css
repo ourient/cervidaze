@@ -161,6 +161,12 @@ hr {
     scrollbar-width: thin;
 }
 
+.horizontal-scroll {
+    overflow-x: scroll;
+    scrollbar-color: transparent;
+    scrollbar-width: thin;
+}
+
 .circle-bullets {
     list-style-type: circle;
 
@@ -263,7 +269,7 @@ select {
 .column-grid {
     display: -ms-grid;
     display: grid;
-    margin-top: 1.2rem;
+    margin-top: 2rem;
     -webkit-box-flex: 1;
     -ms-flex: 1;
     flex: 1;
@@ -316,6 +322,23 @@ select {
     display: block;
     width: 10rem;
     text-align: center;
+}
+
+.slideshow {
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    max-height: 18rem;
+    margin: 1rem 2.8rem;
+    padding: 1rem 0;
+    gap: 1rem;
+    overflow-x: scroll;
+    scrollbar-color: transparent;
+    scrollbar-width: thin;
+
+    img {
+        border-radius: 0.2rem;
+    }
 }
 
 .gallery {
@@ -998,6 +1021,17 @@ article>header {
         -ms-flex-pack: center;
         justify-content: center;
         font-size: smaller;
+    }
+
+    .slideshow {
+        width: 100%;
+        margin: auto 0;
+        gap: 0.6rem;
+        overflow-y: hidden;
+        
+        img {
+            max-width: 80%;
+        }
     }
 
     .gallery {
