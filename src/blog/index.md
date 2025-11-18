@@ -22,7 +22,7 @@ permalink: /blog/index.html
 <p><a href="posts/2025-09-28-iknowwhenfallishere">i know when fall is here</a></p>
 </ul>
 </main>
-<aside class="border right-side narrow fit-content">
+<aside class="border right-side narrow fit-content card-background">
 <h3>currently</h3>
 <details>
 	<summary>listening to</summary>

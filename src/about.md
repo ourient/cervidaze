@@ -13,7 +13,7 @@ permalink: /about.html
     economy. my day job already has me editing shallow, morally bankrupt content on the same five social media
     platforms for 40 hours a week, so i would prefer if the rest of my life wasn't also wasted on selling my soul
     to capital.</p>
-    <p> this is probably the best decision i've ever made for my creative life.<br>thanks for visiting.</p>
+    <p> this is probably the best decision i've ever made for my creative life. thanks for visiting.</p>
 </main>
 
 <aside class="border card-background tall right-side order-one" id="connect">
