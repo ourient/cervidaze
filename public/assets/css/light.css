@@ -42,7 +42,11 @@ main,
 }
 
 #gingko {
+<<<<<<< HEAD
     max-width: 60%;
+=======
+    max-width: 70%;
+>>>>>>> ad366a1d27975f7c0406cfdb43f8c747afc88b41
     display: inline;
     margin-bottom: 1.2rem;
     opacity: 80%;

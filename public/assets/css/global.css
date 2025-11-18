@@ -344,6 +344,7 @@ select {
 }
 
 .slideshow {
+<<<<<<< HEAD
     flex-wrap: wrap;
     flex-direction: column;
     align-items: flex-start;
@@ -354,6 +355,18 @@ select {
     overflow-x: scroll;
     scrollbar-color: transparent;
     scrollbar-width: thin;
+=======
+    max-height: 18rem;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    overflow-x: scroll;
+    scrollbar-color: transparent;
+    scrollbar-width: thin;
+    margin: 1rem 2.8rem;
+    padding: 1rem 0;
+    gap: 1rem;
+>>>>>>> ad366a1d27975f7c0406cfdb43f8c747afc88b41
 
     img {
         border-radius: 0.2rem;
@@ -1043,6 +1056,7 @@ article>header {
     }
 
     .slideshow {
+<<<<<<< HEAD
         width: 100%;
         margin: auto 0;
         gap: 0.6rem;
@@ -1050,6 +1064,11 @@ article>header {
         
         img {
             max-width: 80%;
+=======
+        overflow-y: hidden;
+        img {
+            width: 90%;
+>>>>>>> ad366a1d27975f7c0406cfdb43f8c747afc88b41
         }
     }
 
