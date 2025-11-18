@@ -7,13 +7,13 @@ permalink: /about.html
 <div class="flex">
 <main class="border tall">
   <h1>about</h1>
-  <p>my name is reyn. i'm a 2X year old writer and serial hobbyist based in california. i entered the world as someone entranced by media and i am going to exit the world as someone disgusted by it.</p>
+  <p>my name is reyn. i'm a 2X year old writer and serial hobbyist based in california. i entered the world as someone entranced by media and i'm going to exit the world as someone disgusted by it.</p>
   <p>i&apos;m constantly struggling with words, which has manifested itself in many ways&semi; i've written essays, articles, poems, screenplays, and most recently, songs. this site serves as a repository for all of these pursuits (and hopefully more).</p>
   <p>i decided to move my creative work to neocities out of spite towards the attention
     economy. my day job already has me editing shallow, morally bankrupt content on the same five social media
     platforms for 40 hours a week, so i would prefer if the rest of my life wasn't also wasted on selling my soul
     to capital.</p>
-    <p> this is probably the best decision i've ever made for my creative life.<br>thanks for visiting.</p>
+    <p> this is probably the best decision i've ever made for my creative life. thanks for visiting.</p>
 </main>
 
 <aside class="border card-background tall right-side order-one" id="connect">

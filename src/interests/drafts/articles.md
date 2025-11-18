@@ -16,6 +16,7 @@ the only use to have come from my degree was the brief solace my works gave to t
 <li><a href="/interests/articles/diversityhire">dear future employers, i'm a great diversity hire</a></li>
 <li><a href="/interests/articles/freechurro">scene analysis: "free churro" from bojack horseman</a></li>
 <li><a href="/interests/articles/theorypaper">an unending process of linguistic becoming: a poststructural analysis of queer liberation</a></li>
+<li><a href="/interests/articles/nihilism">nihilism is dead and we have killed it:<br>a formal rescue of nietzsche, on truth and lies in a nonmoral sense, and ourselves</a></li>
 </ul>
 
 ## commentary

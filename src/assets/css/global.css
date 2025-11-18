@@ -13,9 +13,29 @@ html {
     src: url(/assets/images/style/pixel_operator/PixelOperator.ttf);
 }
 
+@font-face {
+    font-family: 'typewriter';
+    src: url(/assets/images/style/cmu/cmunvt.ttf);
+}
+
+@font-face {
+    font-family: 'mono';
+    src: url(/assets/images/style/liberation-mono-font/LiberationMono-MW1v.ttf);
+}
+
+@font-face {
+    font-family: 'serif';
+    src: url(/assets/images/style/linux_biolinum/LinBiolinum_R.ttf);
+}
+
+@font-face {
+    font-family: 'sans-serif';
+    src: url(/assets/images/style/cmu/cmunbmr.ttf);
+}
+
 body {
-    font-family: 'pixel', Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-family: 'sans-serif', Arial, Helvetica, sans-serif;
+    font-size: 16px;
 }
 
 .container {
@@ -186,7 +206,7 @@ hr {
 /* LAYOUT SHIT */
 
 main {
-    line-height: 1.2em;
+    line-height: 1.5em;
     box-sizing: border-box;
 }
 
@@ -254,8 +274,7 @@ aside {
 select {
     position: relative;
     padding: 0.2rem;
-    font-family: 'pixel', Arial, Helvetica, sans-serif;
-    font-size: 1rem;
+    font-family: 'sans-serif', Arial, Helvetica, sans-serif;
 }
 
 .column {
@@ -616,7 +635,7 @@ input[type=range]::-moz-range-thumb {
     margin-top: 1rem;
     margin-right: 0.8rem;
     padding: 0.6rem;
-    font-family: 'pixel', Arial, Helvetica, sans-serif;
+    font-family: 'sans-serif', Arial, Helvetica, sans-serif;
     font-size: 1.2rem;
     text-decoration: none;
     text-align: center;
@@ -660,7 +679,7 @@ input[type=range]::-moz-range-thumb {
 .c-input {
     padding: 0.4rem;
     margin: 0.5rem;
-    font-family: 'pixel', Arial, Helvetica, sans-serif;
+    font-family: 'sans-serif', Arial, Helvetica, sans-serif;
     outline: none;
     border: none;
     border-radius: 0.4rem;

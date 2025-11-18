@@ -22,7 +22,7 @@ permalink: /index.html
     </main>
     <aside class="short short-mobile narrow border right-side scrollbar order-last">
         <h4>status</h4>
-        <div class="rounded main-background" id="statuscafe">
+        <div class="rounded main-background card-background-light" id="statuscafe">
             <div id="statuscafe-username"></div>
             <div id="statuscafe-content"></div>
         </div>
@@ -35,13 +35,13 @@ permalink: /index.html
             <img src="assets/images/graphics/buttons/sites/cervidaze_v2_dark.png" title="cervidaze dark"
                 alt="cervidaze dark">
         </div>
-        <textarea class="rounded main-background"><a href="https://cervidaze.me/" target="_blank"><img src="your local link here" alt="cervidaze"></a></textarea>
+        <textarea class="rounded main-background card-background-light"><a href="https://cervidaze.me/" target="_blank"><img src="your local link here" alt="cervidaze"></a></textarea>
         <br>
         <h4>playlist</h4>
         {% include "./_includes/partials/musicplayer.njk" %}
         <br>
         <h4>changelog</h4>
-        <div class="changelog rounded scrollbar main-background">
+        <div class="changelog rounded scrollbar main-background card-background-light">
             <ul class="no-bullets">
                 <li>11/10/25<br>updated /interests;<br>reduced FOUC;<br>added cachebuster<br>(please refresh your page!)</li>
                 <li>11/7/25<br>updated /links;<br>code optimization</li>
