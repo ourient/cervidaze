@@ -9,7 +9,7 @@ permalink: /commissions.html
 
 # commissions & prints
 
-<br>
+
 
 commissions and prints are now **OPEN**! please read below for details.
 
@@ -22,7 +22,46 @@ for all inquiries, quotes, commissions, and print orders, please email me at <a 
 </main>
 </div>
 
-<section class="border main--padding">
+<section class="border main--padding main-background">
+
+## prints
+
+<hr>
+<div class="flex-wrap space-evenly">
+<div class="media media-top">
+        <img class="wide rounded" src="/assets/images/photos/art/bloom.png" loading="lazy" alt="a black and white painting of a deer jumping in front of the moon. it is impaled by one red rose.">
+        <div class="media-body media-body-bottom">
+        <h4>bloom</h4>
+        <small>$18 USD - 4"x5"<br>photo paper<br>$24 USD - 8.5"x11"<br>matte paper</small>
+        </div>
+</div>
+
+<div class="media media-top">
+        <img class="wide rounded" loading="lazy" src="/assets/images/photos/art/majima_blue.jpg" loading="lazy" alt="a painting of majima goro from yakuza 0">
+        <div class="media-body media-body-bottom">
+        <h4>one eyed assassin</h4>
+        <small>$16 USD - 4"x5"<br>photo paper<br>$22 USD - 8.5"x11"<br>matte paper</small>
+        </div>
+</div>
+
+<div class="media media-top">
+<img class="wide rounded" src="/assets/images/photos/art/IMG_2806.jpg" loading="lazy" alt="a deer with the caption &quot;you deserve space to make mistakes&quot;">
+        <div class="media-body media-body-bottom">
+        <h4>advice animal - deer</h4>
+        <small>$14 USD - 4"x5"<br>photo paper<br>$20 USD - 8.5"x11"<br>matte paper</small>
+        </div>
+</div>
+
+<div class="media media-top">
+<img class="wide rounded" src="/assets/images/photos/art/IMG_2807.jpg" loading="lazy" alt="a wolf with the caption &quot;we are prone to encountering disorder despite our best efforts to avoid it&quot;">
+        <div class="media-body media-body-bottom">
+        <h4>advice animal - wolf</h4>
+        <small>$14 USD - 4"x5"<br>photo paper<br>$20 USD - 8.5"x11"<br>matte paper</small>
+        </div>
+</div>
+</section>
+
+<section class="border main--padding main-background">
 
 ## commissions
 
@@ -58,36 +97,7 @@ $40 USD + $30 USD per additional subject (+ $10 USD for detailed background)
 </ul>
 </section>
 
-<section class="border main--padding">
-
-## prints
-
-<hr>
-
-### bloom
-$18 USD for 4"x5" photo paper | $24 USD for 8.5"x11" matte paper
-
-<img class="wide rounded center-x" src="/assets/images/photos/art/bloom.png" loading="lazy" alt="a black and white painting of a deer jumping in front of the moon. it is impaled by one red rose.">
-
-<br><br>
-
-### one eyed assassin
-$16 USD for 4"x5" photo paper | $22 USD for 8.5"x11" matte paper
-
-<img class="wide rounded center-x" src="/assets/images/photos/art/majima_blue.jpg" loading="lazy" alt="a painting of majima goro from yakuza 0">
-
-<br><br>
-
-### advice animals (wolf/deer)
-$14 USD for 4"x5" photo paper | $20 USD for 8.5"x11" matte paper
-
-<div class="center">
-<img class="wide rounded" src="/assets/images/photos/art/IMG_2806.jpg" loading="lazy" alt="a deer with the caption &quot;you deserve space to make mistakes&quot;">
-<img class="wide rounded" src="/assets/images/photos/art/IMG_2807.jpg" loading="lazy" alt="a wolf with the caption &quot;we are prone to encountering disorder despite our best efforts to avoid it&quot;">
-</div>
-</section>
-
-<section class="border main--padding short scrollbar">
+<section class="border main--padding main-background short scrollbar">
 
 ## terms of service
 

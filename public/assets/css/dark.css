@@ -48,7 +48,7 @@ a:hover {
 
 /* LAYOUT SHIT */
 
-main {
+main, .main-background {
     background-color: rgba(220, 226, 230, 0.025);
 }
 
