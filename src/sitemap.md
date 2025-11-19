@@ -16,6 +16,7 @@ permalink: /sitemap.html
 				<li><a href="/blog/archive">archive</a></li>
 			</ul>
 			<li><a href="/interests">interests</a></li>
+        	<li><a href="/commissions">commissions</a></li>
 			<li><a href="/media">media</a></li>
 			<li><a href="links">links</a></li>
 			<li><a href="/guestbook">guestbook</a></li>
