@@ -32,7 +32,7 @@ for all inquiries, quotes, commissions, and print orders, please email me at <a 
         <img class="wide rounded" src="/assets/images/photos/art/bloom.png" loading="lazy" alt="a black and white painting of a deer jumping in front of the moon. it is impaled by one red rose.">
         <div class="media-body media-body-bottom">
         <h4>bloom</h4>
-        <small>$18 USD - 4"x5"<br>photo paper<br>$24 USD - 8.5"x11"<br>matte paper</small>
+        <small>$18 USD - 4"x6"<br>photo paper<br>$24 USD - 8.5"x11"<br>matte paper</small>
         </div>
 </div>
 
@@ -40,7 +40,7 @@ for all inquiries, quotes, commissions, and print orders, please email me at <a 
         <img class="wide rounded" loading="lazy" src="/assets/images/photos/art/majima_blue.jpg" loading="lazy" alt="a painting of majima goro from yakuza 0">
         <div class="media-body media-body-bottom">
         <h4>one eyed assassin</h4>
-        <small>$16 USD - 4"x5"<br>photo paper<br>$22 USD - 8.5"x11"<br>matte paper</small>
+        <small>$16 USD - 4"x6"<br>photo paper<br>$22 USD - 8.5"x11"<br>matte paper</small>
         </div>
 </div>
 
@@ -48,7 +48,7 @@ for all inquiries, quotes, commissions, and print orders, please email me at <a 
 <img class="wide rounded" src="/assets/images/photos/art/IMG_2806.jpg" loading="lazy" alt="a deer with the caption &quot;you deserve space to make mistakes&quot;">
         <div class="media-body media-body-bottom">
         <h4>advice animal - deer</h4>
-        <small>$14 USD - 4"x5"<br>photo paper<br>$20 USD - 8.5"x11"<br>matte paper</small>
+        <small>$14 USD - 4"x6"<br>photo paper<br>$20 USD - 8.5"x11"<br>matte paper</small>
         </div>
 </div>
 
@@ -56,7 +56,7 @@ for all inquiries, quotes, commissions, and print orders, please email me at <a 
 <img class="wide rounded" src="/assets/images/photos/art/IMG_2807.jpg" loading="lazy" alt="a wolf with the caption &quot;we are prone to encountering disorder despite our best efforts to avoid it&quot;">
         <div class="media-body media-body-bottom">
         <h4>advice animal - wolf</h4>
-        <small>$14 USD - 4"x5"<br>photo paper<br>$20 USD - 8.5"x11"<br>matte paper</small>
+        <small>$14 USD - 4"x6"<br>photo paper<br>$20 USD - 8.5"x11"<br>matte paper</small>
         </div>
 </div>
 </section>
