@@ -43,6 +43,7 @@ permalink: /index.html
         <h4>changelog</h4>
         <div class="changelog rounded scrollbar main-background card-background-light">
             <ul class="no-bullets">
+                <li>11/19/25<br>new commissions page;<br>commissions now open
                 <li>11/18/25<br>updated /interests;<br>changed site fonts
                 <li>11/10/25<br>updated /interests;<br>reduced FOUC;<br>added cachebuster<br>(please refresh your page!)</li>
                 <li>11/7/25<br>updated /links;<br>code optimization</li>
