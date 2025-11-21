@@ -19,9 +19,7 @@ permalink: /links.html
   <link href="/assets/css/light.css{{ nocache }}" rel="stylesheet" type="text/css" media="all">
   <link href="/assets/css/global.css{{ nocache }}" rel="stylesheet" type="text/css" media="all">
 
-  <script src="/assets/js/styleswitcher.js{{ nocache }}">
-  </script>
-  <script data-goatcounter="https://cervidaze.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+  <script src="/assets/js/styleswitcher.js{{ nocache }}"></script>
 </head>
 
 <body>

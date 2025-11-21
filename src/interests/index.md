@@ -3,19 +3,7 @@ permalink: /interests.html
 layout: layouts/main.njk
 title: interests |
 ---
-<script>
-    function openTab(evt, interestName) {
-        // Declare all variables
-        var i, tabcontent, tablinks;
-        // Get all elements with class="tabcontent" and hide them
-        tabcontent = document.getElementsByClassName("tabcontent");
-        for (i = 0; i < tabcontent.length; i++) {
-            tabcontent[i].style.display = "none";
-        }
-        // Show the current tab
-        document.getElementById(interestName).style.display = "block";
-    }
-</script>
+<script src="assets/js/tabs.js"></script>
 <div class="flex">
     <aside class="border thin left-side fit-content">
         <h4>interests</h4>
@@ -75,23 +63,4 @@ title: interests |
         {% include "src/interests/drafts/tea.md" %}
     </main>
 </div>
-<script>
-    const galleryImages = Array.from(document.querySelectorAll('.gallery img'));
-    const lightbox = document.createElement('div');
-    const lightboxImg = document.createElement('img');
-    lightbox.classList.add('lightbox');
-    lightbox.appendChild(lightboxImg);
-    document.body.appendChild(lightbox);
-    function handleImage(img) {
-        console.log("bweh")
-        img.addEventListener('click', () => {
-            const imgSrc = img.getAttribute('src');
-            lightboxImg.setAttribute('src', imgSrc);
-            lightbox.style.display = 'flex';
-        });
-        lightbox.addEventListener('click', () => {
-            lightbox.style.display = 'none';
-        });
-    };
-    galleryImages.forEach(handleImage);
-</script>
+<script src="assets/js/lightbox.js"></script>
