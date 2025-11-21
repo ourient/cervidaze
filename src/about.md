@@ -18,7 +18,7 @@ permalink: /about.html
 </main>
 
 <aside class="border card-background tall right-side order-one" id="connect">
-  <img class="rounded center" src="assets/images/photos/self_portrait.png" loading="lazy" alt="a blurry self portrait of reyn sitting on a chair and smiling">
+  <img class="rounded center" src="assets/media/images/photos/self_portrait.png" loading="lazy" alt="a blurry self portrait of reyn sitting on a chair and smiling">
   <br><br>
   <h2>connect</h2>
   <div class="padding-inline">
@@ -77,73 +77,73 @@ permalink: /about.html
   <h2>collections</h2>
   <div class="column-grid">
   <div class="column">
-    <img src="assets/images/graphics/userboxes/this.jpg" loading="lazy" alt="a userbox that says &quot;this&quot;">
-    <img src="assets/images/graphics/userboxes/borntodie.png" loading="lazy"
+    <img src="assets/media/images/graphics/userboxes/this.jpg" loading="lazy" alt="a userbox that says &quot;this&quot;">
+    <img src="assets/media/images/graphics/userboxes/borntodie.png" loading="lazy"
       alt="a userbox of the &quot;born to die world is a fuck&quot; meme">
   </div>
 
   <div class="column site-button">
-    <img src="assets/images/graphics/stamps/imdie.gif" loading="lazy" alt="a stamp saying &quot;i'm die&quot;">
-    <img src="assets/images/graphics/stamps/itgetsbetter_thecanofworms.png" loading="lazy" alt="a stamp of a deer saying &quot;it gets better trust&quot;">
-    <img src="assets/images/graphics/stamps/catuser.gif" loading="lazy" alt="a stamp of a cat using a pc">
-    <img src="assets/images/graphics/stamps/killyourself_peanutbuttaz.png" loading="lazy"
+    <img src="assets/media/images/graphics/stamps/imdie.gif" loading="lazy" alt="a stamp saying &quot;i'm die&quot;">
+    <img src="assets/media/images/graphics/stamps/itgetsbetter_thecanofworms.png" loading="lazy" alt="a stamp of a deer saying &quot;it gets better trust&quot;">
+    <img src="assets/media/images/graphics/stamps/catuser.gif" loading="lazy" alt="a stamp of a cat using a pc">
+    <img src="assets/media/images/graphics/stamps/killyourself_peanutbuttaz.png" loading="lazy"
       alt="a stamp that says &quot;hate trans people? kill yourself!&quot;">
-    <img src="assets/images/graphics/stamps/thumbsup.jpg" loading="lazy" alt="a stamp of crumbcat giving a thumbs up">
-    <img src="assets/images/graphics/stamps/7bilpeople.png" loading="lazy"
+    <img src="assets/media/images/graphics/stamps/thumbsup.jpg" loading="lazy" alt="a stamp of crumbcat giving a thumbs up">
+    <img src="assets/media/images/graphics/stamps/7bilpeople.png" loading="lazy"
       alt="a stamp that says &quot;7 billion people instantly enlightened&quot;">
-    <img src="assets/images/graphics/stamps/navyseal.jpg" loading="lazy" alt="a stamp reading the navy seal copypasta">
-    <img src="assets/images/graphics/stamps/support.jpg" loading="lazy"
+    <img src="assets/media/images/graphics/stamps/navyseal.jpg" loading="lazy" alt="a stamp reading the navy seal copypasta">
+    <img src="assets/media/images/graphics/stamps/support.jpg" loading="lazy"
       alt="a stamp that says &quot;i can't remember what i support but i support it anyways&quot;">
-    <img src="assets/images/graphics/stamps/ow.jpg" loading="lazy"
+    <img src="assets/media/images/graphics/stamps/ow.jpg" loading="lazy"
       alt="a stamp of the animal crossing villager lucky saying &quot;ow&quot;">
   </div>
 
   <div class="column">
-    <img src="assets/images/graphics/buttons/likecomputer.jpg" loading="lazy"
+    <img src="assets/media/images/graphics/buttons/likecomputer.jpg" loading="lazy"
       alt="a button that says &quot;i like computer&quot;">
-    <img src="assets/images/graphics/buttons/cssisaweseom.png" loading="lazy"
+    <img src="assets/media/images/graphics/buttons/cssisaweseom.png" loading="lazy"
       alt="a button that says &quot;css is awesome.&quot; the word &quot;awesome&quot; is overflowing from the frame">
-    <img src="assets/images/graphics/buttons/by_cyber-rot_on_neocities.png" loading="lazy"
+    <img src="assets/media/images/graphics/buttons/by_cyber-rot_on_neocities.png" loading="lazy"
       alt="a button that says &quot;fuck yeah it hurts&quot;">
-    <img src="assets/images/graphics/buttons/fuck_zios.png" loading="lazy"
+    <img src="assets/media/images/graphics/buttons/fuck_zios.png" loading="lazy"
       alt="a button that says &quot;fuck israel kill zionists&quot;">
-    <img src="assets/images/graphics/buttons/masknow.png" loading="lazy" alt="a button that says &quot;mask now!&quot;">
-    <img src="assets/images/graphics/buttons/noEthicalConsumer.png" loading="lazy"
+    <img src="assets/media/images/graphics/buttons/masknow.png" loading="lazy" alt="a button that says &quot;mask now!&quot;">
+    <img src="assets/media/images/graphics/buttons/noEthicalConsumer.png" loading="lazy"
       alt="a button that says &quot;there is no ethical consumerism&quot;">
-    <img src="assets/images/graphics/buttons/another.gif" loading="lazy"
+    <img src="assets/media/images/graphics/buttons/another.gif" loading="lazy"
       alt="a button that says &quot;another brilliant mind ruined by higher education&quot;">
-    <img src="assets/images/graphics/buttons/gaypeople.jpg" loading="lazy"
+    <img src="assets/media/images/graphics/buttons/gaypeople.jpg" loading="lazy"
       alt="a button that says &quot;gay people&quot;">
-    <img src="assets/images/graphics/buttons/no-button.gif" loading="lazy"
+    <img src="assets/media/images/graphics/buttons/no-button.gif" loading="lazy"
       alt="a button that says &quot;this site has no button&quot;">
   </div>
   </div>
   <div class="slideshow flex-start space-evenly">
-    <img class="thin" src="assets/images/graphics/misc/attachment.jpg" loading="lazy"
+    <img class="thin" src="assets/media/images/graphics/misc/attachment.jpg" loading="lazy"
       alt="get attached to everything. develop attachments to whatever you see that are so profound you go insane">
-    <img class="narrow" src="assets/images/graphics/misc/tumblr2.png" loading="lazy"
+    <img class="narrow" src="assets/media/images/graphics/misc/tumblr2.png" loading="lazy"
       alt="i must not kill myself. killing myself is the myself killer">
-    <img class="narrow" src="assets/images/graphics/misc/tumblr3.png" loading="lazy"
+    <img class="narrow" src="assets/media/images/graphics/misc/tumblr3.png" loading="lazy"
       alt="i got six words for you. i got four words for you. i got two words. fuck you">
-    <img class="narrow" src="assets/images/graphics/misc/tumblr1.png" loading="lazy"
+    <img class="narrow" src="assets/media/images/graphics/misc/tumblr1.png" loading="lazy"
       alt="don't follow me if you consume content and/or media or endorse behavior or condone/reinforce ideas">
-    <img class="narrow" src="assets/images/graphics/misc/handgun.jpg" loading="lazy"
+    <img class="narrow" src="assets/media/images/graphics/misc/handgun.jpg" loading="lazy"
       alt="how to inform an officer you are carrying a handgun">
-    <img class="narrow" src="assets/images/graphics/misc/tumblr5.png" loading="lazy"
+    <img class="narrow" src="assets/media/images/graphics/misc/tumblr5.png" loading="lazy"
       alt="i'm actually very normal you stupid fucking bitch piece of shit">
-    <img class="narrow" src="assets/images/graphics/misc/spinattack.jpg" loading="lazy"
+    <img class="narrow" src="assets/media/images/graphics/misc/spinattack.jpg" loading="lazy"
       alt="don't cry because it's over, attack. attack everything around you. do spin attacks">
-    <img class="narrow" src="assets/images/graphics/misc/tumblr4.png" loading="lazy"
+    <img class="narrow" src="assets/media/images/graphics/misc/tumblr4.png" loading="lazy"
       alt="nothing bottom jeans and boots with the nothing">
-    <img class="narrow" src="assets/images/graphics/misc/tumblr6.png" loading="lazy"
+    <img class="narrow" src="assets/media/images/graphics/misc/tumblr6.png" loading="lazy"
       alt="be born. try to be a good person. morality is determined by social actors with their own motivations and access to power. goodness is merely a shifting social approximation with no precise center or meaning. still try to be a good person. get punished anyways. die">
-    <img class="narrow" src="assets/images/graphics/misc/live.jpg" loading="lazy"
+    <img class="narrow" src="assets/media/images/graphics/misc/live.jpg" loading="lazy"
       alt="if you are transgender you have to live. if you accomplish something else then good. if you accomplish nothing else then good. but you have to live">
-    <img class="thin" src="assets/images/graphics/misc/nihilism.jpeg" loading="lazy"
+    <img class="thin" src="assets/media/images/graphics/misc/nihilism.jpeg" loading="lazy"
       alt="the simplest argument to refute a moral nihilist is to kill them. nihilism is not a philosophy that last long. a true nihilist neither cares nor does not care about their value of their own life">
-    <img class="thin" src="assets/images/graphics/misc/obeliskmetronome.jpg" loading="lazy"
+    <img class="thin" src="assets/media/images/graphics/misc/obeliskmetronome.jpg" loading="lazy"
       alt="i feel cleansed purified reborn. i want to fuck">
-    <img class="thin" src="assets/images/graphics/misc/stinkydog.png" loading="lazy"
+    <img class="thin" src="assets/media/images/graphics/misc/stinkydog.png" loading="lazy"
       alt="look what i found! it's a stinky dog! oooooooo my smelly dog">
   </div>
 </section>

@@ -10,27 +10,27 @@ html {
 
 @font-face {
     font-family: 'pixel';
-    src: url(/assets/images/style/pixel_operator/PixelOperator.ttf);
+    src: url(/assets/media/fonts/pixel_operator/PixelOperator.ttf);
 }
 
 @font-face {
     font-family: 'typewriter';
-    src: url(/assets/images/style/cmu/cmunvt.ttf);
+    src: url(/assets/media/fonts/cmu/cmunvt.ttf);
 }
 
 @font-face {
     font-family: 'mono';
-    src: url(/assets/images/style/liberation-mono-font/LiberationMono-MW1v.ttf);
+    src: url(/assets/media/fonts/liberation-mono-font/LiberationMono-MW1v.ttf);
 }
 
 @font-face {
     font-family: 'serif';
-    src: url(/assets/images/style/linux_biolinum/LinBiolinum_R.ttf);
+    src: url(/assets/media/fonts/linux_biolinum/LinBiolinum_R.ttf);
 }
 
 @font-face {
     font-family: 'sans-serif';
-    src: url(/assets/images/style/cmu/cmunbmr.ttf);
+    src: url(/assets/media/fonts/cmu/cmunbmr.ttf);
 }
 
 body {

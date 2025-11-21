@@ -29,7 +29,7 @@ for all inquiries, quotes, commissions, and print orders, please email me at <a 
 <hr>
 <div class="flex-wrap space-evenly">
 <div class="media media-top">
-        <img class="wide rounded" src="/assets/images/photos/art/bloom.png" loading="lazy" alt="a black and white painting of a deer jumping in front of the moon. it is impaled by one red rose.">
+        <img class="wide rounded" src="/assets/media/images/photos/art/bloom.png" loading="lazy" alt="a black and white painting of a deer jumping in front of the moon. it is impaled by one red rose.">
         <div class="media-body media-body-bottom">
         <h4>bloom</h4>
         <small>$18 USD - 4"x6"<br>photo paper<br>$24 USD - 8.5"x11"<br>matte paper</small>
@@ -37,7 +37,7 @@ for all inquiries, quotes, commissions, and print orders, please email me at <a 
 </div>
 
 <div class="media media-top">
-        <img class="wide rounded" loading="lazy" src="/assets/images/photos/art/majima_blue.jpg" loading="lazy" alt="a painting of majima goro from yakuza 0">
+        <img class="wide rounded" loading="lazy" src="/assets/media/images/photos/art/majima_blue.jpg" loading="lazy" alt="a painting of majima goro from yakuza 0">
         <div class="media-body media-body-bottom">
         <h4>one eyed assassin</h4>
         <small>$16 USD - 4"x6"<br>photo paper<br>$22 USD - 8.5"x11"<br>matte paper</small>
@@ -45,7 +45,7 @@ for all inquiries, quotes, commissions, and print orders, please email me at <a 
 </div>
 
 <div class="media media-top">
-<img class="wide rounded" src="/assets/images/photos/art/IMG_2806.jpg" loading="lazy" alt="a deer with the caption &quot;you deserve space to make mistakes&quot;">
+<img class="wide rounded" src="/assets/media/images/photos/art/IMG_2806.jpg" loading="lazy" alt="a deer with the caption &quot;you deserve space to make mistakes&quot;">
         <div class="media-body media-body-bottom">
         <h4>advice animal - deer</h4>
         <small>$14 USD - 4"x6"<br>photo paper<br>$20 USD - 8.5"x11"<br>matte paper</small>
@@ -53,7 +53,7 @@ for all inquiries, quotes, commissions, and print orders, please email me at <a 
 </div>
 
 <div class="media media-top">
-<img class="wide rounded" src="/assets/images/photos/art/IMG_2807.jpg" loading="lazy" alt="a wolf with the caption &quot;we are prone to encountering disorder despite our best efforts to avoid it&quot;">
+<img class="wide rounded" src="/assets/media/images/photos/art/IMG_2807.jpg" loading="lazy" alt="a wolf with the caption &quot;we are prone to encountering disorder despite our best efforts to avoid it&quot;">
         <div class="media-body media-body-bottom">
         <h4>advice animal - wolf</h4>
         <small>$14 USD - 4"x6"<br>photo paper<br>$20 USD - 8.5"x11"<br>matte paper</small>
@@ -71,8 +71,8 @@ for all inquiries, quotes, commissions, and print orders, please email me at <a 
 $20 USD + $15 USD per additional subject
 
 <ul class="gallery">
-        <li><img src="/assets/images/photos/art/IMG_2799.jpg" loading="lazy" alt="a sketch of a person with medium length hair and glasses"></li>
-        <li><img src="/assets/images/photos/art/IMG_2800.jpg" loading="lazy" alt="a sketch of a deer with a flaming halo behind its head"></li>
+        <li><img src="/assets/media/images/photos/art/IMG_2799.jpg" loading="lazy" alt="a sketch of a person with medium length hair and glasses"></li>
+        <li><img src="/assets/media/images/photos/art/IMG_2800.jpg" loading="lazy" alt="a sketch of a deer with a flaming halo behind its head"></li>
 </ul>
 
 
@@ -82,8 +82,8 @@ $20 USD + $15 USD per additional subject
 $25 USD + $20 USD per additional subject
 
 <ul class="gallery">
-        <li><img src="/assets/images/photos/art/IMG_2801.jpg" loading="lazy" alt="a black and white line drawing of someone with long hair and stars under her eyes"></li>
-        <li><img src="/assets/images/photos/art/IMG_2802.jpg" loading="lazy" alt="a dark green line drawing of someone with long hair and hearts on their cheeks"></li>
+        <li><img src="/assets/media/images/photos/art/IMG_2801.jpg" loading="lazy" alt="a black and white line drawing of someone with long hair and stars under her eyes"></li>
+        <li><img src="/assets/media/images/photos/art/IMG_2802.jpg" loading="lazy" alt="a dark green line drawing of someone with long hair and hearts on their cheeks"></li>
 </ul>
 
 <br>
@@ -92,8 +92,8 @@ $25 USD + $20 USD per additional subject
 $40 USD + $30 USD per additional subject (+ $10 USD for detailed background)
 
 <ul class="gallery">
-        <li><img src="/assets/images/photos/art/IMG_2803.jpg" loading="lazy" alt="a portrait of a person with medium red hair and butterfly earrings in front of a solid blue background"></li>
-        <li><img src="/assets/images/photos/art/IMG_0446.jpg" loading="lazy" alt="a portrait of a person with long red hair and glasses in front of the night sky"></li>
+        <li><img src="/assets/media/images/photos/art/IMG_2803.jpg" loading="lazy" alt="a portrait of a person with medium red hair and butterfly earrings in front of a solid blue background"></li>
+        <li><img src="/assets/media/images/photos/art/IMG_0446.jpg" loading="lazy" alt="a portrait of a person with long red hair and glasses in front of the night sky"></li>
 </ul>
 </section>
 

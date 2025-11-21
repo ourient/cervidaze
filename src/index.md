@@ -30,9 +30,9 @@ permalink: /index.html
         <br>
         <h4>site buttons</h4>
         <div class="site-button">
-            <img src="assets/images/graphics/buttons/sites/cervidaze_v2.png" title="cervidaze light"
+            <img src="assets/media/images/graphics/buttons/sites/cervidaze_v2.png" title="cervidaze light"
                 alt="cervidaze light">
-            <img src="assets/images/graphics/buttons/sites/cervidaze_v2_dark.png" title="cervidaze dark"
+            <img src="assets/media/images/graphics/buttons/sites/cervidaze_v2_dark.png" title="cervidaze dark"
                 alt="cervidaze dark">
         </div>
         <textarea class="rounded main-background card-background-light"><a href="https://cervidaze.me/" target="_blank"><img src="your local link here" alt="cervidaze"></a></textarea>

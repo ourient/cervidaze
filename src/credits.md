@@ -30,9 +30,9 @@ permalink: /credits.html
       <p>analytics: <a href="https://www.goatcounter.com/" target="_blank">goatcounter</a></p>
       <br>
       <div id="credits">
-        <img src="assets/images/graphics/buttons/button (10).png"
+        <img src="assets/media/images/graphics/buttons/button (10).png"
           alt="">
-        <img src="assets/images/graphics/buttons/a50.png"
+        <img src="assets/media/images/graphics/buttons/a50.png"
           alt="">
       </div>
       <br>
