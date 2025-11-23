@@ -130,6 +130,12 @@ input[type=range]::-moz-range-thumb {
 }
 
 
+/* OTHER SHIT */
+#cdr{
+  color: #22211B;
+}
+
+
 /* BLOG SHIT */
 
 #c_widget button,

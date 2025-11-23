@@ -1,5 +1,5 @@
 ---
-title: links |
+title: links
 permalink: /links.html
 ---
 

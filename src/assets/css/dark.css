@@ -98,11 +98,19 @@ option:hover {
     background-color: #72705b;
 }
 
+code {
+    background-color: rgba(220, 226, 230, 0.045);
+}
+
 
 /* OTHER SHIT */
 
 textarea {
     color: #DED9CE;
+}
+
+#cdr{
+  color: #DED9CE;
 }
 
 

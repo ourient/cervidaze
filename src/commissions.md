@@ -1,6 +1,6 @@
 ---
 layout: /layouts/main.njk
-title: commissions |
+title: commissions
 permalink: /commissions.html
 ---
 

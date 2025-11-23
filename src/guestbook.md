@@ -1,6 +1,6 @@
 ---
 layout: /layouts/main.njk
-title: guestbook |
+title: guestbook
 permalink: /guestbook.html
 ---
 

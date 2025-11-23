@@ -1,7 +1,7 @@
 ---
 permalink: /interests.html
 layout: layouts/main.njk
-title: interests |
+title: interests
 ---
 <script src="assets/js/tabs.js"></script>
 <div class="flex">

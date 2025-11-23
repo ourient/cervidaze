@@ -1,5 +1,5 @@
 ---
-title: blog |
+title: blog
 layout: /layouts/blog.njk
 permalink: /blog/index.html
 ---

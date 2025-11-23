@@ -1,14 +1,14 @@
 ---
 permalink: /media.html
 layout: layouts/main.njk
-title: media log |
+title: media log
 ---
 <script src="assets/js/tabs.js"></script>
 <div class="flex">
     <aside class="border thin left-side fit-content">
         <h4>media log</h4>
         <div class="side-nav">
-        <ul class="no-bullets"><a onclick="openTab(event, `music`)">music</a></ul>
+        <ul class="no-bullets"><a onclick="openTab(event, `music`)" id="defaultOpen">music</a></ul>
         <ul class="no-bullets"><a onclick="openTab(event, `filmtv`)"><del>film/tv</del></a></ul>
         <ul class="no-bullets"><a onclick="openTab(event, `games`)">games</a></ul>
         <ul class="no-bullets"><a onclick="openTab(event, `books`)">books</a></ul>

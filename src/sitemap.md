@@ -1,6 +1,6 @@
 ---
 layout: /layouts/main.njk
-title: sitemap |
+title: sitemap
 permalink: /sitemap.html
 ---
 <div class="flex">

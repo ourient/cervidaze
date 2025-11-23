@@ -1,6 +1,6 @@
 ---
 layout: layouts/main.njk
-title: not found! |
+title: not found!
 permalink: /not_found.html
 ---
 

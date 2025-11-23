@@ -526,6 +526,69 @@ textarea {
     margin: 0 1rem .5rem 1rem;
 }
 
+#cdr {
+  width: 200px;
+  margin: 0 auto;
+  padding: 6px;
+}
+
+#cdr table {
+  background-color: #ffffff;
+  margin: 0 auto;
+}
+
+#cdr table tr td {
+  padding: 1px; 
+}
+
+#cdr .webring-prev {
+  text-align: right;
+}
+
+#cdr .webring-info {
+  text-align: center;
+}
+
+#cdr .webring-next {
+  text-align: left;
+}
+
+#cdr .webring-links {
+  font-size: small;
+}
+
+#cdr p {
+  margin: 0.3em 0; 
+}
+
+.cdr-badge {
+  display: block;
+  margin: 0.2em auto; 
+  max-width: 200px;
+  height: auto;
+}
+
+.cdr-widget {
+  text-align: center;
+  font-family: times;
+  margin: 0; 
+  line-height: 1.2; 
+}
+
+.cdr-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3em;
+  margin: 0.2em 0; 
+}
+
+.cdr-nav .cdr-prev,
+.cdr-nav .cdr-next {
+  font-weight: bold;
+  text-decoration: none;
+}
+
 
 /* MUSIC PLAYER SHIT */
 
@@ -1062,7 +1125,7 @@ article>header {
         overflow-y: hidden;
         
         img {
-            max-width: 80%;
+            max-width: 90%;
         }
     }
 
