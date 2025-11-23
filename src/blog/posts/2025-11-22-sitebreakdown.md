@@ -95,17 +95,17 @@ this is `main.njk`, used for my primary, media, and interest pages:
 
 ```
 { block content }
-	<noscript>hey uh you kinda need javascript for this</noscript>
-	<div class="container">
-		<header>
-			{ include "partials/header.njk" }
-		</header>
+    <noscript>hey uh you kinda need javascript for this</noscript>
+    <div class="container">
+        <header>
+	{ include "partials/header.njk" }
+        </header>
 		
-		{ content | safe }
-	</div>
-	<footer id="footer">
-		{ include "partials/footer.njk" }
-	</footer>
+	{ content | safe }
+    </div>
+    <footer id="footer">
+	{ include "partials/footer.njk" }
+    </footer>
 { endcontent }
 ```
 
@@ -116,14 +116,14 @@ this is `blogpost.njk`:
     <noscript>hey uh you kinda need javascript for this</noscript>
     <div class="container">
         <header>
-			{ include "partials/blogheader.njk" }
+	{ include "partials/blogheader.njk" }
         </header>
         <main class="border main--padding">
-            <h1>{{title}}</h1>
-            <time id="post-date">{{ date | topDate }}</time>
-            <ul id="post-tags" class="flex-list"></ul>
+	<h1>{{title}}</h1>
+	<time id="post-date">{{ date | topDate }}</time>
+	<ul id="post-tags" class="flex-list"></ul>
 			
-			{ content | safe }
+	{ content | safe }
         </main>
         <div id="c_widget"></div>
         <script src="/assets/js/comment-widget.js"></script>
@@ -230,9 +230,9 @@ main {
 	width: auto;
 	padding: 2.8rem;
 	border-radius: 0.4rem;
-    border-width: 0.1rem;
-    border-style: solid;
-    border-color: rgba(220, 226, 230, 0.25);
+	border-width: 0.1rem;
+	border-style: solid;
+	border-color: rgba(220, 226, 230, 0.25);
 }
 
 aside {
@@ -241,9 +241,9 @@ aside {
 	padding: 1.8rem;
 	font-size: smaller;
 	border-radius: 0.4rem;
-    border-width: 0.1rem;
-    border-style: solid;
-    border-color: rgba(220, 226, 230, 0.25);
+	border-width: 0.1rem;
+	border-style: solid;
+	border-color: rgba(220, 226, 230, 0.25);
 }
 ```
 
@@ -257,9 +257,9 @@ with OOCSS:
 
 .border {
 	border-radius: 0.4rem;
-    border-width: 0.1rem;
-    border-style: solid;
-    border-color: rgba(220, 226, 230, 0.25);
+	border-width: 0.1rem;
+	border-style: solid;
+	border-color: rgba(220, 226, 230, 0.25);
 }
 
 
@@ -293,7 +293,7 @@ this is probably the part of the post that will be the most useful to you. i'm s
 ### FOUCing off
 for how much webdevs online talk about combatting flash of unstyled content (FOUC) specifically when applying a dark mode stylesheet retrieved from `localStorage`, they sure don't have a fucking solution that works. even after trying js scripts in `<head>`, js scripts in `<body>`, inline js, js scripts after stylesheets, js scripts before stylesheets, event listeners, DOM content loaders, loading divs, fucking praying, nothing worked for me and my incredibly eager to load firefox browser.
 
-until during one fateful properly keyworded search query, i found <a href="https://www.reddit.com/r/css/comments/13hpszu/how_do_i_avoid_the_delayed_css_when_loading_pages/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button" target="_blank">this reddit post</a>.
+until during one fateful, properly keyworded search query, i found <a href="https://www.reddit.com/r/css/comments/13hpszu/how_do_i_avoid_the_delayed_css_when_loading_pages/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button" target="_blank">this reddit post</a>.
 
 <img class="wide rounded center" src="/blog/images/preload_screenshot.png">
 

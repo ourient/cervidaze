@@ -123,17 +123,17 @@ src/
 <p>this standardizes the <code>&lt;head&gt;</code> sitewide, so now i can edit my site's title, javascript, and stylesheets for all pages in one place. i can then extend <code>base.njk</code> with <a href="https://www.11ty.dev/docs/shortcodes/" target="_blank_">shortcodes</a> that nest the layout template i want into <code>&lt;body&gt;</code>.</p>
 <p>this is <code>main.njk</code>, used for my primary, media, and interest pages:</p>
 <pre><code>{ block content }
-	&lt;noscript&gt;hey uh you kinda need javascript for this&lt;/noscript&gt;
-	&lt;div class=&quot;container&quot;&gt;
-		&lt;header&gt;
-			{ include &quot;partials/header.njk&quot; }
-		&lt;/header&gt;
+    &lt;noscript&gt;hey uh you kinda need javascript for this&lt;/noscript&gt;
+    &lt;div class=&quot;container&quot;&gt;
+        &lt;header&gt;
+	{ include &quot;partials/header.njk&quot; }
+        &lt;/header&gt;
 		
-		{ content | safe }
-	&lt;/div&gt;
-	&lt;footer id=&quot;footer&quot;&gt;
-		{ include &quot;partials/footer.njk&quot; }
-	&lt;/footer&gt;
+	{ content | safe }
+    &lt;/div&gt;
+    &lt;footer id=&quot;footer&quot;&gt;
+	{ include &quot;partials/footer.njk&quot; }
+    &lt;/footer&gt;
 { endcontent }
 </code></pre>
 <p>this is <code>blogpost.njk</code>:</p>
@@ -141,14 +141,14 @@ src/
     &lt;noscript&gt;hey uh you kinda need javascript for this&lt;/noscript&gt;
     &lt;div class=&quot;container&quot;&gt;
         &lt;header&gt;
-			{ include &quot;partials/blogheader.njk&quot; }
+	{ include &quot;partials/blogheader.njk&quot; }
         &lt;/header&gt;
         &lt;main class=&quot;border main--padding&quot;&gt;
-            &lt;h1&gt;breaking down (my website)&lt;/h1&gt;
-            &lt;time id=&quot;post-date&quot;&gt;11/22/25&lt;/time&gt;
-            &lt;ul id=&quot;post-tags&quot; class=&quot;flex-list&quot;&gt;&lt;/ul&gt;
+	&lt;h1&gt;breaking down (my website)&lt;/h1&gt;
+	&lt;time id=&quot;post-date&quot;&gt;11/22/25&lt;/time&gt;
+	&lt;ul id=&quot;post-tags&quot; class=&quot;flex-list&quot;&gt;&lt;/ul&gt;
 			
-			{ content | safe }
+	{ content | safe }
         &lt;/main&gt;
         &lt;div id=&quot;c_widget&quot;&gt;&lt;/div&gt;
         &lt;script src=&quot;/assets/js/comment-widget.js&quot;&gt;&lt;/script&gt;
@@ -233,9 +233,9 @@ main {
 	width: auto;
 	padding: 2.8rem;
 	border-radius: 0.4rem;
-    border-width: 0.1rem;
-    border-style: solid;
-    border-color: rgba(220, 226, 230, 0.25);
+	border-width: 0.1rem;
+	border-style: solid;
+	border-color: rgba(220, 226, 230, 0.25);
 }
 
 aside {
@@ -244,9 +244,9 @@ aside {
 	padding: 1.8rem;
 	font-size: smaller;
 	border-radius: 0.4rem;
-    border-width: 0.1rem;
-    border-style: solid;
-    border-color: rgba(220, 226, 230, 0.25);
+	border-width: 0.1rem;
+	border-style: solid;
+	border-color: rgba(220, 226, 230, 0.25);
 }
 </code></pre>
 <p>because then, you design utility css classes for the properties you use the most and then just customize your html elements with them so you don't need to design an entirely new element with redundant lines of css each time you have a specific exception.</p>
@@ -257,9 +257,9 @@ aside {
 
 .border {
 	border-radius: 0.4rem;
-    border-width: 0.1rem;
-    border-style: solid;
-    border-color: rgba(220, 226, 230, 0.25);
+	border-width: 0.1rem;
+	border-style: solid;
+	border-color: rgba(220, 226, 230, 0.25);
 }
 
 
@@ -286,7 +286,7 @@ aside {
 <br>
 <h3>FOUCing off</h3>
 <p>for how much webdevs online talk about combatting flash of unstyled content (FOUC) specifically when applying a dark mode stylesheet retrieved from <code>localStorage</code>, they sure don't have a fucking solution that works. even after trying js scripts in <code>&lt;head&gt;</code>, js scripts in <code>&lt;body&gt;</code>, inline js, js scripts after stylesheets, js scripts before stylesheets, event listeners, DOM content loaders, loading divs, fucking praying, nothing worked for me and my incredibly eager to load firefox browser.</p>
-<p>until during one fateful properly keyworded search query, i found <a href="https://www.reddit.com/r/css/comments/13hpszu/how_do_i_avoid_the_delayed_css_when_loading_pages/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button" target="_blank">this reddit post</a>.</p>
+<p>until during one fateful, properly keyworded search query, i found <a href="https://www.reddit.com/r/css/comments/13hpszu/how_do_i_avoid_the_delayed_css_when_loading_pages/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button" target="_blank">this reddit post</a>.</p>
 <img class="wide rounded center" src="/blog/images/preload_screenshot.png">
 <p>thank you, u/mcmillhj. after one whole year of manic searching, you have finally saved me from a world of pain.</p>
 <p>preloading my styleswitcher js worked. it FULLY forces the html to retrieve and run the script (and therefore your cached dark mode stylesheet, if saved) ABSOLUTELY before all else.</p>
