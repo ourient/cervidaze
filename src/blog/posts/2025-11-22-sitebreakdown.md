@@ -201,8 +201,8 @@ like many others who were just beginning with html/css, i used sadgrl's layout g
 my layout is currently a simple system of one main container with one or two sidebars for supplementary content or navigation if needed. i try to keep my layout as uncluttered as i can while still maintaining some level of intuition—this to me means:
 
 <ul class="circle-bullets">
-<li>keeping primary information in <code>main</code> and secondary information in <code>article</code> and <code>section</code></li>
-<li>having <code>nav</code> clearly display links to my main pages without having to toggle dropdowns</li>
+<li>keeping primary information in <code>&lt;main&gt;</code> and secondary information in <code>&lt;article&gt;</code> and <code>&lt;section&gt;</code></li>
+<li>having <code>&lt;nav&gt;</code> clearly display links to my main pages without having to toggle dropdowns</li>
 <li>reducing as many nested links as possible to reach a specific page</li>
 <li>scrollboxing or collapsing secondary content that would otherwise take up significant amounts of space if displayed by default</li>
 </ul>
