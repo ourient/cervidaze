@@ -53,7 +53,7 @@ const contactLinks = [
 
 const posts = [
 	{
-		"title": `breaking down (my site and issues i had)`,
+		"title": `breaking down (my site)`,
 		"filename": `2025-11-22-sitebreakdown`,
 		"tags": [`reference`],
 	},

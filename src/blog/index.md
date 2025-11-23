@@ -5,7 +5,7 @@ permalink: /blog/index.html
 ---
 
 <div class="flex">
-<main class="border short">
+<main class="border tall">
 <h1>blog</h1>
 <p>here you will find my various thoughts, updates, and retrospectives. if you go a bit further, you'll
 	see
@@ -16,11 +16,8 @@ permalink: /blog/index.html
 	subscribe
 	and unsubscribe to emails from me.</p>
 <hr>
-<h2>featured posts</h2>
-<p><a href="posts/2025-03-21-boycotts-and-degoogling">boycotts and degoogling</a><p>
-<p><a href="posts/2025-08-30-digitalminimalism">digital minimalism and death machines</a></p>
-<p><a href="posts/2025-09-28-iknowwhenfallishere">i know when fall is here</a></p>
-</ul>
+<h2>recent posts</h2>
+<ol id="latest-posts" class="post-list" reversed></ol>
 </main>
 <aside class="border right-side narrow fit-content card-background">
 <h3>currently</h3>
