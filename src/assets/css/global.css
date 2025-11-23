@@ -928,7 +928,7 @@ article>header {
     margin-block: 0.8rem;
 
     &>li:not(:last-child)::after {
-        content: "/a0/a0/a0/a0/a0/a0/a0"
+        content: "\a0\a0\a0\a0\a0"
     }
 
     a::before {

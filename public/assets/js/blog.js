@@ -67,7 +67,7 @@ const posts = [
 	{
 		"title": `digital minimalism and death machines`,
 		"filename": `2025-08-30-digitalminimalism`,
-		"tags": [`update`],
+		"tags": [`update`, `reference`],
 	},
 
 	{
