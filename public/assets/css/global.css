@@ -173,7 +173,7 @@ hr {
 }
 
 .main--padding {
-    padding: 4rem;
+    padding: 6rem;
 }
 
 .smaller {
@@ -587,6 +587,16 @@ textarea {
 .cdr-nav .cdr-next {
   font-weight: bold;
   text-decoration: none;
+}
+
+pre {
+    width: fit-content;
+    margin: 2.4rem 0;
+    padding: 1.8rem;
+}
+
+code {
+    font-size: smaller;
 }
 
 

@@ -101,13 +101,8 @@ option:hover {
 pre {
     background-color: rgba(220, 226, 230, 0.045);
     border-radius: 0.4rem;
-    margin: 2.4rem auto;
-    padding: 1.8rem;
 }
 
-code {
-    font-size: smaller;
-}
 
 
 /* OTHER SHIT */

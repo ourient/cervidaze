@@ -5,7 +5,7 @@ date: 2025-11-22
 permalink: blog/posts/2025-11-22-sitebreakdown.html
 ---
 
-i was inspired by seeing aid's recent post where she breaks down the layout of her website and thought i should write one of my own—both to document my code and also to offer troubleshooting to those who may have the same extremely specific coding issues as me.
+i was inspired by seeing <a href="https://zhongvie.neocities.org/articles/website" target="_blank">aid's recent post</a> where she breaks down the layout of her website and thought i should write one of my own—both to document my code and also to offer troubleshooting to those who may have the same extremely specific coding issues as me.
 
 my site began as a very basic folder structure with loose html files and stylesheets that i would update individually. then i learned about code optimization and my neuroses kicked in, and now it's gotten to the point where i learned actual coding practices to automate everything and i've fallen too deep now. my girlfriend says this is called "software engineering."
 
