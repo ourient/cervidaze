@@ -98,8 +98,14 @@ option:hover {
     background-color: #72705b;
 }
 
-code {
+pre {
     background-color: rgba(220, 226, 230, 0.045);
+    border-radius: 0.4rem;
+    padding: 1.8rem;
+}
+
+code {
+    font-size: smaller;
 }
 
 

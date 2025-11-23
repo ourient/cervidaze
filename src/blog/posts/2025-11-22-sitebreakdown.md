@@ -1,5 +1,5 @@
 ---
-title: breaking down (my website layout and issues i ran into)
+title: breaking down (my website)
 description: i was inspired by seeing aid's recent post where she breaks down the layout of her website and thought i should write one of my own—both to document my code and also to offer troubleshooting to those who may have the same extremely specific coding issues as me.
 date: 2025-11-22
 permalink: blog/posts/2025-11-22-sitebreakdown.html
