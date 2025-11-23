@@ -100,7 +100,7 @@ src/
 <pre><code>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot; dir=&quot;auto&quot;&gt;
 &lt;head&gt;
-    &lt;title&gt;breaking down (my website) | cervidaze ☘&lt;/title&gt;
+    &lt;title&gt;{ title } | cervidaze ☘&lt;/title&gt;
     
     &lt;meta name=&quot;description&quot; content=&quot;stay deer&quot;&gt;
     &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
@@ -116,62 +116,50 @@ src/
 &lt;/head&gt;
 
 &lt;body&gt;
-    { CONTENT HERE }
+    { block content }{ endblock }
 &lt;/body&gt;
 &lt;/html&gt;
 </code></pre>
-<p>this standardizes the <code>&lt;head&gt;</code> sitewide, so now i can edit my site's title, javascript, and stylesheets for all pages in one place. i can then extend <code>base.njk</code> with <a href="https://www.11ty.dev/docs/shortcodes/">shortcodes</a> that nest the layout template i want into <code>&lt;body&gt;</code>.</p>
+<p>this standardizes the <code>&lt;head&gt;</code> sitewide, so now i can edit my site's title, javascript, and stylesheets for all pages in one place. i can then extend <code>base.njk</code> with <a href="https://www.11ty.dev/docs/shortcodes/" target="_blank_">shortcodes</a> that nest the layout template i want into <code>&lt;body&gt;</code>.</p>
 <p>this is <code>main.njk</code>, used for my primary, media, and interest pages:</p>
-<pre><code>
-{ CONTENT }
+<pre><code>{ block content }
 	&lt;noscript&gt;hey uh you kinda need javascript for this&lt;/noscript&gt;
 	&lt;div class=&quot;container&quot;&gt;
 		&lt;header&gt;
+			{ include &quot;partials/header.njk&quot; }
 		&lt;/header&gt;
 		
+		{ content | safe }
 	&lt;/div&gt;
 	&lt;footer id=&quot;footer&quot;&gt;
+		{ include &quot;partials/footer.njk&quot; }
 	&lt;/footer&gt;
-{ END CONTENT }
+{ endcontent }
 </code></pre>
 <p>this is <code>blogpost.njk</code>:</p>
-<pre><code>
-{ CONTENT }
+<pre><code>{ block content }
     &lt;noscript&gt;hey uh you kinda need javascript for this&lt;/noscript&gt;
     &lt;div class=&quot;container&quot;&gt;
         &lt;header&gt;
+			{ include &quot;partials/blogheader.njk&quot; }
         &lt;/header&gt;
         &lt;main class=&quot;border main--padding&quot;&gt;
             &lt;h1&gt;breaking down (my website)&lt;/h1&gt;
             &lt;time id=&quot;post-date&quot;&gt;11/22/25&lt;/time&gt;
             &lt;ul id=&quot;post-tags&quot; class=&quot;flex-list&quot;&gt;&lt;/ul&gt;
-            
+			
+			{ content | safe }
         &lt;/main&gt;
         &lt;div id=&quot;c_widget&quot;&gt;&lt;/div&gt;
         &lt;script src=&quot;/assets/js/comment-widget.js&quot;&gt;&lt;/script&gt;
         &lt;div id=&quot;post-nav&quot;&gt;&lt;/div&gt;
     &lt;/div&gt;
     &lt;footer&gt;
-        &lt;nav class=&quot;border main-background nav-link&quot;&gt;
-            &lt;ul&gt;
-                &lt;li&gt;&lt;a href=&quot;/sitemap&quot;&gt;sitemap&lt;/a&gt;&lt;/li&gt;
-                &lt;li&gt;|&lt;/li&gt;
-                &lt;li&gt;&lt;a href=&quot;/about#connect&quot;&gt;contact&lt;/a&gt;&lt;/li&gt;
-                &lt;li&gt;|&lt;/li&gt;
-                &lt;li&gt;&lt;a href=&quot;/guestbook&quot;&gt;guestbook&lt;/a&gt;&lt;/li&gt;
-                &lt;li&gt;|&lt;/li&gt;
-                &lt;li&gt;&lt;a href=&quot;/credits&quot;&gt;credits&lt;/a&gt;&lt;/li&gt;
-            &lt;/ul&gt;
-&lt;/nav&gt;
-
-&lt;div class=&quot;display-none return card-background&quot;&gt;
-&lt;a href=&quot;#top&quot; rel=&quot;return&quot;&gt;return to top&lt;/a&gt;
-&lt;/div&gt;
+        { include &quot;partials/footer.njk&quot; }
     &lt;/footer&gt;
     &lt;script src=&quot;/assets/js/blog.js&quot;&gt;&lt;/script&gt;
-{ ENDCONTENT }
+{ endcontent }
 </code></pre>
-<br>
 <h3>partials</h3>
 <p>i store my headers, footers, and snippets in partials in the same way one might store scripts in .js files. it works just like automating headers and footers in js but far more lightweight, since 11ty renders the partials into html locally as opposed to js scripts rendering html upon site load.</p>
 <p>here's the main header:</p>
@@ -218,15 +206,14 @@ src/
 	&lt;a href=&quot;#top&quot; rel=&quot;return&quot;&gt;return to top&lt;/a&gt;
 &lt;/div&gt;
 </code></pre>
-<br>
 <h2>styling</h2>
 <p>like many others who were just beginning with html/css, i used sadgrl's layout generator for my base. (you can tell because of the container <code>&lt;div&gt;</code> wrapping the site and the <code>&lt;header&gt;</code> that spans the entire width of the container.) i have since refactored the base code a great deal, replacing as many <code>&lt;div&gt;</code> elements with semantic elements as possible (for screen reader accessibility) and opting for class attributes instead of id attributes whenever i can (for scalability).</p>
 <br>
 <h3>html</h3>
 <p>my layout is currently a simple system of one main container with one or two sidebars for supplementary content or navigation if needed. i try to keep my layout as uncluttered as i can while still maintaining some level of intuition—this to me means:</p>
-<ul>
-<li>keeping primary information in <code>&lt;main&gt;</code> and secondary information in <code>&lt;article&gt;</code> and <code>&lt;section&gt;</code></li>
-<li>having <code>&lt;nav&gt;</code> clearly display links to my main pages without having to toggle dropdowns</li>
+<ul class="circle-bullets">
+<li>keeping primary information in <code>main</code> and secondary information in <code>article</code> and <code>section</code></li>
+<li>having <code>nav</code> clearly display links to my main pages without having to toggle dropdowns</li>
 <li>reducing as many nested links as possible to reach a specific page</li>
 <li>scrollboxing or collapsing secondary content that would otherwise take up significant amounts of space if displayed by default</li>
 </ul>
@@ -291,7 +278,7 @@ aside {
 	font-size: smaller;
 }
 </code></pre>
-<p>my style switcher (a combination of kalechip's and alpha centauri's js snippets) would swap out my light mode and dark mode stylesheets in <code>&lt;head&gt;</code> depending on what was toggled in the navigation—but every time i edited one stylesheet, i had to copy the exact changes to the other, regardless if the edit affected the actual &quot;skin&quot; of the site or not.</p>
+<p>my style switcher (a combination of <a href="https://kalechips.net/projects/snippets/styleswitcher" target="_blank">kalechip's</a> and <a href="https://alphacentauri.neocities.org/tutorials/javascript-tidbits#theme" target="_blank">alpha centauri's</a> js snippets) would swap out my light mode and dark mode stylesheets in <code>&lt;head&gt;</code> depending on what was toggled in the navigation—but every time i edited one stylesheet, i had to copy the exact changes to the other, regardless if the edit affected the actual &quot;skin&quot; of the site or not.</p>
 <p>so i split my css into three stylesheets: <code>light.css</code> for light mode skinning, <code>dark.css</code> for dark mode skinning, and <code>global.css</code> for universal styling that's applied to all elements. so now, edits to the site's structure are only made once in <code>global.css</code> without affecting the dark and light mode. the styleswitcher now swaps out <code>light.css</code> and <code>dark.css</code> when toggled, and <code>global.css</code> remains in <code>&lt;head&gt;</code> untouched.</p>
 <br>
 <h2>troubleshooting</h2>
@@ -299,8 +286,8 @@ aside {
 <br>
 <h3>FOUCing off</h3>
 <p>for how much webdevs online talk about combatting flash of unstyled content (FOUC) specifically when applying a dark mode stylesheet retrieved from <code>localStorage</code>, they sure don't have a fucking solution that works. even after trying js scripts in <code>&lt;head&gt;</code>, js scripts in <code>&lt;body&gt;</code>, inline js, js scripts after stylesheets, js scripts before stylesheets, event listeners, DOM content loaders, loading divs, fucking praying, nothing worked for me and my incredibly eager to load firefox browser.</p>
-<p>until during one fateful properly keyworded search query, i found <a href="https://www.reddit.com/r/css/comments/13hpszu/how_do_i_avoid_the_delayed_css_when_loading_pages/?utm_source=share&amp;utm_medium=web3x&amp;utm_name=web3xcss&amp;utm_term=1&amp;utm_content=share_button">this reddit post</a>.</p>
-<p>[img]</p>
+<p>until during one fateful properly keyworded search query, i found <a href="https://www.reddit.com/r/css/comments/13hpszu/how_do_i_avoid_the_delayed_css_when_loading_pages/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button" target="_blank">this reddit post</a>.</p>
+<img class="wide rounded center" src="/blog/images/preload_screenshot.png">
 <p>thank you, u/mcmillhj. after one whole year of manic searching, you have finally saved me from a world of pain.</p>
 <p>preloading your styleswitcher js worked. it FULLY forces the html to retrieve and run the script (and therefore your cached dark mode stylesheet, if saved) ABSOLUTELY before all else.</p>
 <p>god is real.</p>
@@ -308,7 +295,7 @@ aside {
 <h3>11ty + zonelots/zonelets (getting around 11ty's file renaming for date-sensitive blogging frameworks)</h3>
 <p>i know 11ty already has its own robust tagging system and organizing blog posts by tags is a fairly straightforward process, but i had already gone through the effort of installing zonelots (an offshoot of zonelets) and configuring my precious code to embrace it.</p>
 <p>to make your url look cleaner, 11ty has a default setting that renames your rendered html file as an <code>index.html</code> inside a folder. this, of course, causes issues for those who have code dependent on retrieving file paths, like that of the very popular neocities blogging framework, zonelets.</p>
-<p>the best thing you can do is edit your <code>.eleventy.js</code> to turn off this feature. petrapixels includes this function in her 11ty tutorial:</p>
+<p>the best thing you can do is edit your <code>.eleventy.js</code> to turn off this feature. petrapixels includes this function in <a href="https://petrapixel.neocities.org/coding/eleventy-tutorial#configuration" target="_target">her 11ty tutorial</a>:</p>
 <pre><code>module.exports = function (eleventyConfig) {
 
   // This will stop the default behaviour of foo.html being turned into foo/index.html

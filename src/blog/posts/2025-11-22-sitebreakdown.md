@@ -68,7 +68,7 @@ i first created this base template:
 <!DOCTYPE html>
 <html lang="en" dir="auto">
 <head>
-    <title>{{ title }} | cervidaze ☘</title>
+    <title>{ title } | cervidaze ☘</title>
     
     <meta name="description" content="stay deer">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -84,56 +84,57 @@ i first created this base template:
 </head>
 
 <body>
-    { CONTENT HERE }
+    { block content }{ endblock }
 </body>
 </html>
 ```
 
-this standardizes the `<head>` sitewide, so now i can edit my site's title, javascript, and stylesheets for all pages in one place. i can then extend `base.njk` with [shortcodes](https://www.11ty.dev/docs/shortcodes/) that nest the layout template i want into `<body>`.
+this standardizes the `<head>` sitewide, so now i can edit my site's title, javascript, and stylesheets for all pages in one place. i can then extend `base.njk` with <a href="https://www.11ty.dev/docs/shortcodes/" target="_blank_">shortcodes</a> that nest the layout template i want into `<body>`.
 
 this is `main.njk`, used for my primary, media, and interest pages:
 
 ```
-
-{ CONTENT }
+{ block content }
 	<noscript>hey uh you kinda need javascript for this</noscript>
 	<div class="container">
 		<header>
+			{ include "partials/header.njk" }
 		</header>
-		{{ content | safe}}
+		
+		{ content | safe }
 	</div>
 	<footer id="footer">
+		{ include "partials/footer.njk" }
 	</footer>
-{ END CONTENT }
+{ endcontent }
 ```
 
 this is `blogpost.njk`:
 
 ```
-
-{ CONTENT }
+{ block content }
     <noscript>hey uh you kinda need javascript for this</noscript>
     <div class="container">
         <header>
+			{ include "partials/blogheader.njk" }
         </header>
         <main class="border main--padding">
             <h1>{{title}}</h1>
             <time id="post-date">{{ date | topDate }}</time>
             <ul id="post-tags" class="flex-list"></ul>
-            {{ CONTENT }}
+			
+			{ content | safe }
         </main>
         <div id="c_widget"></div>
         <script src="/assets/js/comment-widget.js"></script>
         <div id="post-nav"></div>
     </div>
     <footer>
-        {% include "partials/footer.njk" %}
+        { include "partials/footer.njk" }
     </footer>
     <script src="/assets/js/blog.js"></script>
-{ ENDCONTENT }
+{ endcontent }
 ```
-
-<br>
 
 
 ### partials
@@ -189,8 +190,6 @@ and the footer:
 </div>
 ```
 
-<br>
-
 
 ## styling
 like many others who were just beginning with html/css, i used sadgrl's layout generator for my base. (you can tell because of the container `<div>` wrapping the site and the `<header>` that spans the entire width of the container.) i have since refactored the base code a great deal, replacing as many `<div>` elements with semantic elements as possible (for screen reader accessibility) and opting for class attributes instead of id attributes whenever i can (for scalability).
@@ -200,10 +199,13 @@ like many others who were just beginning with html/css, i used sadgrl's layout g
 
 ### html
 my layout is currently a simple system of one main container with one or two sidebars for supplementary content or navigation if needed. i try to keep my layout as uncluttered as i can while still maintaining some level of intuition—this to me means:
-- keeping primary information in `<main>` and secondary information in `<article>` and `<section>`
-- having `<nav>` clearly display links to my main pages without having to toggle dropdowns
-- reducing as many nested links as possible to reach a specific page
-- scrollboxing or collapsing secondary content that would otherwise take up significant amounts of space if displayed by default
+
+<ul class="circle-bullets">
+<li>keeping primary information in <code>main</code> and secondary information in <code>article</code> and <code>section</code></li>
+<li>having <code>nav</code> clearly display links to my main pages without having to toggle dropdowns</li>
+<li>reducing as many nested links as possible to reach a specific page</li>
+<li>scrollboxing or collapsing secondary content that would otherwise take up significant amounts of space if displayed by default</li>
+</ul>
 
 i don't have much (if any) experience with UX/UI design however, and so trying to find the most accessible, intuitive way to organize my site is a constantly evolving process. this stresses me out a normal amount.
 
@@ -277,7 +279,7 @@ aside {
 }
 ```
 
-my style switcher (a combination of kalechip's and alpha centauri's js snippets) would swap out my light mode and dark mode stylesheets in `<head>` depending on what was toggled in the navigation—but every time i edited one stylesheet, i had to copy the exact changes to the other, regardless if the edit affected the actual "skin" of the site or not.
+my style switcher (a combination of <a href="https://kalechips.net/projects/snippets/styleswitcher" target="_blank">kalechip's</a> and <a href="https://alphacentauri.neocities.org/tutorials/javascript-tidbits#theme" target="_blank">alpha centauri's</a> js snippets) would swap out my light mode and dark mode stylesheets in `<head>` depending on what was toggled in the navigation—but every time i edited one stylesheet, i had to copy the exact changes to the other, regardless if the edit affected the actual "skin" of the site or not.
 
 so i split my css into three stylesheets: `light.css` for light mode skinning, `dark.css` for dark mode skinning, and `global.css` for universal styling that's applied to all elements. so now, edits to the site's structure are only made once in `global.css` without affecting the dark and light mode. the styleswitcher now swaps out `light.css` and `dark.css` when toggled, and `global.css` remains in `<head>` untouched.
 
@@ -291,9 +293,9 @@ this is probably the part of the post that will be the most useful to you. i'm s
 ### FOUCing off
 for how much webdevs online talk about combatting flash of unstyled content (FOUC) specifically when applying a dark mode stylesheet retrieved from `localStorage`, they sure don't have a fucking solution that works. even after trying js scripts in `<head>`, js scripts in `<body>`, inline js, js scripts after stylesheets, js scripts before stylesheets, event listeners, DOM content loaders, loading divs, fucking praying, nothing worked for me and my incredibly eager to load firefox browser.
 
-until during one fateful properly keyworded search query, i found [this reddit post](https://www.reddit.com/r/css/comments/13hpszu/how_do_i_avoid_the_delayed_css_when_loading_pages/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button).
+until during one fateful properly keyworded search query, i found <a href="https://www.reddit.com/r/css/comments/13hpszu/how_do_i_avoid_the_delayed_css_when_loading_pages/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button" target="_blank">this reddit post</a>.
 
-[img]
+<img class="wide rounded center" src="/blog/images/preload_screenshot.png">
 
 thank you, u/mcmillhj. after one whole year of manic searching, you have finally saved me from a world of pain.
 
@@ -308,7 +310,7 @@ i know 11ty already has its own robust tagging system and organizing blog posts 
 
 to make your url look cleaner, 11ty has a default setting that renames your rendered html file as an `index.html` inside a folder. this, of course, causes issues for those who have code dependent on retrieving file paths, like that of the very popular neocities blogging framework, zonelets.
 
-the best thing you can do is edit your `.eleventy.js` to turn off this feature. petrapixels includes this function in her 11ty tutorial:
+the best thing you can do is edit your `.eleventy.js` to turn off this feature. petrapixels includes this function in <a href="https://petrapixel.neocities.org/coding/eleventy-tutorial#configuration" target="_target">her 11ty tutorial</a>:
 
 ```
 module.exports = function (eleventyConfig) {
