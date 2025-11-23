@@ -12,7 +12,7 @@ my site began as a very basic folder structure with loose html files and stylesh
 <br>
 
 ## set up
-i use visual studio code as my editor and set up github for better folder management and versioning control. (that's how you know it got bad.) my repository is available for viewing publicly.
+i use visual studio code as my editor and set up github for better folder management and versioning control. (that's how you know it got bad.) <a href="https://github.com/ourient/cervidaze" target="_blank">my repository</a> is available for viewing publicly.
 
 i'm a full-time video editor, which probably influences the way i organize my files. i prefer to have as few nested branches as possible, but as many subfolders as necessary. this is because i hate digging down a deep as fuck branch for a file, going back up the root folder, and then digging down another deep as fuck branch for another file.
 
@@ -192,7 +192,7 @@ and the footer:
 
 
 ## styling
-like many others who were just beginning with html/css, i used sadgrl's layout generator for my base. (you can tell because of the container `<div>` wrapping the site and the `<header>` that spans the entire width of the container.) i have since refactored the base code a great deal, replacing as many `<div>` elements with semantic elements as possible (for screen reader accessibility) and opting for class attributes instead of id attributes whenever i can (for scalability).
+like many others who were just beginning with html/css, i used <a href="https://codepen.io/sadness97/full/XJbLxNj" target="_blank">sadgrl's layout generator</a> for my base. (you can tell because of the container `<div>` wrapping the site and the `<header>` that spans the entire width of the container.) i have since refactored the base code a great deal, replacing as many `<div>` elements with semantic elements as possible (for screen reader accessibility) and opting for class attributes instead of id attributes whenever i can (for scalability).
 
 <br>
 
@@ -215,12 +215,12 @@ i don't have much (if any) experience with UX/UI design however, and so trying t
 ## css
 you may have noticed that my html markup (specifically my class attributes) is much longer than what's typical.
 
-after much trial and error with various ways of organizing css, i decided to use OOCSS as my main guideline. the core philosophy of separating structure from style and container from content speaks to my desire for modularity, and object oriented coding seems to be the most intuitive way for me to visualize things.
+after much trial and error with various ways of organizing css, i decided to use <a href="https://www.smashingmagazine.com/2011/12/an-introduction-to-object-oriented-css-oocss/" target="_blank">OOCSS</a> as my main guideline. the core philosophy of separating structure from style and container from content speaks to my desire for modularity, and object oriented coding seems to be the most intuitive way for me to visualize things.
 
 i won't explain be explaining much about it here, but basically, it's a lot easier in the long run to think of html elements as blocks and css classes as reusable skins that you attach whenever you want a block to have a specific property.
 
 ```
-/* without OOCSS */
+without OOCSS:
 
 
 /* LAYOUT */
@@ -250,7 +250,7 @@ aside {
 because then, you design utility css classes for the properties you use the most and then just customize your html elements with them so you don't need to design an entirely new element with redundant lines of css each time you have a specific exception.
 
 ```
-/* with OOCSS */
+with OOCSS:
 
 
 /* UTILITIES */
@@ -299,16 +299,16 @@ until during one fateful properly keyworded search query, i found <a href="https
 
 thank you, u/mcmillhj. after one whole year of manic searching, you have finally saved me from a world of pain.
 
-preloading your styleswitcher js worked. it FULLY forces the html to retrieve and run the script (and therefore your cached dark mode stylesheet, if saved) ABSOLUTELY before all else.
+preloading my styleswitcher js worked. it FULLY forces the html to retrieve and run the script (and therefore your cached dark mode stylesheet, if saved) ABSOLUTELY before all else.
 
 god is real.
 
 <br>
 
 ### 11ty + zonelots/zonelets (getting around 11ty's file renaming for date-sensitive blogging frameworks)
-i know 11ty already has its own robust tagging system and organizing blog posts by tags is a fairly straightforward process, but i had already gone through the effort of installing zonelots (an offshoot of zonelets) and configuring my precious code to embrace it.
+i know 11ty already has its own robust tagging system and organizing blog posts by tags is a fairly straightforward process, but i had already gone through the effort of installing <a href="https://codeberg.org/cdvr/Zonelots" target="_blank">zonelots</a> (an offshoot of the very popular neocities blogging framework, <a href="https://zonelets.net/" target="_blank">zonelets</a>) and configuring my precious code to embrace it.
 
-to make your url look cleaner, 11ty has a default setting that renames your rendered html file as an `index.html` inside a folder. this, of course, causes issues for those who have code dependent on retrieving file paths, like that of the very popular neocities blogging framework, zonelets.
+to make your url look cleaner, 11ty has a default setting that renames your rendered html file as an `index.html` inside a folder. this, of course, causes issues for codes dependent on retrieving file paths, like that of zonelets.
 
 the best thing you can do is edit your `.eleventy.js` to turn off this feature. petrapixels includes this function in <a href="https://petrapixel.neocities.org/coding/eleventy-tutorial#configuration" target="_target">her 11ty tutorial</a>:
 
