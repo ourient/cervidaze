@@ -7,7 +7,7 @@ permalink: /links.html
 <html lang="en" dir="auto">
 
 <head>
-  <title>{{ title }} cervidaze ☘</title>
+  <title>{{ title }} | cervidaze ☘</title>
 
   <meta name="description" content="stay deer">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
