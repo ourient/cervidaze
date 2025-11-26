@@ -140,7 +140,7 @@ this is `blogpost.njk`:
 
 
 ### partials
-i store my headers, footers, and snippets in partials in the same way one might store scripts in .js files. it works just like automating headers and footers in js but far more lightweight, since 11ty renders the partials into html locally as opposed to js scripts rendering html upon site load.
+i store my headers, footers, and snippets in partials in the same way one might store scripts in <code>.js</code> files. it works just like automating headers and footers in JS but far more lightweight, since 11ty renders the partials into html locally as opposed to JS scripts rendering html upon site load.
 
 here's the main header:
 
@@ -277,7 +277,7 @@ aside &#123;
 &#125;
 </code></pre>
 
-my style switcher (a combination of <a href="https://kalechips.net/projects/snippets/styleswitcher" target="_blank">kalechip's</a> and <a href="https://alphacentauri.neocities.org/tutorials/javascript-tidbits#theme" target="_blank">alpha centauri's</a> js snippets) would swap out my light mode and dark mode stylesheets in `<head>` depending on what was toggled in the navigation—but every time i edited one stylesheet, i had to copy the exact changes to the other, regardless if the edit affected the actual "skin" of the site or not.
+my style switcher (a combination of <a href="https://kalechips.net/projects/snippets/styleswitcher" target="_blank">kalechip's</a> and <a href="https://alphacentauri.neocities.org/tutorials/javascript-tidbits#theme" target="_blank">alpha centauri's</a> JS snippets) would swap out my light mode and dark mode stylesheets in `<head>` depending on what was toggled in the navigation—but every time i edited one stylesheet, i had to copy the exact changes to the other, regardless if the edit affected the actual "skin" of the site or not.
 
 so i split my css into three stylesheets: `light.css` for light mode skinning, `dark.css` for dark mode skinning, and `global.css` for universal styling that's applied to all elements. so now, edits to the site's structure are only made once in `global.css` without affecting the dark and light mode. the styleswitcher now swaps out `light.css` and `dark.css` when toggled, and `global.css` remains in `<head>` untouched.
 
@@ -289,13 +289,13 @@ this is probably the part of the post that will be the most useful to you. i'm s
 <br>
 
 ### FOUCing off
-for how much webdevs online talk about combatting flash of unstyled content (FOUC) specifically when applying a dark mode stylesheet retrieved from `localStorage`, they sure don't have a fucking solution that works. even after trying js scripts in `<head>`, js scripts in `<body>`, inline js, js scripts after stylesheets, js scripts before stylesheets, event listeners, DOM content loaders, loading divs, crying, nothing worked for me and my incredibly eager to load firefox browser.
+for how much reddit webdevs talk about combatting flash of unstyled content (FOUC) specifically when applying a dark mode stylesheet retrieved from `localStorage`, they sure don't have a fucking solution that works. even after trying JS scripts in `<head>`, JS scripts in `<body>`, inline JS, JS scripts after stylesheets, JS scripts before stylesheets, event listeners, DOM content loaders, loading divs, crying, nothing worked for me and my incredibly eager to load firefox browser.
 
 until during one fateful, properly keyworded search query, i found <a href="https://www.reddit.com/r/css/comments/13hpszu/how_do_i_avoid_the_delayed_css_when_loading_pages/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button" target="_blank">this reddit post</a>.
 
 <img class="wide rounded center" src="/blog/images/preload_screenshot.png">
 
-preloading my styleswitcher js worked. it FULLY forces the html to retrieve the script (and therefore your cached dark mode stylesheet, if saved) before all else.
+preloading my styleswitcher JS worked. it FULLY forces the html to retrieve the script (and therefore your cached dark mode stylesheet, if saved) before all else.
 
 thank you, u/mcmillhj. after one whole year of manic searching, you have finally saved me from a world of pain.
 
@@ -315,7 +315,7 @@ the best thing you can do is edit your `.eleventy.js` to turn off this feature. 
 &#125;;
 </code></pre>
 
-but then, even after accounting for that, **11ty still removes the YYYY-MM-DD portion of your file name**, the very portion that the entire js logic of zonelets is built off of!!!!
+but then, even after accounting for that, **11ty still removes the YYYY-MM-DD portion of your file name**, the very portion that the entire JS logic of zonelets is built off of!!!!
 
 so what now? 
 
