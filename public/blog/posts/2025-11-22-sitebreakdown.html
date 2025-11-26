@@ -101,7 +101,7 @@ src/
 <pre class="rounded card-background card-background-light"><code>&lt;!DOCTYPE html>
 &lt;html lang="en" dir="auto">
 &lt;head>
-    &lt;title>{ title } | cervidaze ☘</title>
+    &lt;title>&#123;&#123; title &#125;&#125; | cervidaze ☘</title>
     
     &lt;meta name="description" content="stay deer">
     &lt;meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -109,58 +109,63 @@ src/
 
     &lt;link rel="preload" href="/assets/js/styleswitcher.js" as="script">
     &lt;link rel="icon" href="/assets/media/images/style/gingko.png" type="image/x-icon">
-    &lt;link href="/assets/css/light.css" rel="stylesheet" type="text/css" media="all">
-    &lt;link href="/assets/css/global.css" rel="stylesheet" type="text/css" media="all">
 
-    &lt;script src="/assets/js/styleswitcher.js"></script>
-<p>&lt;script data-goatcounter=&quot;https://cervidaze.goatcounter.com/count&quot; async src=&quot;//gc.zgo.at/count.js&quot;&gt;</script>
-&lt;/head&gt;</p>
+    &lt;link href="/assets/css/light.css&#123;&#123; nocache &#125;&#125;" rel="stylesheet" type="text/css" media="all">
+    &lt;link href="/assets/css/global.css&#123;&#123; nocache &#125;&#125;" rel="stylesheet" type="text/css" media="all">
+
+    &lt;script src="/assets/js/styleswitcher.js&#123;&#123; nocache &#125;&#125;">&lt;/script>
+    &lt;script data-goatcounter="https://cervidaze.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+<p>&lt;/head&gt;</p>
 <p>&lt;body&gt;
-    { block content }{ endblock }
+    {% block content %}{% endblock %}
 &lt;/body&gt;
 &lt;/html&gt;
 </code></pre></p>
 <p>this standardizes the <code>&lt;head&gt;</code> sitewide, so now i can edit my site's title, javascript, and stylesheets for all pages in one place. i can then extend <code>base.njk</code> with <a href="https://www.11ty.dev/docs/shortcodes/" target="_blank_">shortcodes</a> that nest the layout template i want into <code>&lt;body&gt;</code>.</p>
 <p>this is <code>main.njk</code>, used for my primary, media, and interest pages:</p>
-<pre class="rounded card-background card-background-light"><code>{ block content }
-    &lt;noscript>hey uh you kinda need javascript for this</noscript>
-    &lt;div class="container">
-        &lt;header>
-	{ include "partials/header.njk" }
-        &lt;/header>
-		
-	{ content | safe }
-    &lt;/div>
-    &lt;footer id="footer">
-	{ include "partials/footer.njk" }
-    &lt;/footer>
-{ endcontent }
+<pre class="rounded card-background card-background-light"><code>&#123;% extends "layouts/base.njk" %&#125;
+
+&#123;% block content %&#125;
+&lt;noscript>hey uh you kinda need javascript for this&lt;/noscript>
+&lt;div class="container">
+	&lt;header>
+		&#123;% include "partials/header.njk" %&#125;
+	&lt;/header>
+
+	&#123;&#123; content | safe &#125;&#125;
+&lt;/div>
+&lt;footer id="footer">
+	&#123;% include "partials/footer.njk" %&#125;
+&lt;/footer>
+&#123;% endblock %&#125;
 </code></pre>
 <p>this is <code>blogpost.njk</code>:</p>
-<pre class="rounded card-background card-background-light"><code>
-{ block content }
-    &lt;noscript>hey uh you kinda need javascript for this</noscript>
-    &lt;div class="container">
-        &lt;header>
-	{ include "partials/blogheader.njk" }
-        &lt;/header>
-        &lt;main class="border main--padding">
-	&lt;h1>breaking down (my website)&lt;/h1>
-	&lt;time id="post-date">11/22/25&lt;/time>
-	&lt;ul id="post-tags" class="flex-list">&lt;/ul>
-			
-	{ content | safe }
-        &lt;/main>
-        &lt;div id="c_widget">&lt;/div>
-        &lt;script src="/assets/js/comment-widget.js">&lt;/script>
-        &lt;div id="post-nav">&lt;/div>
-    &lt;/div>
-    &lt;footer>
-        { include "partials/footer.njk" }
-    &lt;/footer>
-    &lt;script src="/assets/js/blog.js"></script>
-<p>{ endcontent }
-</code></pre></p>
+<pre class="rounded card-background card-background-light"><code>&#123;% extends "layouts/base.njk" %&#125;
+
+&#123;% block content %&#125;
+&lt;noscript>hey uh you kinda need javascript for this&lt;/noscript>
+&lt;div class="container">
+	&lt;header>
+		&#123;% include "partials/blogheader.njk" %&#125;
+	&lt;/header>
+	&lt;main class="border main--padding">
+		&lt;h1>&#123;&#123;title&#125;&#125;&lt;/h1>
+		&lt;time id="post-date">&#123;&#123; date | topDate &#125;&#125;&lt;/time>
+		&lt;ul id="post-tags" class="flex-list">&lt;/ul>
+
+		&#123;&#123; content | safe &#125;&#125;
+	&lt;/main>
+	&lt;div id="c_widget">&lt;/div>
+	&lt;script src="/assets/js/comment-widget.js">&lt;/script>
+	&lt;div id="post-nav">&lt;/div>
+&lt;/div>
+
+&lt;footer>
+	&#123;% include "partials/footer.njk" %&#125;
+&lt;/footer>
+&lt;script src="/assets/js/blog.js">&lt;/script>
+&#123;% endblock %&#125;
+</code></pre>
 <h3>partials</h3>
 <p>i store my headers, footers, and snippets in partials in the same way one might store scripts in .js files. it works just like automating headers and footers in js but far more lightweight, since 11ty renders the partials into html locally as opposed to js scripts rendering html upon site load.</p>
 <p>here's the main header:</p>
@@ -229,7 +234,7 @@ src/
 
 /* LAYOUT */
 
-main {
+main &#123;
 	height: 30rem;
 	width: auto;
 	padding: 2.8rem;
@@ -237,9 +242,9 @@ main {
 	border-width: 0.1rem;
 	border-style: solid;
 	border-color: rgba(220, 226, 230, 0.25);
-}
+&#125;
 
-aside {
+aside &#123;
 	height: auto;
 	width: 24rem;
 	padding: 1.8rem;
@@ -248,7 +253,7 @@ aside {
 	border-width: 0.1rem;
 	border-style: solid;
 	border-color: rgba(220, 226, 230, 0.25);
-}
+&#125;
 </code></pre>
 <p>because then, you design utility css classes for the properties you use the most and then just customize your html elements with them so you don't need to design an entirely new element with redundant lines of css each time you have a specific exception.</p>
 <pre class="rounded card-background card-background-light"><code>with OOCSS:
@@ -256,28 +261,28 @@ aside {
 
 /* UTILITIES */
 
-.border {
+.border &#123;
 	border-radius: 0.4rem;
 	border-width: 0.1rem;
 	border-style: solid;
 	border-color: rgba(220, 226, 230, 0.25);
-}
+&#125;
 
 
 /* LAYOUT */
 
-main {
+main &#123;
 	height: 30rem;
 	width: auto;
 	padding: 2.8rem;
-}
+&#125;
 
-aside {
+aside &#123;
 	height: auto;
 	width: 24rem;
 	padding: 1.8rem;
 	font-size: smaller;
-}
+&#125;
 </code></pre>
 <p>my style switcher (a combination of <a href="https://kalechips.net/projects/snippets/styleswitcher" target="_blank">kalechip's</a> and <a href="https://alphacentauri.neocities.org/tutorials/javascript-tidbits#theme" target="_blank">alpha centauri's</a> js snippets) would swap out my light mode and dark mode stylesheets in <code>&lt;head&gt;</code> depending on what was toggled in the navigation—but every time i edited one stylesheet, i had to copy the exact changes to the other, regardless if the edit affected the actual &quot;skin&quot; of the site or not.</p>
 <p>so i split my css into three stylesheets: <code>light.css</code> for light mode skinning, <code>dark.css</code> for dark mode skinning, and <code>global.css</code> for universal styling that's applied to all elements. so now, edits to the site's structure are only made once in <code>global.css</code> without affecting the dark and light mode. the styleswitcher now swaps out <code>light.css</code> and <code>dark.css</code> when toggled, and <code>global.css</code> remains in <code>&lt;head&gt;</code> untouched.</p>
@@ -296,11 +301,11 @@ aside {
 <p>i know 11ty already has its own robust tagging system and organizing blog posts by tags is a fairly straightforward process, but i had already gone through the effort of installing <a href="https://codeberg.org/cdvr/Zonelots" target="_blank">zonelots</a> (an offshoot of the very popular neocities blogging framework, <a href="https://zonelets.net/" target="_blank">zonelets</a>) and configuring my precious code to embrace it.</p>
 <p>to make your url look cleaner, 11ty has a default setting that renames your rendered html file as an <code>index.html</code> inside a folder. this, of course, causes issues for codes dependent on retrieving file paths, like that of zonelets.</p>
 <p>the best thing you can do is edit your <code>.eleventy.js</code> to turn off this feature. petrapixels includes this function in <a href="https://petrapixel.neocities.org/coding/eleventy-tutorial#configuration" target="_target">her 11ty tutorial</a>:</p>
-<pre class="rounded card-background card-background-light"><code>module.exports = function (eleventyConfig) {
+<pre class="rounded card-background card-background-light"><code>module.exports = function (eleventyConfig) &#123;
 
   // This will stop the default behaviour of foo.html being turned into foo/index.html
-  eleventyConfig.addGlobalData("permalink", "{ page.filePathStem }.html");
-};
+  eleventyConfig.addGlobalData("permalink", "&#123;&#123; page.filePathStem &#125;&#125;.html");
+&#125;;
 </code></pre>
 <p>but then, even after accounting for that, <strong>11ty still removes the YYYY-MM-DD portion of your file name</strong>, the very portion that the entire js logic of zonelets is built off of!!!!</p>
 <p>so what now?</p>

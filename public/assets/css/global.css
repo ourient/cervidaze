@@ -165,6 +165,11 @@ hr {
     padding: 6rem;
 }
 
+.rounded {
+    border-radius: 0.4rem;
+    border-color: transparent;
+}
+
 .smaller {
     font-size: smaller;
 }
@@ -223,6 +228,10 @@ header {
     margin-bottom: 1rem;
 }
 
+nav {
+    padding: 0.2rem;
+}
+
 .nav-link {
     ul {
         list-style-type: none;
@@ -231,7 +240,7 @@ header {
         display: flex;
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-        padding: 0;
+        padding: 0 0.2rem;
         margin: 0;
         -webkit-box-align: center;
         -ms-flex-align: center;
@@ -244,7 +253,6 @@ header {
 
 footer {
     width: fit-content;
-    padding: 0.6rem;
     margin: 0 auto 4rem;
 
     li {
@@ -291,7 +299,7 @@ select {
 .column-grid {
     display: -ms-grid;
     display: grid;
-    margin-top: 2rem;
+    margin-top: 1.2rem;
     -webkit-box-flex: 1;
     -ms-flex: 1;
     flex: 1;
@@ -961,7 +969,7 @@ article>header {
     }
 
     .container {
-        max-width: 96%;
+        max-width: 95%;
     }
 
     nav li {

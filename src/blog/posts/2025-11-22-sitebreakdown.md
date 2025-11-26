@@ -67,7 +67,7 @@ i first created this base template:
 <pre class="rounded card-background card-background-light"><code>&lt;!DOCTYPE html>
 &lt;html lang="en" dir="auto">
 &lt;head>
-    &lt;title>{ title } | cervidaze ☘</title>
+    &lt;title>&#123;&#123; title &#125;&#125; | cervidaze ☘</title>
     
     &lt;meta name="description" content="stay deer">
     &lt;meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -75,15 +75,16 @@ i first created this base template:
 
     &lt;link rel="preload" href="/assets/js/styleswitcher.js" as="script">
     &lt;link rel="icon" href="/assets/media/images/style/gingko.png" type="image/x-icon">
-    &lt;link href="/assets/css/light.css{{ nocache }}" rel="stylesheet" type="text/css" media="all">
-    &lt;link href="/assets/css/global.css{{ nocache }}" rel="stylesheet" type="text/css" media="all">
 
-    &lt;script src="/assets/js/styleswitcher.js{{ nocache }}"></script>
+    &lt;link href="/assets/css/light.css&#123;&#123; nocache &#125;&#125;" rel="stylesheet" type="text/css" media="all">
+    &lt;link href="/assets/css/global.css&#123;&#123; nocache &#125;&#125;" rel="stylesheet" type="text/css" media="all">
+
+    &lt;script src="/assets/js/styleswitcher.js&#123;&#123; nocache &#125;&#125;">&lt;/script>
     &lt;script data-goatcounter="https://cervidaze.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 &lt;/head>
 
 &lt;body>
-    { block content }{ endblock }
+    &#123;% block content %&#125;&#123;% endblock %&#125;
 &lt;/body>
 &lt;/html>
 </code></pre>
@@ -92,46 +93,49 @@ this standardizes the `<head>` sitewide, so now i can edit my site's title, java
 
 this is `main.njk`, used for my primary, media, and interest pages:
 
-<pre class="rounded card-background card-background-light"><code>{ block content }
-    &lt;noscript>hey uh you kinda need javascript for this</noscript>
-    &lt;div class="container">
-        &lt;header>
-	{ include "partials/header.njk" }
-        &lt;/header>
-		
-	{ content | safe }
-    &lt;/div>
-    &lt;footer id="footer">
-	{ include "partials/footer.njk" }
-    &lt;/footer>
-{ endcontent }
+<pre class="rounded card-background card-background-light"><code>&#123;% extends "layouts/base.njk" %&#125;
+
+&#123;% block content %&#125;
+&lt;noscript>hey uh you kinda need javascript for this&lt;/noscript>
+&lt;div class="container">
+	&lt;header>
+		&#123;% include "partials/header.njk" %&#125;
+	&lt;/header>
+
+	&#123;&#123; content | safe &#125;&#125;
+&lt;/div>
+&lt;footer id="footer">
+	&#123;% include "partials/footer.njk" %&#125;
+&lt;/footer>
+&#123;% endblock %&#125;
 </code></pre>
 
 this is `blogpost.njk`:
+<pre class="rounded card-background card-background-light"><code>&#123;% extends "layouts/base.njk" %&#125;
 
-<pre class="rounded card-background card-background-light"><code>
-{ block content }
-    &lt;noscript>hey uh you kinda need javascript for this</noscript>
-    &lt;div class="container">
-        &lt;header>
-	{ include "partials/blogheader.njk" }
-        &lt;/header>
-        &lt;main class="border main--padding">
-	&lt;h1>{{title}}&lt;/h1>
-	&lt;time id="post-date">{{ date | topDate }}&lt;/time>
-	&lt;ul id="post-tags" class="flex-list">&lt;/ul>
-			
-	{ content | safe }
-        &lt;/main>
-        &lt;div id="c_widget">&lt;/div>
-        &lt;script src="/assets/js/comment-widget.js">&lt;/script>
-        &lt;div id="post-nav">&lt;/div>
-    &lt;/div>
-    &lt;footer>
-        { include "partials/footer.njk" }
-    &lt;/footer>
-    &lt;script src="/assets/js/blog.js"></script>
-{ endcontent }
+&#123;% block content %&#125;
+&lt;noscript>hey uh you kinda need javascript for this&lt;/noscript>
+&lt;div class="container">
+	&lt;header>
+		&#123;% include "partials/blogheader.njk" %&#125;
+	&lt;/header>
+	&lt;main class="border main--padding">
+		&lt;h1>&#123;&#123;title&#125;&#125;&lt;/h1>
+		&lt;time id="post-date">&#123;&#123; date | topDate &#125;&#125;&lt;/time>
+		&lt;ul id="post-tags" class="flex-list">&lt;/ul>
+
+		&#123;&#123; content | safe &#125;&#125;
+	&lt;/main>
+	&lt;div id="c_widget">&lt;/div>
+	&lt;script src="/assets/js/comment-widget.js">&lt;/script>
+	&lt;div id="post-nav">&lt;/div>
+&lt;/div>
+
+&lt;footer>
+	&#123;% include "partials/footer.njk" %&#125;
+&lt;/footer>
+&lt;script src="/assets/js/blog.js">&lt;/script>
+&#123;% endblock %&#125;
 </code></pre>
 
 
@@ -220,7 +224,7 @@ i won't explain be explaining much about it here, but basically, it's a lot easi
 
 /* LAYOUT */
 
-main {
+main &#123;
 	height: 30rem;
 	width: auto;
 	padding: 2.8rem;
@@ -228,9 +232,9 @@ main {
 	border-width: 0.1rem;
 	border-style: solid;
 	border-color: rgba(220, 226, 230, 0.25);
-}
+&#125;
 
-aside {
+aside &#123;
 	height: auto;
 	width: 24rem;
 	padding: 1.8rem;
@@ -239,7 +243,7 @@ aside {
 	border-width: 0.1rem;
 	border-style: solid;
 	border-color: rgba(220, 226, 230, 0.25);
-}
+&#125;
 </code></pre>
 
 because then, you design utility css classes for the properties you use the most and then just customize your html elements with them so you don't need to design an entirely new element with redundant lines of css each time you have a specific exception.
@@ -249,28 +253,28 @@ because then, you design utility css classes for the properties you use the most
 
 /* UTILITIES */
 
-.border {
+.border &#123;
 	border-radius: 0.4rem;
 	border-width: 0.1rem;
 	border-style: solid;
 	border-color: rgba(220, 226, 230, 0.25);
-}
+&#125;
 
 
 /* LAYOUT */
 
-main {
+main &#123;
 	height: 30rem;
 	width: auto;
 	padding: 2.8rem;
-}
+&#125;
 
-aside {
+aside &#123;
 	height: auto;
 	width: 24rem;
 	padding: 1.8rem;
 	font-size: smaller;
-}
+&#125;
 </code></pre>
 
 my style switcher (a combination of <a href="https://kalechips.net/projects/snippets/styleswitcher" target="_blank">kalechip's</a> and <a href="https://alphacentauri.neocities.org/tutorials/javascript-tidbits#theme" target="_blank">alpha centauri's</a> js snippets) would swap out my light mode and dark mode stylesheets in `<head>` depending on what was toggled in the navigation—but every time i edited one stylesheet, i had to copy the exact changes to the other, regardless if the edit affected the actual "skin" of the site or not.
@@ -304,11 +308,11 @@ to make your url look cleaner, 11ty has a default setting that renames your rend
 
 the best thing you can do is edit your `.eleventy.js` to turn off this feature. petrapixels includes this function in <a href="https://petrapixel.neocities.org/coding/eleventy-tutorial#configuration" target="_target">her 11ty tutorial</a>:
 
-<pre class="rounded card-background card-background-light"><code>module.exports = function (eleventyConfig) {
+<pre class="rounded card-background card-background-light"><code>module.exports = function (eleventyConfig) &#123;
 
   // This will stop the default behaviour of foo.html being turned into foo/index.html
-  eleventyConfig.addGlobalData("permalink", "{ page.filePathStem }.html");
-};
+  eleventyConfig.addGlobalData("permalink", "&#123;&#123; page.filePathStem &#125;&#125;.html");
+&#125;;
 </code></pre>
 
 but then, even after accounting for that, **11ty still removes the YYYY-MM-DD portion of your file name**, the very portion that the entire js logic of zonelets is built off of!!!!

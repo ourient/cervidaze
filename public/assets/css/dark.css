@@ -33,11 +33,6 @@ a:hover {
     border-color: rgba(220, 226, 230, 0.25);
 }
 
-.rounded {
-    border-radius: 0.4rem;
-    border-color: transparent;
-}
-
 .transparent {
     background-color: transparent;
 }
@@ -77,10 +72,6 @@ main, aside, section {
     li a:hover {
         color: #B9BCB3;
     }
-}
-
-nav {
-    padding: 0.4rem;
 }
 
 aside {

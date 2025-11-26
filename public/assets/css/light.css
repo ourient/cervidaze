@@ -21,9 +21,11 @@ a:hover {
 
 /* UTILITY SHIT */
 
-.border, .rounded {
+.border {
     border-radius: 0.4rem;
-    border: none;
+    border-width: 0.1rem;
+    border-style: solid;
+    border-color: transparent;
 }
 
 .main-background {
@@ -65,10 +67,6 @@ main,
     li a:hover {
         color: #DED9CE;
     }
-}
-
-nav {
-    padding: 0.4rem;
 }
 
 aside {
