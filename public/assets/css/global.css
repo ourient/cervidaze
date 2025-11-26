@@ -203,7 +203,7 @@ hr {
 
 /* LAYOUT SHIT */
 
-main, section {
+main, article, section {
     line-height: 1.5em;
     box-sizing: border-box;
     text-wrap: pretty;
