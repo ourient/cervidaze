@@ -42,15 +42,15 @@ a:hover {
     background-color: transparent;
 }
 
-.card-background, .card-background-light {
+main, .main-background {
+    background-color: rgba(220, 226, 230, 0.025);
+}
+
+.card-background-light {
     background-color: rgba(220, 226, 230, 0.1);
 }
 
 /* LAYOUT SHIT */
-
-main, .main-background {
-    background-color: rgba(220, 226, 230, 0.025);
-}
 
 main, aside, section {
     a {
@@ -80,7 +80,7 @@ main, aside, section {
 }
 
 nav {
-    padding: 0.2rem;
+    padding: 0.4rem;
 }
 
 aside {
@@ -214,10 +214,6 @@ input[type=range]::-moz-range-thumb {
     
     #antlers {
         max-width: 75%;
-    }
-    
-    .c-comment, .c-reply {
-        font-size: 1.2rem;
     }
     
     .c-text {

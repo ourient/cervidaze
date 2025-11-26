@@ -18,7 +18,7 @@ i'm a full-time video editor, which probably influences the way i organize my fi
 
 here's a brief overview of my directory:
 
-<pre class="rounded card-background"><code>
+<pre class="rounded card-background card-background-light card-background card-background-light-light"><code>
 public/
 src/
 	_includes/
@@ -64,7 +64,7 @@ i used nunjucks as my templating language. it seems to be the most popular langu
 ### layouts
 i first created this base template:
 
-<pre class="rounded card-background"><code>&lt;!DOCTYPE html>
+<pre class="rounded card-background card-background-light"><code>&lt;!DOCTYPE html>
 &lt;html lang="en" dir="auto">
 &lt;head>
     &lt;title>{ title } | cervidaze ☘</title>
@@ -92,7 +92,7 @@ this standardizes the `<head>` sitewide, so now i can edit my site's title, java
 
 this is `main.njk`, used for my primary, media, and interest pages:
 
-<pre class="rounded card-background"><code>{ block content }
+<pre class="rounded card-background card-background-light"><code>{ block content }
     &lt;noscript>hey uh you kinda need javascript for this</noscript>
     &lt;div class="container">
         &lt;header>
@@ -109,7 +109,7 @@ this is `main.njk`, used for my primary, media, and interest pages:
 
 this is `blogpost.njk`:
 
-<pre class="rounded card-background"><code>
+<pre class="rounded card-background card-background-light"><code>
 { block content }
     &lt;noscript>hey uh you kinda need javascript for this</noscript>
     &lt;div class="container">
@@ -140,7 +140,7 @@ i store my headers, footers, and snippets in partials in the same way one might 
 
 here's the main header:
 
-<pre class="rounded card-background"><code>&lt;a href="https://cervidaze.me">
+<pre class="rounded card-background card-background-light"><code>&lt;a href="https://cervidaze.me">
     &lt;img id="gingko" alt="home page" src="/assets/media/images/style/cervidaze_lightbanner_v2.png">
 &lt;/a>
 &lt;a href="https://cervidaze.me">
@@ -170,7 +170,7 @@ here's the main header:
 
 and the footer:
 
-<pre class="rounded card-background"><code>&lt;nav class="border main-background nav-link">
+<pre class="rounded card-background card-background-light"><code>&lt;nav class="border main-background nav-link">
 	&lt;ul>
 		&lt;li>&lt;a href="/sitemap">sitemap&lt;/a>&lt;/li>
 		&lt;li>|&lt;/li>
@@ -181,7 +181,7 @@ and the footer:
 		&lt;li>&lt;a href="/credits">credits&lt;/a>&lt;/li>
 	&lt;/ul>
 &lt;/nav>
-&lt;div class="display-none return card-background">
+&lt;div class="display-none return card-background card-background-light">
 	&lt;a href="#top" rel="return">return to top&lt;/a>
 &lt;/div>
 </code></pre>
@@ -208,14 +208,14 @@ i don't have much (if any) experience with UX/UI design however, and so trying t
 <br>
 
 
-## css
+### css
 you may have noticed that my html markup (specifically my class attributes) is much longer than what's typical.
 
 after much trial and error with various ways of organizing css, i decided to use <a href="https://www.smashingmagazine.com/2011/12/an-introduction-to-object-oriented-css-oocss/" target="_blank">OOCSS</a> as my main guideline. the core philosophy of separating structure from style and container from content speaks to my desire for modularity, and object oriented coding seems to be the most intuitive way for me to visualize things.
 
 i won't explain be explaining much about it here, but basically, it's a lot easier in the long run to think of html elements as blocks and css classes as reusable skins that you attach whenever you want a block to have a specific property.
 
-<pre class="rounded card-background"><code>without OOCSS:
+<pre class="rounded card-background card-background-light"><code>without OOCSS:
 
 
 /* LAYOUT */
@@ -244,7 +244,7 @@ aside {
 
 because then, you design utility css classes for the properties you use the most and then just customize your html elements with them so you don't need to design an entirely new element with redundant lines of css each time you have a specific exception.
 
-<pre class="rounded card-background"><code>with OOCSS:
+<pre class="rounded card-background card-background-light"><code>with OOCSS:
 
 
 /* UTILITIES */
@@ -304,7 +304,7 @@ to make your url look cleaner, 11ty has a default setting that renames your rend
 
 the best thing you can do is edit your `.eleventy.js` to turn off this feature. petrapixels includes this function in <a href="https://petrapixel.neocities.org/coding/eleventy-tutorial#configuration" target="_target">her 11ty tutorial</a>:
 
-<pre class="rounded card-background"><code>module.exports = function (eleventyConfig) {
+<pre class="rounded card-background card-background-light"><code>module.exports = function (eleventyConfig) {
 
   // This will stop the default behaviour of foo.html being turned into foo/index.html
   eleventyConfig.addGlobalData("permalink", "{ page.filePathStem }.html");
@@ -317,7 +317,7 @@ so what now?
 
 you add a permalink variable to the front matter of your blog post. that's it.
 
-<pre class="rounded card-background"><code>---
+<pre class="rounded card-background card-background-light"><code>---
 title:
 description:
 date:

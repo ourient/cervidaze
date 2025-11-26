@@ -5,7 +5,7 @@ permalink: /blog/index.html
 ---
 
 <div class="flex">
-<main class="border tall">
+<main class="border fit-content">
 <h1>blog</h1>
 <p>here you will find my various thoughts, updates, and retrospectives. if you go a bit further, you'll
 	see

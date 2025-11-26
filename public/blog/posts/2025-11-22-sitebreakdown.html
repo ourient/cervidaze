@@ -21,10 +21,10 @@
 
 <body>
     
-	<noscript>hey uh you kinda need javascript for this</noscript>
-	<div class="container">
-		<header>
-			<a href="https://cervidaze.me">
+<noscript>hey uh you kinda need javascript for this</noscript>
+<div class="container">
+	<header>
+		<a href="https://cervidaze.me">
 	<img id="gingko" alt="home page" src="/assets/media/images/style/cervidaze_lightbanner_v2.png">
 </a>
 <a href="https://cervidaze.me">
@@ -48,20 +48,20 @@
 		</li>
 	</ul>
 </nav>
-		</header>
-		<main class="border main--padding">
-			<h1>breaking down (my website)</h1>
-			<time id="post-date">11/22/25</time>
-			<ul id="post-tags" class="flex-list"></ul>
+	</header>
+	<main class="border main--padding">
+		<h1>breaking down (my website)</h1>
+		<time id="post-date">11/22/25</time>
+		<ul id="post-tags" class="flex-list"></ul>
 
-			<p>i was inspired by seeing <a href="https://zhongvie.neocities.org/articles/website" target="_blank">aid's recent post</a> where she breaks down the layout of her website and thought i should write one of my own—both to document my code and also to offer troubleshooting to those who may have the same extremely specific coding issues as me.</p>
+		<p>i was inspired by seeing <a href="https://zhongvie.neocities.org/articles/website" target="_blank">aid's recent post</a> where she breaks down the layout of her website and thought i should write one of my own—both to document my code and also to offer troubleshooting to those who may have the same extremely specific coding issues as me.</p>
 <p>my site began as a very basic folder structure with loose html files and stylesheets that i would update individually. then i learned about code optimization and my neuroses kicked in, and now it's gotten to the point where i learned actual coding practices to automate everything and i've fallen too deep now. my girlfriend says this is called &quot;software engineering.&quot;</p>
 <hr>
 <h2>set up</h2>
 <p>i use visual studio code as my editor and set up github for better folder management and versioning control. (that's how you know it got bad.) <a href="https://github.com/ourient/cervidaze" target="_blank">my repository</a> is available for viewing publicly.</p>
 <p>i'm a full-time video editor, which probably influences the way i organize my files. i prefer to have as few nested branches as possible, but as many subfolders as necessary. this is because i hate digging down a deep as fuck branch for a file, going back up the root folder, and then digging down another deep as fuck branch for another file.</p>
 <p>here's a brief overview of my directory:</p>
-<pre class="rounded card-background"><code>
+<pre class="rounded card-background card-background-light card-background card-background-light-light"><code>
 public/
 src/
 	_includes/
@@ -98,7 +98,7 @@ src/
 <br>
 <h3>layouts</h3>
 <p>i first created this base template:</p>
-<pre class="rounded card-background"><code>&lt;!DOCTYPE html>
+<pre class="rounded card-background card-background-light"><code>&lt;!DOCTYPE html>
 &lt;html lang="en" dir="auto">
 &lt;head>
     &lt;title>{ title } | cervidaze ☘</title>
@@ -122,7 +122,7 @@ src/
 </code></pre></p>
 <p>this standardizes the <code>&lt;head&gt;</code> sitewide, so now i can edit my site's title, javascript, and stylesheets for all pages in one place. i can then extend <code>base.njk</code> with <a href="https://www.11ty.dev/docs/shortcodes/" target="_blank_">shortcodes</a> that nest the layout template i want into <code>&lt;body&gt;</code>.</p>
 <p>this is <code>main.njk</code>, used for my primary, media, and interest pages:</p>
-<pre class="rounded card-background"><code>{ block content }
+<pre class="rounded card-background card-background-light"><code>{ block content }
     &lt;noscript>hey uh you kinda need javascript for this</noscript>
     &lt;div class="container">
         &lt;header>
@@ -137,7 +137,7 @@ src/
 { endcontent }
 </code></pre>
 <p>this is <code>blogpost.njk</code>:</p>
-<pre class="rounded card-background"><code>
+<pre class="rounded card-background card-background-light"><code>
 { block content }
     &lt;noscript>hey uh you kinda need javascript for this</noscript>
     &lt;div class="container">
@@ -164,7 +164,7 @@ src/
 <h3>partials</h3>
 <p>i store my headers, footers, and snippets in partials in the same way one might store scripts in .js files. it works just like automating headers and footers in js but far more lightweight, since 11ty renders the partials into html locally as opposed to js scripts rendering html upon site load.</p>
 <p>here's the main header:</p>
-<pre class="rounded card-background"><code>&lt;a href="https://cervidaze.me">
+<pre class="rounded card-background card-background-light"><code>&lt;a href="https://cervidaze.me">
     &lt;img id="gingko" alt="home page" src="/assets/media/images/style/cervidaze_lightbanner_v2.png">
 &lt;/a>
 &lt;a href="https://cervidaze.me">
@@ -192,7 +192,7 @@ src/
 &lt;/nav>
 </code></pre>
 <p>and the footer:</p>
-<pre class="rounded card-background"><code>&lt;nav class="border main-background nav-link">
+<pre class="rounded card-background card-background-light"><code>&lt;nav class="border main-background nav-link">
 	&lt;ul>
 		&lt;li>&lt;a href="/sitemap">sitemap&lt;/a>&lt;/li>
 		&lt;li>|&lt;/li>
@@ -203,7 +203,7 @@ src/
 		&lt;li>&lt;a href="/credits">credits&lt;/a>&lt;/li>
 	&lt;/ul>
 &lt;/nav>
-&lt;div class="display-none return card-background">
+&lt;div class="display-none return card-background card-background-light">
 	&lt;a href="#top" rel="return">return to top&lt;/a>
 &lt;/div>
 </code></pre>
@@ -220,11 +220,11 @@ src/
 </ul>
 <p>i don't have much (if any) experience with UX/UI design however, and so trying to find the most accessible, intuitive way to organize my site is a constantly evolving process. this stresses me out a normal amount.</p>
 <br>
-<h2>css</h2>
+<h3>css</h3>
 <p>you may have noticed that my html markup (specifically my class attributes) is much longer than what's typical.</p>
 <p>after much trial and error with various ways of organizing css, i decided to use <a href="https://www.smashingmagazine.com/2011/12/an-introduction-to-object-oriented-css-oocss/" target="_blank">OOCSS</a> as my main guideline. the core philosophy of separating structure from style and container from content speaks to my desire for modularity, and object oriented coding seems to be the most intuitive way for me to visualize things.</p>
 <p>i won't explain be explaining much about it here, but basically, it's a lot easier in the long run to think of html elements as blocks and css classes as reusable skins that you attach whenever you want a block to have a specific property.</p>
-<pre class="rounded card-background"><code>without OOCSS:
+<pre class="rounded card-background card-background-light"><code>without OOCSS:
 
 
 /* LAYOUT */
@@ -251,7 +251,7 @@ aside {
 }
 </code></pre>
 <p>because then, you design utility css classes for the properties you use the most and then just customize your html elements with them so you don't need to design an entirely new element with redundant lines of css each time you have a specific exception.</p>
-<pre class="rounded card-background"><code>with OOCSS:
+<pre class="rounded card-background card-background-light"><code>with OOCSS:
 
 
 /* UTILITIES */
@@ -296,7 +296,7 @@ aside {
 <p>i know 11ty already has its own robust tagging system and organizing blog posts by tags is a fairly straightforward process, but i had already gone through the effort of installing <a href="https://codeberg.org/cdvr/Zonelots" target="_blank">zonelots</a> (an offshoot of the very popular neocities blogging framework, <a href="https://zonelets.net/" target="_blank">zonelets</a>) and configuring my precious code to embrace it.</p>
 <p>to make your url look cleaner, 11ty has a default setting that renames your rendered html file as an <code>index.html</code> inside a folder. this, of course, causes issues for codes dependent on retrieving file paths, like that of zonelets.</p>
 <p>the best thing you can do is edit your <code>.eleventy.js</code> to turn off this feature. petrapixels includes this function in <a href="https://petrapixel.neocities.org/coding/eleventy-tutorial#configuration" target="_target">her 11ty tutorial</a>:</p>
-<pre class="rounded card-background"><code>module.exports = function (eleventyConfig) {
+<pre class="rounded card-background card-background-light"><code>module.exports = function (eleventyConfig) {
 
   // This will stop the default behaviour of foo.html being turned into foo/index.html
   eleventyConfig.addGlobalData("permalink", "{ page.filePathStem }.html");
@@ -305,7 +305,7 @@ aside {
 <p>but then, even after accounting for that, <strong>11ty still removes the YYYY-MM-DD portion of your file name</strong>, the very portion that the entire js logic of zonelets is built off of!!!!</p>
 <p>so what now?</p>
 <p>you add a permalink variable to the front matter of your blog post. that's it.</p>
-<pre class="rounded card-background"><code>---
+<pre class="rounded card-background card-background-light"><code>---
 title:
 description:
 date:
@@ -315,15 +315,14 @@ permalink: blog/posts/YYYY-MM-DD-11ty-i-swear-to-god-dont-fucking-touch-this.htm
 <p>i have tried to find more elegant solutions to get 11ty to stop altering my file names upon rendering. i have tried. it is just easier to take the extra step of adding the permalink to your front matter from now on.</p>
 <p>god will take it from here.</p>
 
+	</main>
+	<div id="c_widget"></div>
+	<script src="/assets/js/comment-widget.js"></script>
+	<div id="post-nav"></div>
+</div>
 
-		</main>
-		<div id="c_widget"></div>
-		<script src="/assets/js/comment-widget.js"></script>
-		<div id="post-nav"></div>
-	</div>
-
-	<footer>
-		<nav class="border main-background nav-link">
+<footer>
+	<nav class="border main-background nav-link">
             <ul>
                 <li><a href="/sitemap">sitemap</a></li>
                 <li>|</li>
@@ -335,11 +334,12 @@ permalink: blog/posts/YYYY-MM-DD-11ty-i-swear-to-god-dont-fucking-touch-this.htm
             </ul>
 </nav>
 
-<div class="display-none return card-background">
+<div class="display-none return main-background">
 <a href="#top" rel="return">return to top</a>
 </div>
-	</footer>
-	<script src="/assets/js/blog.js"></script>
+</footer>
+<script src="/assets/js/blog.js"></script>
+
 
 </body>
 

@@ -47,7 +47,7 @@ permalink: /index.html
     </main>
     <aside class="short short-mobile narrow border right-side scrollbar order-last">
         <h2>status</h2>
-        <div class="rounded card-background card-background-light" id="statuscafe">
+        <div class="rounded main-background card-background-light" id="statuscafe">
             <div id="statuscafe-username"></div>
             <div id="statuscafe-content"></div>
         </div>
@@ -66,7 +66,7 @@ permalink: /index.html
         {% include "./_includes/partials/musicplayer.njk" %}
         <br>
         <h2>changelog</h2>
-        <div class="changelog rounded scrollbar card-background card-background-light">
+        <div class="changelog rounded scrollbar main-background card-background-light">
             <ul class="no-bullets">
                 <li>11/22/25<br>new blog post
                 <li>11/19/25<br>new commissions page;<br>commissions now open
