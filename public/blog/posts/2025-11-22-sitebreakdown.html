@@ -167,7 +167,7 @@ src/
 &#123;% endblock %&#125;
 </code></pre>
 <h3>partials</h3>
-<p>i store my headers, footers, and snippets in partials in the same way one might store scripts in .js files. it works just like automating headers and footers in js but far more lightweight, since 11ty renders the partials into html locally as opposed to js scripts rendering html upon site load.</p>
+<p>i store my headers, footers, and snippets in partials in the same way one might store scripts in <code>.js</code> files. it works just like automating headers and footers in JS but far more lightweight, since 11ty renders the partials into html locally as opposed to JS scripts rendering html upon site load.</p>
 <p>here's the main header:</p>
 <pre class="rounded card-background card-background-light"><code>&lt;a href="https://cervidaze.me">
     &lt;img id="gingko" alt="home page" src="/assets/media/images/style/cervidaze_lightbanner_v2.png">
@@ -284,17 +284,17 @@ aside &#123;
 	font-size: smaller;
 &#125;
 </code></pre>
-<p>my style switcher (a combination of <a href="https://kalechips.net/projects/snippets/styleswitcher" target="_blank">kalechip's</a> and <a href="https://alphacentauri.neocities.org/tutorials/javascript-tidbits#theme" target="_blank">alpha centauri's</a> js snippets) would swap out my light mode and dark mode stylesheets in <code>&lt;head&gt;</code> depending on what was toggled in the navigation—but every time i edited one stylesheet, i had to copy the exact changes to the other, regardless if the edit affected the actual &quot;skin&quot; of the site or not.</p>
+<p>my style switcher (a combination of <a href="https://kalechips.net/projects/snippets/styleswitcher" target="_blank">kalechip's</a> and <a href="https://alphacentauri.neocities.org/tutorials/javascript-tidbits#theme" target="_blank">alpha centauri's</a> JS snippets) would swap out my light mode and dark mode stylesheets in <code>&lt;head&gt;</code> depending on what was toggled in the navigation—but every time i edited one stylesheet, i had to copy the exact changes to the other, regardless if the edit affected the actual &quot;skin&quot; of the site or not.</p>
 <p>so i split my css into three stylesheets: <code>light.css</code> for light mode skinning, <code>dark.css</code> for dark mode skinning, and <code>global.css</code> for universal styling that's applied to all elements. so now, edits to the site's structure are only made once in <code>global.css</code> without affecting the dark and light mode. the styleswitcher now swaps out <code>light.css</code> and <code>dark.css</code> when toggled, and <code>global.css</code> remains in <code>&lt;head&gt;</code> untouched.</p>
 <br>
 <h2>troubleshooting</h2>
 <p>this is probably the part of the post that will be the most useful to you. i'm sorry for burying it so far down.</p>
 <br>
 <h3>FOUCing off</h3>
-<p>for how much webdevs online talk about combatting flash of unstyled content (FOUC) specifically when applying a dark mode stylesheet retrieved from <code>localStorage</code>, they sure don't have a fucking solution that works. even after trying js scripts in <code>&lt;head&gt;</code>, js scripts in <code>&lt;body&gt;</code>, inline js, js scripts after stylesheets, js scripts before stylesheets, event listeners, DOM content loaders, loading divs, crying, nothing worked for me and my incredibly eager to load firefox browser.</p>
+<p>for how much reddit webdevs talk about combatting flash of unstyled content (FOUC) specifically when applying a dark mode stylesheet retrieved from <code>localStorage</code>, they sure don't have a fucking solution that works. even after trying JS scripts in <code>&lt;head&gt;</code>, JS scripts in <code>&lt;body&gt;</code>, inline JS, JS scripts after stylesheets, JS scripts before stylesheets, event listeners, DOM content loaders, loading divs, crying, nothing worked for me and my incredibly eager to load firefox browser.</p>
 <p>until during one fateful, properly keyworded search query, i found <a href="https://www.reddit.com/r/css/comments/13hpszu/how_do_i_avoid_the_delayed_css_when_loading_pages/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button" target="_blank">this reddit post</a>.</p>
 <img class="wide rounded center" src="/blog/images/preload_screenshot.png">
-<p>preloading my styleswitcher js worked. it FULLY forces the html to retrieve the script (and therefore your cached dark mode stylesheet, if saved) before all else.</p>
+<p>preloading my styleswitcher JS worked. it FULLY forces the html to retrieve the script (and therefore your cached dark mode stylesheet, if saved) before all else.</p>
 <p>thank you, u/mcmillhj. after one whole year of manic searching, you have finally saved me from a world of pain.</p>
 <br>
 <h3>11ty + zonelots/zonelets (getting around 11ty's file renaming for date-sensitive blogging frameworks)</h3>
@@ -307,7 +307,7 @@ aside &#123;
   eleventyConfig.addGlobalData("permalink", "&#123;&#123; page.filePathStem &#125;&#125;.html");
 &#125;;
 </code></pre>
-<p>but then, even after accounting for that, <strong>11ty still removes the YYYY-MM-DD portion of your file name</strong>, the very portion that the entire js logic of zonelets is built off of!!!!</p>
+<p>but then, even after accounting for that, <strong>11ty still removes the YYYY-MM-DD portion of your file name</strong>, the very portion that the entire JS logic of zonelets is built off of!!!!</p>
 <p>so what now?</p>
 <p>you add a permalink variable to the front matter of your blog post. that's it.</p>
 <pre class="rounded card-background card-background-light"><code>---

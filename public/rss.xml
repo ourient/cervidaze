@@ -3,11 +3,18 @@
   <title>cervidaze</title>
   <subtitle>a personal repository lovingly created by a writer of many varieties.</subtitle>
   <link href="https://cervidaze.me/rss.xml" rel="self" />
-  <updated>2025-11-22T00:00:00Z</updated>
+  <updated>2025-12-24T00:00:00Z</updated>
   <id>https://cervidaze.me/</id>
   <author>
     <name>reyn</name>
   </author>
+  <entry>
+    <title>december 2025 (site anniversary, updates)</title>
+    <content type="html"></content>
+    <link href="https://cervidaze.me/blog/posts/2025-12-24-dec-update.html" />
+    <updated>2025-12-24T00:00:00Z</updated>
+    <id>https://cervidaze.me/blog/posts/2025-12-24-dec-update.html</id>
+  </entry>
   <entry>
     <title>breaking down (my website)</title>
     <content type="html">i was inspired by seeing aid&#39;s recent post where she breaks down the layout of her website and thought i should write one of my own—both to document my code and also to offer troubleshooting to those who may have the same extremely specific coding issues as me.</content>
