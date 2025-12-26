@@ -40,5 +40,14 @@ permalink: /links.html
   <footer id="footer">
       {% include "partials/footer.njk" %}
   </footer>
+    <script src="https://unpkg.com/popper.js@1"></script>
+    <script src="https://unpkg.com/tippy.js@4"></script>
+    <script>
+        tippy('[data-tippy-content]', {
+            placement: 'top',
+            offset: '[0, 0]',
+            maxWidth: 180,
+        });
+    </script>
 </body>
 </html>

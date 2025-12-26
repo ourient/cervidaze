@@ -19,6 +19,7 @@
   },
   "dependencies": {
     "eleventy-plugin-markdown-shortcode": "^0.1.2",
-    "freezeframe": "^5.0.2"
+    "freezeframe": "^5.0.2",
+    "tippy.js": "^6.3.7"
   }
 }

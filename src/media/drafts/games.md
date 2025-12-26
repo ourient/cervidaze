@@ -35,6 +35,105 @@
         <img class="media-right-img rounded" src="/assets/media/images/photos/games/y0.png" loading="lazy" title="yakuza 0" alt="yakuza 0">
 </div>
 
+<div class="slideshow slideshow-tall flex-start space-evenly">
+<div class="media-shelf">
+        <img src="/assets/media/images/photos/games/coffeetalk.jpg" loading="lazy" data-tippy-followCursor="true" data-tippy-content="coffee talk" alt="coffee talk">
+</div>
+
+<div class="media-shelf">
+        <img src="/assets/media/images/photos/games/coffeetalk2.jpg" loading="lazy" data-tippy-followCursor="true" data-tippy-content="coffee talk episode 2: hibiscus and butterfly" alt="coffee talk episode 2: hibiscus and butterfly">
+</div>
+
+<div class="media-shelf">
+        <img src="/assets/media/images/photos/games/contentwarning.jpg" loading="lazy" data-tippy-followCursor="true" data-tippy-content="content warning" alt="content warning">
+</div>
+
+<div class="media-shelf">
+        <img src="/assets/media/images/photos/games/cultofthelamb.jpg" loading="lazy" data-tippy-followCursor="true" data-tippy-content="cult of the lamb" alt="cult of the lamb">
+</div>
+
+<div class="media-shelf">
+        <img src="/assets/media/images/photos/games/dredge.jpg" loading="lazy" data-tippy-followCursor="true" data-tippy-content="dredge" alt="dredge">
+</div>
+
+<div class="media-shelf">
+        <img src="/assets/media/images/photos/games/haste.jpg" loading="lazy" data-tippy-followCursor="true" data-tippy-content="haste" alt="haste">
+</div>
+
+<div class="media-shelf">
+        <img src="/assets/media/images/photos/games/ishin.jpg" loading="lazy" data-tippy-followCursor="true" data-tippy-content="yakuza ishin" alt="yakuza ishin">
+</div>
+
+<div class="media-shelf">
+        <img src="/assets/media/images/photos/games/lethalleague.jpg" loading="lazy" data-tippy-followCursor="true" data-tippy-content="lethal league blaze" alt="lethal league blaze">
+</div>
+
+<div class="media-shelf">
+        <img src="/assets/media/images/photos/games/outerwilds.jpg" loading="lazy" data-tippy-followCursor="true" data-tippy-content="outer wilds" alt="outer wilds">
+</div>
+
+<div class="media-shelf">
+        <img src="/assets/media/images/photos/games/overcooked2.jpg" loading="lazy" data-tippy-followCursor="true" data-tippy-content="overcooked 2" alt="overcooked 2">
+</div>
+
+<div class="media-shelf">
+        <img src="/assets/media/images/photos/games/oxygennotincluded.jpg" loading="lazy" data-tippy-followCursor="true" data-tippy-content="oxygen not included" alt="oxygen not included">
+</div>
+
+<div class="media-shelf">
+        <img src="/assets/media/images/photos/games/papersplease.jpg" loading="lazy" data-tippy-followCursor="true" data-tippy-content="papers please" alt="papers please">
+</div>
+
+<div class="media-shelf">
+        <img src="/assets/media/images/photos/games/peak.jpg" loading="lazy" data-tippy-followCursor="true" data-tippy-content="peak" alt="peak">
+</div>
+
+<div class="media-shelf">
+        <img src="/assets/media/images/photos/games/pokemonb.jpg" loading="lazy" data-tippy-followCursor="true" data-tippy-content="pokemon black" alt="pokemon black">
+</div>
+
+<div class="media-shelf">
+        <img src="/assets/media/images/photos/games/pokemonb2.jpg" loading="lazy" data-tippy-followCursor="true" data-tippy-content="pokemon black 2" alt="pokemon black 2">
+</div>
+
+<div class="media-shelf">
+        <img src="/assets/media/images/photos/games/pokemonplat.jpg" loading="lazy" data-tippy-followCursor="true" data-tippy-content="pokemon platinum" alt="pokemon platinum">
+</div>
+
+<div class="media-shelf">
+        <img src="/assets/media/images/photos/games/pmdsky.jpg" loading="lazy" data-tippy-followCursor="true" data-tippy-content="pokemon mystery dungeon: explorers of sky" alt="pokemon mystery dungeon: explorers of sky">
+</div>
+
+<div class="media-shelf">
+        <img src="/assets/media/images/photos/games/pokemonx.jpg" loading="lazy" data-tippy-followCursor="true" data-tippy-content="pokemon x" alt="pokemon x">
+</div>
+
+<div class="media-shelf">
+        <img src="/assets/media/images/photos/games/potioncraft.jpg" loading="lazy" data-tippy-followCursor="true" data-tippy-content="potion craft" alt="potion craft">
+</div>
+
+<div class="media-shelf">
+        <img src="/assets/media/images/photos/games/stardewvalley.jpg" loading="lazy" data-tippy-followCursor="true" data-tippy-content="stardew valley" alt="stardew valley">
+</div>
+
+<div class="media-shelf">
+        <img src="/assets/media/images/photos/games/stray.jpg" loading="lazy" data-tippy-followCursor="true" data-tippy-content="stray" alt="stray">
+</div>
+
+<div class="media-shelf">
+        <img src="/assets/media/images/photos/games/va11ha11a.jpg" loading="lazy" data-tippy-followCursor="true" data-tippy-content="va-11 ha11-a" alt="va-11 ha11-a">
+</div>
+
+<div class="media-shelf">
+        <img src="/assets/media/images/photos/games/webfishing.jpg" loading="lazy" data-tippy-followCursor="true" data-tippy-content="webfishing" alt="webfishing">
+</div>
+
+<div class="media-shelf">
+        <img src="/assets/media/images/photos/games/wingspan.jpg" loading="lazy" data-tippy-followCursor="true" data-tippy-content="wingspan" alt="wingspan">
+</div>
+</div>
+<br>
+
 ## board games
 <br>
 <div class="media">

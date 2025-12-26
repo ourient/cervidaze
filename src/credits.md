@@ -28,6 +28,7 @@ permalink: /credits.html
       </p>
       <p>music player: <a href="https://web.archive.org/web/20250405234859/https://adilene.net/pages/resources" target="_blank">adilene (archived)</a></p>
       <p>analytics: <a href="https://www.goatcounter.com/" target="_blank">goatcounter</a></p>
+      <p>tooltips: <a href="https://atomiks.github.io/tippyjs/" target="_blank">tippy.js</a></p>
       <br>
       <div id="credits">
         <img src="assets/media/images/graphics/buttons/button (10).png"

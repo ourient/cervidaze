@@ -312,6 +312,14 @@ select {
     display: none;
 }
 
+.tippy-backdrop {
+    background-color: rgba(250, 250, 250, 0.94);
+}
+
+.tippy-content {
+    color: #22211B;
+}
+
 
 /* MEDIA SHIT */
 
@@ -332,6 +340,11 @@ select {
     margin: 0 1rem 4rem 0;
 }
 
+.media-shelf {
+    display: inline-block;
+    width: 8rem;
+}
+
 .media-left-img {
     float: left;
     margin-right: 4rem;
@@ -345,7 +358,7 @@ select {
 .media-top-img {
     display: block;
     aspect-ratio: 2/3;
-    margin-bottom: 1.4rem;
+    margin-bottom: 1rem;
 }
 
 .media-body-bottom {
@@ -371,7 +384,49 @@ select {
     }
 }
 
+.slideshow-tall {
+    max-height: 36rem;
+}
+
 .gallery {
+    width: 80%;
+    --gallery-cols: 1;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: repeat(var(--gallery-cols), 1fr);
+    grid-template-columns: repeat(var(--gallery-cols), 1fr);
+    gap: calc(2rem / var(--gallery-cols));
+    margin: 0 auto;
+    padding-left: 0;
+    list-style-type: "";
+
+    &:has(:nth-child(2)) {
+        --gallery-cols: 2
+    }
+
+    &:has(:nth-child(5)) {
+        --gallery-cols: 3
+    }
+
+    &:has(:nth-child(10)) {
+        --gallery-cols: 4
+    }
+
+    img {
+        height: 100%;
+        width: 100%;
+        aspect-ratio: 1;
+        -o-object-fit: cover;
+        object-fit: cover;
+        border-radius: 0.2rem;
+    }
+
+    img:hover {
+        cursor: pointer;
+    }
+}
+
+.masonry {
     width: 80%;
     --gallery-cols: 1;
     display: -ms-grid;
