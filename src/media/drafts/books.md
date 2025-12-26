@@ -1,6 +1,6 @@
 <h1>books</h1>
 <hr>
-<!--
+
 <div class="media">
         <img class="media-left-img rounded" src="/assets/media/images/photos/books/captivegenders.png" loading="lazy" title="captive genders: trans embodiment and the prison industrial complex" alt="captive genders: trans embodiment and the prison industrial complex">
         <div class="media-body">
@@ -9,7 +9,7 @@
         </div>
 </div>
 
-{# <div class="media">
+<div class="media">
         <div class="media-body">
         <h3 class="no-margin"><b>sputnik sweetheart</b></h3><br>
         i once opened balatro at 10pm and didn't stop playing until i looked out the window and realized that the sun was rising. i think it's an understatement to say that i enjoyed this game. you don't even need to know anything about poker. you just need to love a good rouge-like, intentionally designed game art, and the dopamine rush from when numbers go up. i have never gambled and never will, but balatro has gotten me pretty fucking close.
@@ -142,4 +142,4 @@
         <img class="media-top-img rounded" src="/assets/media/images/photos/books/captivegenders.png" loading="lazy" data-tippy-followCursor="true" data-tippy-content="white noise" alt="white noise">
 </div>
 </div>
-</div> #}
+</div>

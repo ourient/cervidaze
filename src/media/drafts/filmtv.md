@@ -1,7 +1,7 @@
 <h1>film/tv</h1>
 <hr>
 
-{# ## films
+## films
 <br>
 
  <div class="media">
@@ -149,4 +149,4 @@
 ## TV
 <br>
 
-TBA #}
+TBA

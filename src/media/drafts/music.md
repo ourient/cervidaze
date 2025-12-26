@@ -4,7 +4,7 @@
 ## favorite albums
 <br>
 <div class="media">
-        <img class="media-left-img rounded" src="/assets/media/images/photos/music/acrowlookedatme.png" loading="lazy" title="a crow looked at me by mount eerie" alt="a crow looked at me by mount eerie">
+        <img class="media-left-img rounded" src="/assets/media/images/photos/music/acrowlookedatme.png" title="a crow looked at me by mount eerie" alt="a crow looked at me by mount eerie">
         <div class="media-body">
         <h3 class="no-margin">a crow looked at me by mount eerie</h3>
         <br>
@@ -18,11 +18,11 @@
         <br>
         all of TWIABP's music is filled with wounded yearning and a relentlessly hopeful search for a kinder future. this album just happened to have taken ahold of me in a particular way, like my heart is being tugged by some slow gravitational pull. a few of the songs here are a bit different from their usual stuff in the sense that they are spoken and not sung, but they also happen to be my favorites. i'm also just a sucker for narrative devices involving outer space as a metaphor for missed connections.
         </div>
-        <img class="media-right-img rounded" src="/assets/media/images/photos/music/betweenbodies.png" loading="lazy" title="between bodies by the world is a beautiful place & i am no longer afraid to die" alt="between bodies by the world is a beautiful place & i am no longer afraid to die">
+        <img class="media-right-img rounded" src="/assets/media/images/photos/music/betweenbodies.png" title="between bodies by the world is a beautiful place & i am no longer afraid to die" alt="between bodies by the world is a beautiful place & i am no longer afraid to die">
 </div>
 
 <div class="media">
-        <img class="media-left-img rounded" src="/assets/media/images/photos/music/floramaniia.png" loading="lazy" title="flora maniia by temachii" alt="flora maniia by temachii">
+        <img class="media-left-img rounded" src="/assets/media/images/photos/music/floramaniia.png" title="flora maniia by temachii" alt="flora maniia by temachii">
         <div class="media-body">
         <h3 class="no-margin">flora maniia by temachii</h3>
         <br>
@@ -36,11 +36,11 @@
         <br>
         i was born just in time to still be exposed to 2000s indietronica, so thankfully i'm able to bond with my millennial friends over the postal service and death cab for cutie. i really don't know what to say about this. it's pleasant, a little quirky, but not too much. "such great heights" has been used in so many commercials at this point. ben gibbard does what he does best, which is being a really sad hipster white guy in seattle. it was beautiful to hear them live for the album's 20th anniversary.
         </div>
-        <img class="media-right-img rounded" src="/assets/media/images/photos/music/giveup.png" loading="lazy" title="give up by the postal service" alt="give up by the postal service">
+        <img class="media-right-img rounded" src="/assets/media/images/photos/music/giveup.png" title="give up by the postal service" alt="give up by the postal service">
 </div>
 
 <div class="media">
-        <img class="media-left-img rounded" src="/assets/media/images/photos/music/ilaymylifedownforyou.png" loading="lazy" title="I LAY MY LIFE DOWN FOR YOU by JPEGMAFIA" alt="I LAY MY LIFE DOWN FOR YOU by JPEGMAFIA">
+        <img class="media-left-img rounded" src="/assets/media/images/photos/music/ilaymylifedownforyou.png" title="I LAY MY LIFE DOWN FOR YOU by JPEGMAFIA" alt="I LAY MY LIFE DOWN FOR YOU by JPEGMAFIA">
         <div class="media-body">
         <h3 class="no-margin">I LAY MY LIFE DOWN FOR YOU by JPEGMAFIA</h3>
         <br>
@@ -54,7 +54,7 @@
         <br>
         i have tried to learn almost all of the songs from this album on my guitar. death cab for cutie is pretty well-known for its wistful and sometimes overpoetic lyrics, but i find that endearing. it's an album about distance, sparseness, and expanses—which makes sense because the concept of this album is long distance relationships. the way the instrumentals swell creates such a lush soundscape that simply makes you feel like you are part of something grand. this is one of the few albums that i genuinely believe is a beautiful listen from start to finish.
         </div>
-        <img class="media-right-img rounded" src="/assets/media/images/photos/music/transatlanticism.png" loading="lazy" title="transatlanticism by death cab for cutie" alt="transatlanticism by death cab for cutie">
+        <img class="media-right-img rounded" src="/assets/media/images/photos/music/transatlanticism.png" title="transatlanticism by death cab for cutie" alt="transatlanticism by death cab for cutie">
 </div>
 
 ## favorite tracks

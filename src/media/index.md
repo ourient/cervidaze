@@ -11,7 +11,7 @@ title: media log
         <ul class="no-bullets"><a onclick="openTab(event, `music`)" id="defaultOpen">music</a></ul>
         <ul class="no-bullets"><a onclick="openTab(event, `filmtv`)"><del>film/tv</del></a></ul>
         <ul class="no-bullets"><a onclick="openTab(event, `games`)">games</a></ul>
-        <ul class="no-bullets"><a onclick="openTab(event, `books`)"><del>books</del></a></ul>
+        <ul class="no-bullets"><a onclick="openTab(event, `books`)">books</a></ul>
         </div>
     </aside>
     <main class="tabcontent border tall short-mobile scrollbar" id="music">
