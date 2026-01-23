@@ -2,7 +2,7 @@
 title: a slight crisis
 description: january has left me particularly dormant. my seasonal depression has been hitting me later and later into the winter with every year, and i think my transition to the new year was especially rough this time.
 date: 2026-01-22
-permalink: blog/posts/2026-01-26-a-slight-crisis.html
+permalink: blog/posts/2026-01-22-a-slight-crisis.html
 ---
 january has left me particularly dormant. my seasonal depression has been hitting me later and later into the winter with every year, and i think my transition to the new year was especially rough this time.
 
