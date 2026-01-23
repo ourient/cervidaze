@@ -15,7 +15,7 @@
 <div class="media">
         <div class="media-body">
         <h3 class="no-margin">scott pilgrim vs. the world</h3><br>
-        there is nothing that i can say that will add anything new to what has already been praised about disco elysium. it's the best game i've ever read. it's fucking hilarious, it's heartwrenching, it speaks so truthfully about strife and revolutionary hope. it absolutely deserves to be named one of the best games ever made. i do think disco elysium's original concept as a TTRPG shows during its more cumbersome, text-heavy scenes, but consider this an opportunity to retrain your attention span while still playing a video game. it makes all the memes about disco elysium that much more worth it.
+        Pokem ipsum dolor sit amet Starly Cascade Badge Kadabra Chimchar Exploud Milotic. Blastoise Bronzong Venusaur Growl Gothita Garbodor Celadon City. Fire Red Kyogre Litwick Rattata Dig Giratina Poliwhirl. Growl Forretress Cradily Cottonee Dragonite Sneasel Pikachu. Marsh Badge Rotom Flygon Basculin Klinklang Skorupi Mystery Gift.
         </div>
         <img class="media-right-img rounded" src="/assets/media/images/photos/games/" loading="lazy" title="scott pilgrim vs. the world" alt="scott pilgrim vs. the world">
 </div>
@@ -23,7 +23,7 @@
 <div class="media">
         <div class="media-body">
         <h3 class="no-margin">deer of nine colors</h3><br>
-        there is nothing that i can say that will add anything new to what has already been praised about disco elysium. it's the best game i've ever read. it's fucking hilarious, it's heartwrenching, it speaks so truthfully about strife and revolutionary hope. it absolutely deserves to be named one of the best games ever made. i do think disco elysium's original concept as a TTRPG shows during its more cumbersome, text-heavy scenes, but consider this an opportunity to retrain your attention span while still playing a video game. it makes all the memes about disco elysium that much more worth it.
+        Pokem ipsum dolor sit amet Starly Cascade Badge Kadabra Chimchar Exploud Milotic. Blastoise Bronzong Venusaur Growl Gothita Garbodor Celadon City. Fire Red Kyogre Litwick Rattata Dig Giratina Poliwhirl. Growl Forretress Cradily Cottonee Dragonite Sneasel Pikachu. Marsh Badge Rotom Flygon Basculin Klinklang Skorupi Mystery Gift.
         </div>
         <img class="media-left-img rounded" src="" loading="lazy" title="deer of nine colors" alt="deer of nine colors">
 </div>

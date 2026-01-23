@@ -11,7 +11,10 @@ my main interests are gong fu cha (traditional ceremonial chinese tea) and japan
 <br>
 
 ## matcha
-
+### kimikura kagoshima matcha
+- medium bodied, moderate umami, walnutty, hint of stringency at the end
+- sifts well, thick microfoam if using 4g of it<br>
+i like this one quite a lot. no frills everyday matcha. super creamy when paired with oat milk
 
 <br>
 
