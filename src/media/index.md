@@ -9,7 +9,7 @@ title: media log
         <h3>media log</h3>
         <div class="side-nav">
         <ul class="no-bullets"><a onclick="openTab(event, `music`)" id="defaultOpen">music</a></ul>
-        <ul class="no-bullets"><a onclick="openTab(event, `filmtv`)"><del>film/tv</del></a></ul>
+        <ul class="no-bullets"><a onclick="openTab(event, `filmtv`)">film/tv</a></ul>
         <ul class="no-bullets"><a onclick="openTab(event, `games`)">games</a></ul>
         <ul class="no-bullets"><a onclick="openTab(event, `books`)"><del>books</del></a></ul>
         </div>

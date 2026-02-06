@@ -9,7 +9,7 @@
 <div class="scrollbar rounded short card-background card-background-light main--padding">
 i have a lot of conflicting feelings about this film. this seems to be a common sentiment.
 
-like objectively, it's a mediocre film. like, the editing had some pretty clever moments and mark's acting was good enough to briefly suspend your idea of "markiplier the youtuber" and immerse yourself into the world of iron lung, but let's not kid ourselves here. there's a lot that could've been improved.
+like objectively, it's a mediocre film. the editing had some pretty clever moments and mark's acting was good enough to briefly suspend your idea of "markiplier the youtuber" and immerse yourself into the world of iron lung, but let's not kid ourselves here. there's a lot that could've been improved.
 
 there's clearly no shortage of complaints online regarding the agonizingly slow pacing and muddled audio mixing (which, to my understanding, was because iron lung wasn't meant to be screened in major theaters and was therefore not mastered accordingly). i exited the film feeling like i had ran a mile from how much iron lung kept narratively dragging me through the mud. the sparseness and vagueness of the flashbacks fleshing out simon's backstory felt self-conscious about using cliche methods of exposition—even though the film does that plenty of times without issue several scenes prior. the dead spaces lingering everywhere felt too aimless to be a deliberate curation of atmosphere and suspense. i could keep going, but i don't want to.
 
