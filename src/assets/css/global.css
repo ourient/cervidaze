@@ -131,6 +131,10 @@ hr {
     height: 32rem;
 }
 
+.shorter {
+    height: 28rem;
+}
+
 .wide {
     width: 20rem;
 }
@@ -163,6 +167,10 @@ hr {
 
 .main--padding {
     padding: 4rem;
+}
+
+.section--padding {
+    padding: 2rem 2.2rem;
 }
 
 .rounded {
