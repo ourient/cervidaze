@@ -53,6 +53,12 @@ const contactLinks = [
 
 const posts = [
 	{
+	"title": `but not unchanged`,
+	"filename": `2026-06-30-but-not-unchanged`,
+	"tags": [`update`],
+	},
+
+	{
 	"title": `a slight crisis`,
 	"filename": `2026-01-22-a-slight-crisis`,
 	"tags": [`update`],

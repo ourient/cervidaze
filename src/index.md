@@ -68,6 +68,7 @@ permalink: /index.html
         <h2>changelog</h2>
         <div class="changelog rounded scrollbar main-background card-background-light">
             <ul class="no-bullets">
+                <li>6/30/26<br>new blog post
                 <li>1/22/26<br>new blog post; updated neighborhood
                 <li>12/24/25<br>first site anniversary!<br>new blog post;<br>added tooltips to /media
                 <li>11/22/25<br>new blog post
