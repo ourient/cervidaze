@@ -99,6 +99,7 @@ hr {
 .align-center {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .center {
@@ -631,7 +632,6 @@ textarea {
 
 .cdr-widget {
   text-align: center;
-  font-family: times;
   margin: 0; 
   line-height: 1.2; 
 }
