@@ -1,0 +1,214 @@
+/* GENERAL SHIT */
+
+html {
+    background-color: #151515;
+    z-index: -9999;
+}
+
+body {
+    background-image: url(/assets/media/images/style/jack-b_unsplash_dithered.png);
+    background-size: cover;
+    background-color: #151515;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #DED9CE;
+}
+
+a {
+    color: #B9BCB3;
+}
+
+a:hover {
+    color: #DED9CE;
+}
+
+
+/* UTILITY SHIT */
+
+.border {
+    border-radius: 0.4rem;
+    border-width: 0.1rem;
+    border-style: solid;
+    border-color: rgba(220, 226, 230, 0.25);
+}
+
+.transparent {
+    background-color: transparent;
+}
+
+main, .main-background {
+    background-color: rgba(220, 226, 230, 0.025);
+}
+
+.card-background-light {
+    background-color: rgba(220, 226, 230, 0.1);
+}
+
+/* LAYOUT SHIT */
+
+main, aside, section {
+    a {
+        text-shadow: 0 0 0.4rem #5C7273;
+    }
+}
+
+#gingko {
+    display: none;
+}
+
+#antlers {
+    max-width: 60%;
+    display: inline;
+    margin-bottom: 1.2rem;
+    opacity: 90%;
+}
+
+.nav-link {
+    li a {
+        color: #DED9CE;
+    }
+    
+    li a:hover {
+        color: #B9BCB3;
+    }
+}
+
+aside {
+    background-color: rgba(220, 226, 230, 0.045);
+}
+
+select {
+    color: #DED9CE;
+    background-color: transparent;
+    border-color: #DED9CE;
+}
+
+option:hover {
+    color: #DED9CE;
+    background-color: #72705b;
+}
+
+
+/* OTHER SHIT */
+
+textarea {
+    color: #DED9CE;
+}
+
+#cdr{
+  color: #DED9CE;
+}
+
+
+/* MUSIC PLAYER SHIT */
+
+.playpause-track {
+    color: #DED9CE;
+}
+
+.prev-track,
+.next-track {
+    color: #DED9CE;
+}
+
+.volume-icon {
+    color: #DED9CE;
+}
+
+.now-playing,
+.track-info {
+    background-color: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    background: #B9BCB3;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    background: #B9BCB3;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+input[type=range]::-moz-range-track {
+    background: #B9BCB3;
+}
+
+input[type=range]::-moz-range-thumb {
+    background: #B9BCB3;
+    border: none;
+}
+
+
+/* BLOG SHIT */
+
+#c_widget button,
+#c_widget input[type=submit] {
+    background-color: rgba(220, 226, 230, 0.1);
+    color: #FDFBFB;
+}
+
+#c_widget button:hover,
+#c_widget input[type=submit]:hover {
+    color: #DED9CE;
+}
+
+#c_widget button:disabled:hover,
+#c_widget input[type=submit]:disabled:hover {
+    color: #FDFBFB;
+}
+
+/* Input section */
+#c_inputDiv {
+    background-color: rgba(220, 226, 230, 0.1);
+}
+
+.c-input {
+    color: #DED9CE;
+    background-color: rgba(220, 226, 230, 0.1);
+}
+
+.c-input:focus {
+    border: 0.06rem solid rgba(220, 226, 230, 0.25);
+}
+
+#c_widgetTitle {
+    background-color: rgba(220, 226, 230, 0.1);
+}
+
+/* Comment section */
+.c-comment {
+    background-color: rgba(220, 226, 230, 0.1);
+}
+
+.c-reply {
+    background-color: rgba(220, 226, 230, 0.1);
+}
+
+.c-site {
+    color: #B9BCB3;
+}
+
+.c-site:hover {
+    color: #DED9CE;
+}
+
+.c-text {
+    margin-top: 0.6rem;
+    padding: 1.4rem 1.4rem 0;
+}
+
+/* MEDIA QUERY SHIT */
+
+@media only screen and (orientation:portrait) {
+    
+    #antlers {
+        max-width: 75%;
+    }
+    
+    .c-text {
+        margin-top: 0.6rem;
+        padding: 1.4rem 0 0;
+    }
+}

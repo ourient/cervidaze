@@ -2,6 +2,7 @@
 
 html {
     background-color: #151515;
+    background-image: url(/assets/media/images/style/jack-b_unsplash_dithered.png);
     z-index: -9999;
 }
 
@@ -24,6 +25,7 @@ a:hover {
 }
 
 
+
 /* UTILITY SHIT */
 
 .border {
@@ -37,7 +39,8 @@ a:hover {
     background-color: transparent;
 }
 
-main, .main-background {
+main,
+.main-background {
     background-color: rgba(220, 226, 230, 0.025);
 }
 
@@ -47,9 +50,16 @@ main, .main-background {
 
 /* LAYOUT SHIT */
 
-main, aside, section {
+main,
+aside,
+section {
     a {
         text-shadow: 0 0 0.4rem #5C7273;
+    }
+    
+    img {
+        opacity: 88%;
+        filter: contrast(98%) saturate(86%);
     }
 }
 
@@ -58,9 +68,6 @@ main, aside, section {
 }
 
 #antlers {
-    max-width: 60%;
-    display: inline;
-    margin-bottom: 1.2rem;
     opacity: 90%;
 }
 
@@ -68,7 +75,7 @@ main, aside, section {
     li a {
         color: #DED9CE;
     }
-    
+
     li a:hover {
         color: #B9BCB3;
     }
@@ -96,8 +103,8 @@ textarea {
     color: #DED9CE;
 }
 
-#cdr{
-  color: #DED9CE;
+#cdr {
+    color: #DED9CE;
 }
 
 
@@ -202,11 +209,11 @@ input[type=range]::-moz-range-thumb {
 /* MEDIA QUERY SHIT */
 
 @media only screen and (orientation:portrait) {
-    
+
     #antlers {
         max-width: 75%;
     }
-    
+
     .c-text {
         margin-top: 0.6rem;
         padding: 1.4rem 0 0;

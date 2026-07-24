@@ -47,13 +47,14 @@ body {
 
 .container {
     max-width: 1150px;
-    margin: 5em auto;
+    margin: 14em auto 4em;
 }
 
 img {
     max-width: 100%;
     height: auto;
     margin-inline: auto;
+    margin-bottom: -0.28rem;
 }
 
 :is(h1, h2, h3, h4), .h1, .h2, .h3, .h4 {
@@ -232,16 +233,47 @@ main,
 }
 
 header {
-    text-align: center;
-    margin-top: -2.2rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-top: 4rem;
     margin-bottom: 1rem;
 }
 
+.header-image {
+    max-width: 25%;
+    display: inline;
+}
+
 nav {
-    padding: 0.2rem;
+    display: inline;
+    float: inline-end;
+    align-content: center;
 }
 
 .nav-link {
+    width: 70%;
+
+    ul {
+        display: flex;
+        list-style-type: none;
+        align-items: center;
+        margin: 0;
+        padding: 0.2rem 1rem;
+        justify-content: space-around;
+    }
+}
+
+footer {
+    width: fit-content;
+    margin: 0 auto 20rem;
+
+    li {
+        padding-inline: .2rem;
+    }
+}
+
+.footer-link {
     ul {
         list-style-type: none;
         display: -webkit-box;
@@ -249,7 +281,7 @@ nav {
         display: flex;
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-        padding: 0 0.2rem;
+        padding: 0.2rem 0.4rem;
         margin: 0;
         -webkit-box-align: center;
         -ms-flex-align: center;
@@ -257,15 +289,6 @@ nav {
         -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
         justify-content: space-evenly;
-    }
-}
-
-footer {
-    width: fit-content;
-    margin: 0 auto 4rem;
-
-    li {
-        padding-inline: .2rem;
     }
 }
 
@@ -1033,16 +1056,44 @@ article>header {
 
     .container {
         max-width: 95%;
+        margin: 5em auto;
+    }
+
+    header {
+        display: block;
+        text-align: center;
+        margin-top: -2.2rem;
+        margin-bottom: 1rem;
+    }
+
+    .header-image {
+        display: flex;
+        max-width: 75%;
+        margin: 0 auto 1rem;
+    }
+    
+    nav {
+        display: block;
+        float: none;
+        padding: 0.2rem;
+        justify-content: space-evenly;
+    }
+
+    .nav-link {
+        width: auto;
+
+        ul {
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            padding: 0 0.2rem;
+            margin: 0;
+        }
     }
 
     nav li {
         padding: .2rem;
         padding-inline: 1.2rem;
-    }
-
-    nav ul li ul {
-        left: -1.2rem;
-        padding: 0;
     }
 
     main {
@@ -1157,7 +1208,6 @@ article>header {
     footer {
         margin-top: -2rem;
         margin-bottom: 4rem;
-        padding: 0.6rem;
 
         ul {
             -ms-flex-wrap: wrap;

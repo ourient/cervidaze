@@ -55,9 +55,9 @@ permalink: /index.html
         <br>
         <h2>site buttons</h2>
         <div class="site-button">
-            <img src="assets/media/images/graphics/buttons/sites/cervidaze_v2.png" title="cervidaze light"
+            <img src="assets/media/images/graphics/buttons/sites/cervidaze_button_v3.png" title="cervidaze light"
                 alt="cervidaze light">
-            <img src="assets/media/images/graphics/buttons/sites/cervidaze_v2_dark.png" title="cervidaze dark"
+            <img src="assets/media/images/graphics/buttons/sites/cervidaze_button_v3_dark.png" title="cervidaze dark"
                 alt="cervidaze dark">
         </div>
         <textarea class="rounded main-background card-background-light"><a href="https://cervidaze.me/" target="_blank"><img src="your local link here" alt="cervidaze"></a></textarea>
@@ -68,8 +68,10 @@ permalink: /index.html
         <h2>changelog</h2>
         <div class="changelog rounded scrollbar main-background card-background-light">
             <ul class="no-bullets">
+                <li>7/24/26<br>changed layout design;<br>new site banners
+                <li>7/22/26<br>added neighbors
                 <li>6/30/26<br>new blog post
-                <li>1/22/26<br>new blog post; updated neighborhood
+                <li>1/22/26<br>new blog post;<br>added neighbors
                 <li>12/24/25<br>first site anniversary!<br>new blog post;<br>added tooltips to /media
                 <li>11/22/25<br>new blog post
                 <li>11/19/25<br>new commissions page;<br>commissions now open
